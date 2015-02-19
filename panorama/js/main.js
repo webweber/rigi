@@ -1,18 +1,24 @@
 (function($, window, document) {
 
 	var options = {
+        displayRays : true,
+        displayAltitudeHierarchy : true,
 
 		//Center Circle
-		centerCircleStrokeColor: 'grey',
+		centerCircleStrokeColor: 'red',
 		centerCircleStrokeWidth: 0.3,
 		centerCircleRadius: 3,
 		//Rays
 		rayStrokeColor: 'grey',
+        rayStrokeColorTaller : '#ff0000',
+        rayStrokeColorSmaller : 'grey',
 		rayStrokeWidth: 0.2,
 		//Peaks
 		peakStrokeColor: 'grey',
 		peakStrokeWidth: 0.3,
-		peakRadius: 4
+		peakRadius: 3,
+
+        rigiAltitude : 1798
 
 	};
 
@@ -32,7 +38,7 @@
     var destinationPoints;
 
     var init = function() {
-        $.getJSON("../data/gipfel.json", function(_data) {
+        $.getJSON("data/gipfel.json", function(_data) {
             draw(_data);
         });
         
@@ -62,14 +68,17 @@
         	var destVector = new paper.Point;
         	destVector.angle = data[i].degrees;
         	paddingVector.angle = data[i].degrees;
-        	destVector.length = data[i].distance_km*2;
+        	destVector.length = data[i].distance_km*4;
         	var destPoint = centerPoint.add(paddingVector).add(destVector);
 
-        	var ray = new paper.Path();
-        	ray.strokeColor = options.rayStrokeColor;
-        	ray.strokeWidth = options.rayStrokeWidth;
-        	ray.moveTo(centerPoint.add(paddingVector));
-        	ray.lineTo(destPoint);
+            if(options.displayRays){
+            	var ray = new paper.Path();
+            	ray.strokeColor = ! options.displayAltitudeHierarchy ? options.rayStrokeColor : data[i].altitude > options.rigiAltitude ? options.rayStrokeColorTaller : options.rayStrokeColorSmaller;
+            	ray.strokeWidth = options.rayStrokeWidth;
+            	ray.moveTo(centerPoint.add(paddingVector));
+                
+            	ray.lineTo(destPoint);
+            }
 
         	var peakCircle = new paper.Path.Circle(destPoint, options.peakRadius);
         	peakCircle.strokeColor = options.peakStrokeColor;
