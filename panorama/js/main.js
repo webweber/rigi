@@ -1,9 +1,9 @@
 (function($, window, document) {
 
 	var options = {
-        displayRays : false,
-        displayAltitudeHierarchy : true,
-        connectTheDots : true,
+        displayRays : true,
+        displayAltitudeHierarchy : false,
+        connectTheDots : false,
 
 		//Center Circle
 		centerCircleStrokeColor: 'red',
@@ -19,8 +19,9 @@
 		peakStrokeWidth: 0.3,
 		peakRadius: 3,
         //ConnectTheDots Path
-        connectTheDotsColor : '#ff9999',
+        connectTheDotsColor : '#ffcccc',
         connectTheDotsWidth: 0.3,
+        connectTheDotsSmoothPath: true,
 
         rigiAltitude : 1798
 
@@ -71,6 +72,7 @@
         if(options.connectTheDots){
             var connectTheDotsPath = new paper.Path;
             connectTheDotsPath.strokeColor = options.connectTheDotsColor;
+            connectTheDotsPath.fillColor =  options.connectTheDotsColor;
             connectTheDotsPath.strokeWidth = options.connectTheDotsWidth;
         }
        
@@ -93,7 +95,7 @@
             }
 
             if(options.connectTheDots){
-                         connectTheDotsPath.add(new paper.Point(destPoint));
+                connectTheDotsPath.add(new paper.Point(destPoint));
             }
 
         	var peakCircle = new paper.Path.Circle(destPoint, options.peakRadius);
@@ -104,7 +106,10 @@
         if(options.connectTheDots){
                 connectTheDotsPath.closed = true;
                 connectTheDotsPath.fullySelected = false;
-                connectTheDotsPath.smooth();
+                if(options.connectTheDotsSmoothPath){
+                    connectTheDotsPath.smooth();
+                }
+
         }
 
         var centerCircle = new paper.Path.Circle(centerPoint, options.centerCircleRadius);
