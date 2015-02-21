@@ -1,8 +1,9 @@
 (function($, window, document) {
 
 	var options = {
-        displayRays : true,
+        displayRays : false,
         displayAltitudeHierarchy : true,
+        connectTheDots : true,
 
 		//Center Circle
 		centerCircleStrokeColor: 'red',
@@ -10,13 +11,16 @@
 		centerCircleRadius: 3,
 		//Rays
 		rayStrokeColor: 'grey',
-        rayStrokeColorTaller : '#ff0000',
-        rayStrokeColorSmaller : 'grey',
-		rayStrokeWidth: 0.2,
+        rayStrokeColorTaller : '#ff9999',
+        rayStrokeColorSmaller : '#9999ff',
+		rayStrokeWidth: 0.1,
 		//Peaks
 		peakStrokeColor: 'grey',
 		peakStrokeWidth: 0.3,
 		peakRadius: 3,
+        //ConnectTheDots Path
+        connectTheDotsColor : '#ff9999',
+        connectTheDotsWidth: 0.3,
 
         rigiAltitude : 1798
 
@@ -64,13 +68,21 @@
         var paddingVector = new paper.Point;
         paddingVector.length = options.centerCircleRadius;
 
+        if(options.connectTheDots){
+            var connectTheDotsPath = new paper.Path;
+            connectTheDotsPath.strokeColor = options.connectTheDotsColor;
+            connectTheDotsPath.strokeWidth = options.connectTheDotsWidth;
+        }
+       
+
         for (var i = data.length - 1; i >= 0; i--) {
         	var destVector = new paper.Point;
         	destVector.angle = data[i].degrees;
         	paddingVector.angle = data[i].degrees;
         	destVector.length = data[i].distance_km*4;
-        	var destPoint = centerPoint.add(paddingVector).add(destVector);
 
+            console.log('destVercotr end '+destVector.endPoint);
+        	var destPoint = centerPoint.add(paddingVector).add(destVector);
             if(options.displayRays){
             	var ray = new paper.Path();
             	ray.strokeColor = ! options.displayAltitudeHierarchy ? options.rayStrokeColor : data[i].altitude > options.rigiAltitude ? options.rayStrokeColorTaller : options.rayStrokeColorSmaller;
@@ -80,14 +92,24 @@
             	ray.lineTo(destPoint);
             }
 
+            if(options.connectTheDots){
+                         connectTheDotsPath.add(new paper.Point(destPoint));
+            }
+
         	var peakCircle = new paper.Path.Circle(destPoint, options.peakRadius);
         	peakCircle.strokeColor = options.peakStrokeColor;
         	peakCircle.strokeWidth = options.peakStrokeWidth;
         };
 
-            var centerCircle = new paper.Path.Circle(centerPoint, options.centerCircleRadius);
-        	centerCircle.strokeColor = options.centerCircleStrokeColor;
-        	centerCircle.strokeWidth = options.centerCircleStrokeWidth;
+        if(options.connectTheDots){
+                connectTheDotsPath.closed = true;
+                connectTheDotsPath.fullySelected = false;
+                connectTheDotsPath.smooth();
+        }
+
+        var centerCircle = new paper.Path.Circle(centerPoint, options.centerCircleRadius);
+    	centerCircle.strokeColor = options.centerCircleStrokeColor;
+    	centerCircle.strokeWidth = options.centerCircleStrokeWidth;
 
 
 		paper.view.draw();
