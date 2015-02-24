@@ -21,10 +21,16 @@
         peakStrokeColor: 'grey',
         peakStrokeWidth: 0.3,
         peakRadius: 3,
+        //Beam ( upwards pointing indicator )
+        beamColor: 'red',
+        beamStrokeWidth: 1,
         //ConnectTheDots Path
         connectTheDotsColor: '#ffcccc',
         connectTheDotsWidth: 0.3,
-        connectTheDotsSmoothPath: true
+        connectTheDotsSmoothPath: true,
+        //
+        //Animation
+        rotationSpeed: 0.05
     };
 
     var data;
@@ -52,7 +58,7 @@
         var canvas = document.getElementById('myCanvas');
         paper.setup(canvas);
         paper.view.onResize = resizeHandler;
-        
+
         resizeHandler();
 
 
@@ -77,8 +83,8 @@
     =            Main Draw Routine            =
     =========================================*/
     function draw(data) {
-            paper.view.onFrame = function(){
-            peaksnraysGroup.rotate(0.05 , paper.view.center);
+        paper.view.onFrame = function() {
+            peaksnraysGroup.rotate(options.rotationSpeed, paper.view.center);
         }
         console.log('draw');
 
@@ -154,8 +160,8 @@
         //Draw upward beam
         var beamDest = centerPoint.add(new paper.Point(sizes.maxExtent - options.outerPadding, 0));
         var beam = new paper.Path();
-        beam.strokeColor = 'red';
-        beam.strokeWidth = 1;
+        beam.strokeColor = options.beamColor;
+        beam.strokeWidth = options.beamStrokeWidth;
         beam.moveTo(centerPoint.add(innerPaddingVector));
         beam.lineTo(beamDest);
         //
