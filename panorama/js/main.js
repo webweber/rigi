@@ -1,17 +1,19 @@
 (function($, window, document) {
 
     var options = {
-        //General
+        //display switches
         displayRays: true,
         displayPeaks: true,
         displayAltitudeHierarchy: false,
         connectTheDots: false,
+
+        //general
         rigiAltitude: 1798,
         outerPadding: 20,
         //Center Circle
         centerCircleStrokeColor: 'grey',
         centerCircleStrokeWidth: 0.3,
-        centerCircleRadius: 50,
+        centerCircleRadius: 25,
         //Rays
         rayStrokeColor: 'grey',
         rayStrokeColorTaller: '#ff9999',
@@ -23,14 +25,14 @@
         peakRadius: 3,
         //Beam ( upwards pointing indicator )
         beamColor: 'red',
-        beamStrokeWidth: 1,
+        beamStrokeWidth: 0.2,
         //ConnectTheDots Path
         connectTheDotsColor: '#ffcccc',
         connectTheDotsWidth: 0.3,
         connectTheDotsSmoothPath: true,
         //
         //Animation
-        rotationSpeed: 0.05
+        rotationSpeed: 0.15
     };
 
     var data;
