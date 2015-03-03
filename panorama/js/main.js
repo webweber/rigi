@@ -91,6 +91,10 @@
     function draw(data) {
         paper.view.onFrame = function() {
             peaksnraysGroup.rotate(options.rotationSpeed, paper.view.center);
+             if (options.connectTheDots) {
+                connectTheDotsPath.rotate(options.rotationSpeed, paper.view.center);
+            }
+            
         }
         console.log('draw');
 
@@ -146,6 +150,7 @@
 
             if (options.connectTheDots) {
                 connectTheDotsPath.add(new paper.Point(destPoint));
+              
             }
 
             if (options.displayPeaks) {
@@ -156,6 +161,8 @@
                 peaksnraysGroup.addChildren(peaks);
             }
         };
+
+
 
 
         if (options.connectTheDots) {
