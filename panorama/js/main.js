@@ -2,8 +2,9 @@
 
     var options = {
         //display switches
-        displayRays: true,
+        displayRays: false,
         displayPeaks: true,
+        displayOrbits: true,
         displayAltitudeHierarchy: false,
         connectTheDots: false,
 
@@ -20,8 +21,8 @@
         rayStrokeColorSmaller: '#9999ff',
         rayStrokeWidth: 0.1,
         //Peaks
-        peakStrokeColor: 'grey',
-        peakStrokeWidth: 0.3,
+        peakStrokeColor: '#666666',
+        peakStrokeWidth: 0.6,
         peakRadius: 3,
         //Beam ( upwards pointing indicator )
         beamColor: 'red',
@@ -30,9 +31,12 @@
         connectTheDotsColor: '#ffcccc',
         connectTheDotsWidth: 0.3,
         connectTheDotsSmoothPath: true,
-        //
+        //Orbits = the concentric circles the dots sit on
+        orbitStrokeColor: '#666666',
+        orbitStrokeWidth: 0.1,
+
         //Animation
-        rotationSpeed: 0.15
+        rotationSpeed: 0.10
     };
 
     var data;
@@ -112,6 +116,8 @@
         var peaksnrays = [];
         var peaksnraysGroup = new paper.Group;
 
+
+
         var destVector = new paper.Point;
         for (var i = data.length - 1; i >= 0; i--) {
 
@@ -120,6 +126,13 @@
             innerPaddingVector.angle = data[i].degrees;
             destVector.length = data[i].distance_km / sizes.maxDistance * sizes.maxRayLength;
             var destPoint = centerPoint.add(innerPaddingVector).add(destVector);
+
+
+            if(options.displayOrbits){
+                var myCircle = new paper.Path.Circle(centerPoint, destVector.length + innerPaddingVector.length);
+                myCircle.strokeColor = options.orbitStrokeColor;
+                myCircle.strokeWidth = options.orbitStrokeWidth;
+            }
 
             if (options.displayRays) {
                 var ray = new paper.Path();
