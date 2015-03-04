@@ -2,7 +2,7 @@
 
     var options = {
         //display switches
-        displayRays: false,
+        displayRays: true,
         displayPeaks: true,
         displayOrbits: true,
         displayAltitudeHierarchy: false,
@@ -12,18 +12,18 @@
         rigiAltitude: 1798,
         outerPadding: 20,
         //Center Circle
-        centerCircleStrokeColor: 'grey',
+        centerCircleStrokeColor: '#666666',
         centerCircleStrokeWidth: 0.3,
         centerCircleRadius: 25,
         //Rays
-        rayStrokeColor: 'grey',
+        rayStrokeColor: '#666666',
         rayStrokeColorTaller: '#ff9999',
         rayStrokeColorSmaller: '#9999ff',
-        rayStrokeWidth: 0.1,
+        rayStrokeWidth: 0.2,
         //Peaks
         peakStrokeColor: '#666666',
         peakStrokeWidth: 0.6,
-        peakRadius: 3,
+        peakRadius: 1.5,
         //Beam ( upwards pointing indicator )
         beamColor: 'red',
         beamStrokeWidth: 0.2,
