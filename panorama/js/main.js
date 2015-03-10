@@ -11,35 +11,40 @@
         //general
         rigiAltitude: 1798,
         outerPadding: 20,
+        backgroundColor: '#000',
         //Center Circle
         centerCircleStrokeColor: '#666666',
         centerCircleStrokeWidth: 0.3,
         centerCircleRadius: 25,
         //Rays
-        rayStrokeColor: '#666666',
+        rayStrokeColor: 'rgba(102, 102, 102, 0.7)',
         rayStrokeColorTaller: '#ff9999',
         rayStrokeColorSmaller: '#9999ff',
         rayStrokeWidth: 0.2,
         //Peaks
-        peakStrokeColor: '#666666',
+        peakStrokeColor: 'rgba(102, 102, 102, 0.7)',
+        peakFillColor: 'rgba(102, 102, 102, 0.7)',
         peakStrokeWidth: 0.6,
-        peakRadius: 1.5,
+        peakRadius: 1.0,
+        activePeakMarkerColor: 'red',
         //Beam ( upwards pointing indicator )
         beamColor: 'red',
-        beamStrokeWidth: 0.2,
+        beamStrokeWidth: 0.3,
         //ConnectTheDots Path
         connectTheDotsColor: '#ffcccc',
         connectTheDotsWidth: 0.3,
         connectTheDotsSmoothPath: true,
         //Orbits = the concentric circles the dots sit on
-        orbitStrokeColor: '#666666',
+        orbitStrokeColor: 'rgba(255, 255, 255, 0.06)',
         orbitStrokeWidth: 0.1,
 
         //Animation
-        rotationSpeed: 0.10
+        rotationSpeed: 0.1
     };
 
     var data;
+    // data as assoc. array with degrees as keys
+    var degreesdata;
 
     var sizes = {};
 
@@ -64,15 +69,76 @@
         var canvas = document.getElementById('myCanvas');
         paper.setup(canvas);
         paper.view.onResize = resizeHandler;
-
         resizeHandler();
-
-
     }
+
+
+
+
+    var Soundscape = function() {
+        var self = this;
+        this.buffers = [];
+
+        this.basepath = 'assets/swissgerman/';
+        this.extension = '.mp3';
+
+        this.init = function() {
+            window.AudioContext = window.AudioContext || window.webkitAudioContext;
+            self.context = new AudioContext();
+
+        };
+
+        this.loadSound = function loadDogSound(url, idx, isLast) {
+            var req = new XMLHttpRequest();
+            req.open('GET', url, true);
+            req.responseType = 'arraybuffer';
+
+            req.onload = function() {
+                self.context.decodeAudioData(req.response, function(buffer) {
+                    self.buffers[idx] = buffer;
+                }, function(err) {
+                    console.log('decoding error for ' + url);
+                });
+            }
+            req.send();
+
+        }
+
+        this.loadSoundsForData = function(_data) {
+            _data.forEach(function(anObject, idx) {
+                var soundUrl;
+                if (undefined != anObject.filename) {
+                    soundUrl = self.basepath + anObject.filename + self.extension;
+                    self.loadSound(soundUrl, idx);
+                }
+
+            });
+        }
+
+        this.playSound = function playSound(idx) {
+            var buffer;
+
+            if (undefined != self.buffers[idx]) {
+                buffer = self.buffers[idx];
+            }else return;
+            var src = self.context.createBufferSource();
+            src.buffer = buffer;
+            src.connect(self.context.destination);
+            src.start(0);
+        }
+
+        this.init();
+    }
+
+    // Pseudo singleton of soundscape. All calls go to this instance.
+    var globalSoundscape = new Soundscape;
+
 
     var init = function() {
         $.getJSON("data/gipfel.json", function(_data) {
             data = _data;
+            degreesdata = degreesDataFromData(data);
+            globalSoundscape.loadSoundsForData(data);
             initDraw();
         });
     }
@@ -81,7 +147,27 @@
         init();
     });
 
+    /*==========  HELPERS  ==========*/
+    function degreesDataFromData(_data) {
+        // Iterates over the data array and creates an object with
+        // degrees as keys. The key values are arrays with those object(s)
+        // as members, which have the corresponding angle.
+        var y = {};
+        _data.forEach(function(anObject, idx) {
+            var d = anObject.degrees.toFixed(1);
+            (y[d] != undefined) ? y[d].push(anObject) : y[d] = [anObject];
+            anObject['name'] = idx;
+        });
+        return y;
+    }
 
+    function currentDegreesFromCurrentRawDegrees(curDeg) {
+        //Transforms the current rotation in a comparable format: 1.0
+        var y;
+        if (curDeg > 360.0) curDeg -= 360.0;
+        y = 360.0 - (Math.round(curDeg * 100) / 100);
+        return y.toFixed(1);
+    }
 
 
 
@@ -89,14 +175,44 @@
     =            Main Draw Routine            =
     =========================================*/
     function draw(data) {
+
+        /*==========  Animation Loop  ==========*/
+        var activePeaks = [];
+
         paper.view.onFrame = function() {
-            peaksnraysGroup.rotate(options.rotationSpeed, paper.view.center);
-             if (options.connectTheDots) {
+            // Get current rotation of system 
+            var currentDegrees = currentDegreesFromCurrentRawDegrees(peaksnraysGroup.rotation);
+            peaksnraysGroup.rotation += options.rotationSpeed;
+
+            //Find peak under beam
+            if (degreesdata[currentDegrees] != undefined) {
+                degreesdata[currentDegrees].forEach(function(aPeak) {
+                    var idx = aPeak['name'];
+                    var activePeakMarker = peaksnraysGroup.children['peak' + idx];
+                    activePeakMarker.opacity = 1;
+                    activePeaks.push(activePeakMarker);
+                    globalSoundscape.playSound(idx);
+
+                });
+            };
+
+            //Decay active peak markers
+            activePeaks.forEach(function(anActivePeak) {
+                if (anActivePeak.opacity > 0.01) anActivePeak.opacity = anActivePeak.opacity - 0.008;
+                if (anActivePeak.opacity <= 0.01) activePeaks.splice(activePeaks.indexOf(anActivePeak), 1);
+            });
+
+
+            //
+            if (options.connectTheDots) {
                 connectTheDotsPath.rotate(options.rotationSpeed, paper.view.center);
             }
-            
+
         }
-        console.log('draw');
+
+        /*======================================*/
+
+        console.log('(re)drawing.');
 
         paper.project.clear();
         // Create a Paper.js Path to draw a line into it:
@@ -105,6 +221,10 @@
 
         var innerPaddingVector = new paper.Point;
         innerPaddingVector.length = options.centerCircleRadius;
+
+        //background;
+        var bg = new paper.Path.Rectangle(paper.view.viewSize);
+        bg.fillColor = options.backgroundColor;
 
         //Connect the dots
         if (options.connectTheDots) {
@@ -120,7 +240,7 @@
         var peaksnrays = [];
         var peaksnraysGroup = new paper.Group;
 
-
+        peaksnraysGroup.pivot = paper.view.center;
 
         var destVector = new paper.Point;
         for (var i = data.length - 1; i >= 0; i--) {
@@ -132,7 +252,7 @@
             var destPoint = centerPoint.add(innerPaddingVector).add(destVector);
 
 
-            if(options.displayOrbits){
+            if (options.displayOrbits) {
                 var myCircle = new paper.Path.Circle(centerPoint, destVector.length + innerPaddingVector.length);
                 myCircle.strokeColor = options.orbitStrokeColor;
                 myCircle.strokeWidth = options.orbitStrokeWidth;
@@ -150,14 +270,24 @@
 
             if (options.connectTheDots) {
                 connectTheDotsPath.add(new paper.Point(destPoint));
-              
+
             }
 
             if (options.displayPeaks) {
                 var peakCircle = new paper.Path.Circle(destPoint, options.peakRadius);
                 peakCircle.strokeColor = options.peakStrokeColor;
+                peakCircle.fillColor = options.peakFillColor;
                 peakCircle.strokeWidth = options.peakStrokeWidth;
+                // active peak marker
+                var activePeakMarker = new paper.Path.Circle(destPoint, options.peakRadius);
+                activePeakMarker.strokeColor = options.activePeakMarkerColor;
+                activePeakMarker.fillColor = options.activePeakMarkerColor;
+                activePeakMarker.strokeWidth = options.peakStrokeWidth;
+                activePeakMarker.opacity = 0;
+                activePeakMarker.name = 'peak' + i;
+                //
                 peaks.push(peakCircle);
+                peaks.push(activePeakMarker);
                 peaksnraysGroup.addChildren(peaks);
             }
         };

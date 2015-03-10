@@ -1,1 +1,4706 @@
-[{"altitude":871,"filename":871,"peak_name":"Uetliberg","degrees":0.1,"canton":"ZH","distance_km":32.56},{"altitude":661,"filename":661,"peak_name":"Wannenberg","degrees":0.5,"canton":"SH","distance_km":68.21},{"altitude":900,"filename":900,"peak_name":"Lang Randen","degrees":2,"canton":"SH","distance_km":75.96},{"altitude":912,"filename":912,"peak_name":"Hagen","degrees":3.7,"canton":"SH","distance_km":80.1},{"altitude":676,"filename":676,"peak_name":"Z\u00fcrichberg","degrees":8.8,"canton":"ZH","distance_km":37.1},{"altitude":915,"filename":915,"peak_name":"B\u00fcrglen","degrees":9.3,"canton":"ZH","distance_km":22.68},{"altitude":498,"filename":498,"peak_name":"Burgh\u00f6lzli","degrees":9.9,"canton":"ZH","distance_km":33.64},{"altitude":909,"filename":909,"peak_name":"Albishorn","degrees":11,"canton":"ZH","distance_km":22.06},{"altitude":701,"filename":701,"peak_name":"Adlisberg","degrees":12.5,"canton":"ZH","distance_km":35.82},{"altitude":683,"filename":683,"peak_name":"Baarburg","degrees":17.3,"canton":"ZG","distance_km":17.26},{"altitude":708,"filename":708,"peak_name":"Guglen","degrees":17.5,"canton":"ZH","distance_km":34.09},{"altitude":543,"filename":543,"peak_name":"Tannenberg","degrees":19,"canton":"ZH","distance_km":43.54},{"altitude":639,"filename":639,"peak_name":"Stammerberg","degrees":19.5,"canton":"ZH","distance_km":70.41},{"altitude":547,"filename":547,"peak_name":"Hackenberg","degrees":20,"canton":"ZH","distance_km":43.37},{"altitude":535,"filename":535,"peak_name":"Hochrain","degrees":21.5,"canton":"ZH","distance_km":41.29},{"altitude":769,"filename":769,"peak_name":"Zimmerberg","degrees":21.9,"canton":"ZH","distance_km":20.88},{"altitude":1039,"filename":1039,"peak_name":"Zugerberg","degrees":22.7,"canton":"ZG","distance_km":9.99},{"altitude":578,"filename":578,"peak_name":"Sch\u00fcsselberg","degrees":24.2,"canton":"ZH","distance_km":43.63},{"altitude":670,"filename":670,"peak_name":"H\u00f6rnli","degrees":26.2,"canton":"TG","distance_km":70.16},{"altitude":853,"filename":853,"peak_name":"Pfannenstiel","degrees":27.4,"canton":"ZH","distance_km":29.73},{"altitude":741,"filename":741,"peak_name":"Furtb\u00fcel","degrees":28.6,"canton":"ZH","distance_km":44.63},{"altitude":583,"filename":583,"peak_name":"Halden","degrees":28.9,"canton":"ZH","distance_km":42.32},{"altitude":820,"filename":820,"peak_name":"Hochwacht","degrees":33,"canton":"ZH","distance_km":44.88},{"altitude":819,"filename":819,"peak_name":"T\u00e4mbrig","degrees":33.4,"canton":"ZH","distance_km":44.56},{"altitude":806,"filename":806,"peak_name":"Iselisberg","degrees":33.6,"canton":"ZH","distance_km":46.44},{"altitude":768,"filename":768,"peak_name":"Isikerberg","degrees":34.2,"canton":"ZH","distance_km":44.13},{"altitude":738,"filename":738,"peak_name":"Zimberg","degrees":36,"canton":"ZH","distance_km":43.69},{"altitude":928,"filename":928,"peak_name":"Stoffel","degrees":38.5,"canton":"ZH","distance_km":43.79},{"altitude":864,"filename":864,"peak_name":"Ebnerberg","degrees":38.9,"canton":"ZH","distance_km":41.72},{"altitude":681,"filename":681,"peak_name":"Ottenberg","degrees":39.1,"canton":"TG","distance_km":76.46},{"altitude":879,"filename":879,"peak_name":"H\u00f6chi","degrees":39.4,"canton":"ZH","distance_km":43},{"altitude":778,"filename":778,"peak_name":"L\u00e4ttenberg","degrees":40.7,"canton":"ZH","distance_km":42.31},{"altitude":1133,"filename":1133,"peak_name":"H\u00f6rnli","degrees":43.8,"canton":"ZH","distance_km":49.16},{"altitude":1064,"filename":1064,"peak_name":"Bschlis Gipfel","degrees":44.2,"canton":"ZH","distance_km":44.84},{"altitude":1023,"filename":1023,"peak_name":"Hasenb\u00f6l","degrees":47.1,"canton":"ZH","distance_km":45.94},{"altitude":1210,"filename":1210,"peak_name":"Gottschalkenberg","degrees":47.3,"canton":"ZG","distance_km":16.75},{"altitude":1051,"filename":1051,"peak_name":"Auenberg","degrees":47.5,"canton":"ZH","distance_km":40.97},{"altitude":1148,"filename":1148,"peak_name":"Roten","degrees":48,"canton":"ZH\/SG","distance_km":49.17},{"altitude":1110,"filename":1110,"peak_name":"Bachtel","degrees":48.1,"canton":"ZH","distance_km":40.31},{"altitude":1088,"filename":1088,"peak_name":"Hirzegg","degrees":48.6,"canton":"SG\/ZH","distance_km":48.56},{"altitude":1232,"filename":1232,"peak_name":"H\u00fcttchopf","degrees":50,"canton":"ZH","distance_km":45.24},{"altitude":1292,"filename":1292,"peak_name":"Schnebelhorn","degrees":50.5,"canton":"ZH\/SG","distance_km":47.93},{"altitude":1154,"filename":1154,"peak_name":"T\u00f6ssstock","degrees":51.7,"canton":"ZH","distance_km":45.72},{"altitude":1314,"filename":1314,"peak_name":"H\u00f6chhand","degrees":53.4,"canton":"SG","distance_km":46.04},{"altitude":1286,"filename":1286,"peak_name":"Schwarzenberg","degrees":53.6,"canton":"SG","distance_km":44.87},{"altitude":1332,"filename":1332,"peak_name":"Tweralpspitz","degrees":56.8,"canton":"SG","distance_km":48.54},{"altitude":1098,"filename":1098,"peak_name":"Etzel","degrees":57.1,"canton":"SZ","distance_km":25.29},{"altitude":1087,"filename":1087,"peak_name":"K\u00f6belberg","degrees":57.7,"canton":"SG","distance_km":45.13},{"altitude":1167,"filename":1167,"peak_name":"Wilketh\u00f6chi","degrees":58.1,"canton":"SG","distance_km":60.9},{"altitude":961,"filename":961,"peak_name":"Rorschacherberg","degrees":59.1,"canton":"SG","distance_km":88.81},{"altitude":1275,"filename":1275,"peak_name":"Hochhamm","degrees":62.3,"canton":"AR","distance_km":64.44},{"altitude":1251,"filename":1251,"peak_name":"G\u00e4bris","degrees":63,"canton":"AR","distance_km":82.7},{"altitude":1315,"filename":1315,"peak_name":"Regelstein","degrees":63.7,"canton":"SG","distance_km":49.7},{"altitude":1580,"filename":1580,"peak_name":"Wildspitz","degrees":65.4,"canton":"SZ\/ZG","distance_km":7.66},{"altitude":1443,"filename":1443,"peak_name":"Tanzboden","degrees":67.9,"canton":"SG","distance_km":50.54},{"altitude":1506,"filename":1506,"peak_name":"F\u00e4nerenspitz","degrees":68.1,"canton":"AI","distance_km":80.7},{"altitude":1244,"filename":1244,"peak_name":"Morgartenberg","degrees":68.8,"canton":"SZ","distance_km":13.79},{"altitude":1277,"filename":1277,"peak_name":"Pfiffegg","degrees":69.2,"canton":"SZ","distance_km":30.48},{"altitude":1925,"filename":1925,"peak_name":"Sch\u00e4fler","degrees":69.4,"canton":"AI","distance_km":72.9},{"altitude":2218,"filename":2218,"peak_name":"Grauchopf","degrees":70.5,"canton":"AR\/SG","distance_km":67.73},{"altitude":1781,"filename":1781,"peak_name":"Stockberg","degrees":70.5,"canton":"SG","distance_km":60.57},{"altitude":1327,"filename":1327,"peak_name":"Rinderweidhorn","degrees":70.6,"canton":"SZ","distance_km":28.8},{"altitude":2501,"filename":2501,"peak_name":"S\u00e4ntis","degrees":70.7,"canton":"AI\/AR\/SG","distance_km":68.5},{"altitude":2377,"filename":2377,"peak_name":"Chalbers\u00e4ntis","degrees":71,"canton":"AI\/SG","distance_km":68.65},{"altitude":2158,"filename":2158,"peak_name":"Silberplatten","degrees":71,"canton":"SG","distance_km":66.29},{"altitude":2111,"filename":2111,"peak_name":"Stoss","degrees":71.5,"canton":"SG","distance_km":65.9},{"altitude":1987,"filename":1987,"peak_name":"L\u00fctispitz","degrees":72,"canton":"SG","distance_km":63.29},{"altitude":2436,"filename":2436,"peak_name":"Altmann","degrees":72.1,"canton":"AI\/SG","distance_km":70.22},{"altitude":2321,"filename":2321,"peak_name":"N\u00e4dliger","degrees":72.1,"canton":"AI\/SG","distance_km":69.59},{"altitude":2294,"filename":2294,"peak_name":"J\u00f6chli","degrees":72.4,"canton":"SG","distance_km":69.13},{"altitude":1950,"filename":1950,"peak_name":"Speer","degrees":72.5,"canton":"SG","distance_km":50.47},{"altitude":2342,"filename":2342,"peak_name":"Moor","degrees":72.6,"canton":"AI\/SG","distance_km":69.3},{"altitude":2373,"filename":2373,"peak_name":"Wildhuser Schafberg","degrees":72.7,"canton":"SG","distance_km":68.47},{"altitude":1865,"filename":1865,"peak_name":"Federispitz","degrees":74.1,"canton":"SG","distance_km":47.47},{"altitude":1936,"filename":1936,"peak_name":"Mattstock","degrees":74.7,"canton":"SG","distance_km":50.93},{"altitude":1428,"filename":1428,"peak_name":"Lachnerstock","degrees":74.9,"canton":"SZ","distance_km":38.07},{"altitude":1789,"filename":1789,"peak_name":"Gulmen","degrees":75.7,"canton":"SG","distance_km":54.43},{"altitude":1479,"filename":1479,"peak_name":"N\u00fcsellstock","degrees":76,"canton":"SZ","distance_km":16.41},{"altitude":1675,"filename":1675,"peak_name":"Planggenstock","degrees":76.6,"canton":"GL","distance_km":39.6},{"altitude":1640,"filename":1640,"peak_name":"Hirzli","degrees":76.8,"canton":"GL","distance_km":40.57},{"altitude":1695,"filename":1695,"peak_name":"Gross Aubrig","degrees":77.7,"canton":"SZ","distance_km":30.73},{"altitude":1642,"filename":1642,"peak_name":"Chli Aubrig","degrees":77.9,"canton":"SZ","distance_km":29.19},{"altitude":1876,"filename":1876,"peak_name":"Ch\u00f6pfenberg","degrees":78.3,"canton":"GL\/SZ","distance_km":37.24},{"altitude":2205,"filename":2205,"peak_name":"Selun","degrees":78.6,"canton":"SG","distance_km":59.43},{"altitude":1491,"filename":1491,"peak_name":"Amselspitz","degrees":78.7,"canton":"SZ","distance_km":19.89},{"altitude":2267,"filename":2267,"peak_name":"Fr\u00fcmsel","degrees":78.8,"canton":"SG","distance_km":60.2},{"altitude":2101,"filename":2101,"peak_name":"Leistchamm","degrees":78.8,"canton":"SG","distance_km":56.15},{"altitude":1777,"filename":1777,"peak_name":"Br\u00fcggler","degrees":78.9,"canton":"GL","distance_km":38.46},{"altitude":2098,"filename":2098,"peak_name":"Glattchamm","degrees":78.9,"canton":"SG","distance_km":56.67},{"altitude":2194,"filename":2194,"peak_name":"Sch\u00e4ren","degrees":78.9,"canton":"SG","distance_km":58.03},{"altitude":2306,"filename":2306,"peak_name":"Hinterrugg","degrees":79.1,"canton":"SG","distance_km":63.17},{"altitude":2163,"filename":2163,"peak_name":"N\u00e4geliberg","degrees":79.1,"canton":"SG","distance_km":57.38},{"altitude":2208,"filename":2208,"peak_name":"Rosenb\u00f6den","degrees":79.9,"canton":"SG","distance_km":64.32},{"altitude":2025,"filename":2025,"peak_name":"H\u00f6chst","degrees":80.5,"canton":"SG","distance_km":66.25},{"altitude":2225,"filename":2225,"peak_name":"Rotstein","degrees":81.2,"canton":"SG","distance_km":68.89},{"altitude":1932,"filename":1932,"peak_name":"Bockmattli","degrees":81.3,"canton":"SZ","distance_km":36.3},{"altitude":2269,"filename":2269,"peak_name":"Sichelchamm","degrees":81.6,"canton":"SG","distance_km":67.12},{"altitude":2384,"filename":2384,"peak_name":"Grosser Fulfirst","degrees":82.2,"canton":"SG","distance_km":69.65},{"altitude":2044,"filename":2044,"peak_name":"Schiberg","degrees":82.6,"canton":"GL\/SZ","distance_km":35.82},{"altitude":2082,"filename":2082,"peak_name":"Plattenberg","degrees":83.3,"canton":"GL\/SZ","distance_km":36.32},{"altitude":2133,"filename":2133,"peak_name":"Br\u00fcnnelistock","degrees":84.3,"canton":"GL\/SZ","distance_km":37.14},{"altitude":2075,"filename":2075,"peak_name":"Rossalpelispitz","degrees":84.7,"canton":"GL\/SZ","distance_km":36.65},{"altitude":1504,"filename":1504,"peak_name":"Chli Mutzenstein","degrees":84.8,"canton":"SZ","distance_km":30.52},{"altitude":2097,"filename":2097,"peak_name":"Zindlenspitz","degrees":85.6,"canton":"GL\/SZ","distance_km":36.12},{"altitude":2390,"filename":2390,"peak_name":"M\u00fcrtschenstock","degrees":86,"canton":"GL","distance_km":50.33},{"altitude":2283,"filename":2283,"peak_name":"Rautispitz","degrees":86.8,"canton":"GL","distance_km":41.29},{"altitude":2410,"filename":2410,"peak_name":"Fulen","degrees":86.9,"canton":"GL","distance_km":50.13},{"altitude":1616,"filename":1616,"peak_name":"Gschw\u00e4ndstock","degrees":87,"canton":"SZ","distance_km":19.91},{"altitude":2027,"filename":2027,"peak_name":"Lachenstock","degrees":87.3,"canton":"GL\/SZ","distance_km":35.86},{"altitude":2441,"filename":2441,"peak_name":"Ruchen","degrees":87.3,"canton":"GL","distance_km":50.07},{"altitude":2282,"filename":2282,"peak_name":"Wiggis","degrees":87.7,"canton":"GL","distance_km":41.12},{"altitude":2093,"filename":2093,"peak_name":"Fluebrig","degrees":88,"canton":"SZ","distance_km":30.24},{"altitude":2245,"filename":2245,"peak_name":"Chli Gumen","degrees":88.4,"canton":"GL","distance_km":39.08},{"altitude":2256,"filename":2256,"peak_name":"Gumenstock","degrees":88.4,"canton":"GL","distance_km":39.48},{"altitude":1566,"filename":1566,"peak_name":"Hochstuckli","degrees":88.6,"canton":"SZ","distance_km":14.02},{"altitude":2259,"filename":2259,"peak_name":"Schijen","degrees":88.6,"canton":"GL","distance_km":38.48},{"altitude":2069,"filename":2069,"peak_name":"Turner","degrees":88.6,"canton":"SZ","distance_km":30.7},{"altitude":2317,"filename":2317,"peak_name":"Gulmen","degrees":89.1,"canton":"SG","distance_km":55.92},{"altitude":2080,"filename":2080,"peak_name":"Redertengrat","degrees":89.4,"canton":"GL\/SZ","distance_km":35.28},{"altitude":2294,"filename":2294,"peak_name":"Mutteristock","degrees":90.5,"canton":"GL\/SZ","distance_km":34.77},{"altitude":2385,"filename":2385,"peak_name":"Schwarzst\u00f6ckli","degrees":91.2,"canton":"GL","distance_km":49.34},{"altitude":1789,"filename":1789,"peak_name":"Leiterenstollen","degrees":91.4,"canton":"SZ","distance_km":27.41},{"altitude":1970,"filename":1970,"peak_name":"Gantspitz","degrees":91.7,"canton":"SZ","distance_km":30.06},{"altitude":2524,"filename":2524,"peak_name":"Magerrain","degrees":91.7,"canton":"GL\/SG","distance_km":55.9},{"altitude":2384,"filename":2384,"peak_name":"Heustock","degrees":91.9,"canton":"GL","distance_km":49.35},{"altitude":2179,"filename":2179,"peak_name":"Ochsenchopf","degrees":92.3,"canton":"GL\/SZ","distance_km":33.48},{"altitude":2400,"filename":2400,"peak_name":"Chli H\u00f6ch","degrees":92.4,"canton":"GL","distance_km":49.69},{"altitude":2489,"filename":2489,"peak_name":"Rottor","degrees":92.4,"canton":"GL\/SG","distance_km":52.52},{"altitude":1988,"filename":1988,"peak_name":"Wannenst\u00f6ckli","degrees":92.4,"canton":"GL\/SZ","distance_km":32.68},{"altitude":2496,"filename":2496,"peak_name":"B\u00fctzistock","degrees":92.5,"canton":"GL\/SG","distance_km":52.59},{"altitude":2471,"filename":2471,"peak_name":"Heustock","degrees":92.7,"canton":"GL\/SG","distance_km":52.94},{"altitude":2426,"filename":2426,"peak_name":"H\u00f6ch","degrees":92.7,"canton":"GL","distance_km":50},{"altitude":2436,"filename":2436,"peak_name":"Gufelstock","degrees":93,"canton":"GL","distance_km":50.38},{"altitude":2004,"filename":2004,"peak_name":"W\u00e4nifirst","degrees":93.1,"canton":"SZ","distance_km":30.23},{"altitude":1966,"filename":1966,"peak_name":"Biet","degrees":93.6,"canton":"SZ","distance_km":27.13},{"altitude":2396,"filename":2396,"peak_name":"Breitchamm","degrees":93.6,"canton":"GL","distance_km":50.37},{"altitude":2327,"filename":2327,"peak_name":"Vorder Gl\u00e4rnisch","degrees":94.2,"canton":"GL","distance_km":42.42},{"altitude":2320,"filename":2320,"peak_name":"G\u00fcntelchamm","degrees":94.6,"canton":"GL","distance_km":50.52},{"altitude":2473,"filename":2473,"peak_name":"Schn\u00fcerligrat","degrees":94.6,"canton":"SG","distance_km":60.53},{"altitude":2073,"filename":2073,"peak_name":"Fl\u00e4schenspitz","degrees":95.2,"canton":"SZ","distance_km":29.53},{"altitude":1811,"filename":1811,"peak_name":"Kleiner Mythen","degrees":95.8,"canton":"SZ","distance_km":15.26},{"altitude":2901,"filename":2901,"peak_name":"Ruchen","degrees":96.5,"canton":"GL","distance_km":39.55},{"altitude":2107,"filename":2107,"peak_name":"Milchplanggenstock","degrees":97.6,"canton":"GL","distance_km":35.12},{"altitude":2883,"filename":2883,"peak_name":"Schwander Grat","degrees":97.6,"canton":"GL","distance_km":40.08},{"altitude":2627,"filename":2627,"peak_name":"Inner F\u00fcrberg","degrees":97.7,"canton":"GL","distance_km":37.98},{"altitude":2605,"filename":2605,"peak_name":"Usser F\u00fcrberg","degrees":97.7,"canton":"GL","distance_km":37.14},{"altitude":2446,"filename":2446,"peak_name":"N\u00e4belch\u00e4ppler","degrees":97.9,"canton":"GL","distance_km":36.41},{"altitude":1778,"filename":1778,"peak_name":"Roggenstock","degrees":98.3,"canton":"SZ","distance_km":23.44},{"altitude":2057,"filename":2057,"peak_name":"Lauiberg","degrees":98.4,"canton":"SZ","distance_km":28.99},{"altitude":2915,"filename":2915,"peak_name":"Gl\u00e4rnisch","degrees":98.5,"canton":"GL","distance_km":39.56},{"altitude":2025,"filename":2025,"peak_name":"R\u00fctistein","degrees":99.2,"canton":"SZ","distance_km":27.35},{"altitude":2637,"filename":2637,"peak_name":"B\u00e4chihorn","degrees":99.3,"canton":"GL","distance_km":38.16},{"altitude":2914,"filename":2914,"peak_name":"B\u00e4chistock","degrees":99.6,"canton":"GL","distance_km":38.94},{"altitude":2117,"filename":2117,"peak_name":"Tw\u00e4riberg","degrees":99.6,"canton":"SZ","distance_km":27.04},{"altitude":1899,"filename":1899,"peak_name":"Grosser Mythen","degrees":100.1,"canton":"SZ","distance_km":15.75},{"altitude":2661,"filename":2661,"peak_name":"Rad","degrees":100.9,"canton":"GL","distance_km":38.4},{"altitude":2215,"filename":2215,"peak_name":"H\u00f6ch Hund","degrees":101,"canton":"SZ","distance_km":28.12},{"altitude":2282,"filename":2282,"peak_name":"Druesberg","degrees":101.5,"canton":"SZ","distance_km":27.12},{"altitude":2657,"filename":2657,"peak_name":"B\u00f6sb\u00e4chistock ","degrees":102,"canton":"GL","distance_km":38.41},{"altitude":1572,"filename":1572,"peak_name":"Gross Schijen","degrees":102.5,"canton":"SZ","distance_km":20.14},{"altitude":2215,"filename":2215,"peak_name":"Forstberg","degrees":102.7,"canton":"SZ","distance_km":26.47},{"altitude":3056,"filename":3056,"peak_name":"Piz Sardona","degrees":103.3,"canton":"GL\/SG","distance_km":60.17},{"altitude":2541,"filename":2541,"peak_name":"Hinter Gassenstock","degrees":103.7,"canton":"GL","distance_km":36.45},{"altitude":1590,"filename":1590,"peak_name":"Hudelschijen","degrees":104.1,"canton":"SZ","distance_km":20.2},{"altitude":2802,"filename":2802,"peak_name":"B\u00f6s Fulen","degrees":104.9,"canton":"GL\/SZ","distance_km":36.4},{"altitude":1771,"filename":1771,"peak_name":"Spirstock","degrees":105,"canton":"SZ","distance_km":22.64},{"altitude":2721,"filename":2721,"peak_name":"Grisset","degrees":106.2,"canton":"SZ","distance_km":35.97},{"altitude":2573,"filename":2573,"peak_name":"Pfannenstock","degrees":107.1,"canton":"SZ","distance_km":34.08},{"altitude":2342,"filename":2342,"peak_name":"Chli Pfannenstock","degrees":107.3,"canton":"SZ","distance_km":33.43},{"altitude":2898,"filename":2898,"peak_name":"Piz Grisch","degrees":108.4,"canton":"GL\/GR","distance_km":58.01},{"altitude":2805,"filename":2805,"peak_name":"Gletscherhorn","degrees":108.9,"canton":"GL","distance_km":55.35},{"altitude":2561,"filename":2561,"peak_name":"Hanenstock","degrees":109.1,"canton":"GL","distance_km":47.7},{"altitude":2401,"filename":2401,"peak_name":"Fl\u00e4tstock","degrees":109.3,"canton":"SZ","distance_km":36.98},{"altitude":3028,"filename":3028,"peak_name":"B\u00fcndner Vorab","degrees":110.7,"canton":"GL\/GR","distance_km":54.99},{"altitude":2666,"filename":2666,"peak_name":"H\u00f6ch Turm","degrees":111.1,"canton":"SZ","distance_km":36.96},{"altitude":2717,"filename":2717,"peak_name":"Ortstock","degrees":111.6,"canton":"GL\/SZ","distance_km":38.12},{"altitude":2012,"filename":2012,"peak_name":"Mandlieggen","degrees":111.9,"canton":"SZ","distance_km":33.2},{"altitude":2426,"filename":2426,"peak_name":"Gross Chilchberg","degrees":112.5,"canton":"SZ","distance_km":35.31},{"altitude":2610,"filename":2610,"peak_name":"Schijen","degrees":113,"canton":"GL\/SZ\/UR","distance_km":37.47},{"altitude":2269,"filename":2269,"peak_name":"Chli Chilchberg","degrees":113.2,"canton":"SZ","distance_km":34.77},{"altitude":3158,"filename":3158,"peak_name":"Hausstock","degrees":113.7,"canton":"GR","distance_km":48.6},{"altitude":2678,"filename":2678,"peak_name":"Vorstegstock","degrees":114,"canton":"GL","distance_km":45.48},{"altitude":2810,"filename":2810,"peak_name":"Scheidst\u00f6ckli","degrees":114.9,"canton":"GL","distance_km":45.73},{"altitude":3036,"filename":3036,"peak_name":"Chli Ruchi","degrees":115.1,"canton":"GL\/GR","distance_km":47.97},{"altitude":3107,"filename":3107,"peak_name":"Ruchi","degrees":115.6,"canton":"GL\/GR","distance_km":47.65},{"altitude":2850,"filename":2850,"peak_name":"R\u00fcchi","degrees":115.8,"canton":"GL","distance_km":45.4},{"altitude":2584,"filename":2584,"peak_name":"Jegerst\u00f6ck","degrees":115.9,"canton":"SZ\/UR","distance_km":36.25},{"altitude":2109,"filename":2109,"peak_name":"Pfaff","degrees":116,"canton":"SZ","distance_km":32.72},{"altitude":2893,"filename":2893,"peak_name":"N\u00fcschenstock","degrees":116.3,"canton":"GL","distance_km":45.64},{"altitude":2573,"filename":2573,"peak_name":"Signalstock","degrees":116.4,"canton":"SZ\/UR","distance_km":36.15},{"altitude":2086,"filename":2086,"peak_name":"Geissstock","degrees":116.9,"canton":"SZ","distance_km":27.31},{"altitude":3089,"filename":3089,"peak_name":"Muttenstock","degrees":117.3,"canton":"GL\/GR","distance_km":48.46},{"altitude":3025,"filename":3025,"peak_name":"Piz Gavirolas","degrees":117.7,"canton":"GR","distance_km":49.01},{"altitude":2502,"filename":2502,"peak_name":"Rot Nossen","degrees":117.8,"canton":"SZ\/UR","distance_km":35.58},{"altitude":2956,"filename":2956,"peak_name":"Muttenbergen","degrees":118.4,"canton":"GL\/GR","distance_km":48.2},{"altitude":2138,"filename":2138,"peak_name":"Lauiberg","degrees":119,"canton":"UR","distance_km":25.96},{"altitude":2486,"filename":2486,"peak_name":"L\u00e4ckistock","degrees":119.3,"canton":"UR","distance_km":35.23},{"altitude":2323,"filename":2323,"peak_name":"M\u00e4ren","degrees":119.8,"canton":"SZ","distance_km":33.81},{"altitude":2137,"filename":2137,"peak_name":"Tr\u00e4smerenh\u00f6reli","degrees":119.8,"canton":"SZ","distance_km":27.13},{"altitude":2751,"filename":2751,"peak_name":"Hauserhorn","degrees":120,"canton":"GL","distance_km":44.24},{"altitude":2471,"filename":2471,"peak_name":"Rotstock","degrees":120,"canton":"GL\/UR","distance_km":40.4},{"altitude":2751,"filename":2751,"peak_name":"Vorder Selbsanft","degrees":120,"canton":"GL","distance_km":44.24},{"altitude":2155,"filename":2155,"peak_name":"Wiss Nollen","degrees":120.7,"canton":"SZ","distance_km":24.07},{"altitude":2232,"filename":2232,"peak_name":"Misthufen","degrees":121.6,"canton":"SZ","distance_km":24.03},{"altitude":1767,"filename":1767,"peak_name":"M\u00e4lchst\u00f6ckli","degrees":121.6,"canton":"SZ","distance_km":19.98},{"altitude":2175,"filename":2175,"peak_name":"Gross Achslenstock","degrees":122,"canton":"SZ","distance_km":23.22},{"altitude":2020,"filename":2020,"peak_name":"Chli Achslenstock","degrees":122.2,"canton":"SZ","distance_km":22.88},{"altitude":2380,"filename":2380,"peak_name":"Alpler Horn","degrees":122.6,"canton":"UR","distance_km":29.43},{"altitude":2972,"filename":2972,"peak_name":"Gemsfairenstock","degrees":122.6,"canton":"GL\/UR","distance_km":39.49},{"altitude":1915,"filename":1915,"peak_name":"Sisiger Spitz","degrees":123.2,"canton":"SZ","distance_km":20.35},{"altitude":2505,"filename":2505,"peak_name":"Glatten","degrees":123.5,"canton":"UR","distance_km":34.5},{"altitude":2232,"filename":2232,"peak_name":"Rupperslauist\u00f6ckli","degrees":123.5,"canton":"UR","distance_km":23.54},{"altitude":2081,"filename":2081,"peak_name":"H\u00f6reli","degrees":123.8,"canton":"SZ","distance_km":22.72},{"altitude":2967,"filename":2967,"peak_name":"Speichstock","degrees":124,"canton":"GL\/UR","distance_km":38.81},{"altitude":2383,"filename":2383,"peak_name":"Bl\u00fcemberg","degrees":124.5,"canton":"SZ\/UR","distance_km":23.3},{"altitude":2961,"filename":2961,"peak_name":"T\u00fcfels St\u00f6ck","degrees":124.6,"canton":"GL\/UR","distance_km":38.8},{"altitude":1890,"filename":1890,"peak_name":"Hengst","degrees":124.8,"canton":"SZ","distance_km":19.08},{"altitude":2451,"filename":2451,"peak_name":"Chronenstock","degrees":125.4,"canton":"SZ\/UR","distance_km":23.71},{"altitude":3079,"filename":3079,"peak_name":"Bocktschingel","degrees":125.7,"canton":"GL\/UR","distance_km":38.71},{"altitude":1935,"filename":1935,"peak_name":"Chlingenstock","degrees":126.6,"canton":"SZ","distance_km":18.14},{"altitude":2515,"filename":2515,"peak_name":"Chaiserstock","degrees":126.8,"canton":"SZ\/UR","distance_km":23.37},{"altitude":3419,"filename":3419,"peak_name":"Bifertenstock\nDurschin","degrees":127,"canton":"GL\/GR","distance_km":45.62},{"altitude":2527,"filename":2527,"peak_name":"Schwarz Stock","degrees":127.1,"canton":"UR","distance_km":28.43},{"altitude":3390,"filename":3390,"peak_name":"Sandgipfel","degrees":127.4,"canton":"GL","distance_km":42.56},{"altitude":2764,"filename":2764,"peak_name":"Sch\u00e4chentaler Windg\u00e4llen","degrees":127.9,"canton":"UR","distance_km":29.93},{"altitude":3268,"filename":3268,"peak_name":"Clariden","degrees":128.2,"canton":"GL\/UR","distance_km":37.85},{"altitude":3586,"filename":3586,"peak_name":"Glarner T\u00f6di","degrees":128.9,"canton":"GL","distance_km":42.59},{"altitude":3614,"filename":3614,"peak_name":"Piz Russein","degrees":128.9,"canton":"GL\/GR","distance_km":42.61},{"altitude":2459,"filename":2459,"peak_name":"H\u00f6ch Pfaffen","degrees":129.2,"canton":"UR","distance_km":27.86},{"altitude":1921,"filename":1921,"peak_name":"Fronalpstock","degrees":129.6,"canton":"SZ","distance_km":15.17},{"altitude":2018,"filename":2018,"peak_name":"H\u00f6ch Egg","degrees":129.8,"canton":"SZ","distance_km":21.98},{"altitude":3432,"filename":3432,"peak_name":"Piz Dado","degrees":129.8,"canton":"GL\/GR","distance_km":43.14},{"altitude":2256,"filename":2256,"peak_name":"Gross Tisch","degrees":130.4,"canton":"SZ","distance_km":22.43},{"altitude":2491,"filename":2491,"peak_name":"Fulen","degrees":130.5,"canton":"SZ\/UR","distance_km":23.28},{"altitude":3214,"filename":3214,"peak_name":"Chammliberg","degrees":130.8,"canton":"UR","distance_km":36.69},{"altitude":1698,"filename":1698,"peak_name":"Rigi Hochflue","degrees":131.6,"canton":"SZ","distance_km":7.67},{"altitude":2461,"filename":2461,"peak_name":"Rossstock","degrees":131.7,"canton":"SZ\/UR","distance_km":22.95},{"altitude":3102,"filename":3102,"peak_name":"Heimstock","degrees":132.6,"canton":"GR\/UR","distance_km":40.35},{"altitude":2270,"filename":2270,"peak_name":"Spilauer Stock","degrees":133.3,"canton":"UR","distance_km":22.52},{"altitude":3295,"filename":3295,"peak_name":"Gross Sch\u00e4rhorn","degrees":133.4,"canton":"UR","distance_km":36.57},{"altitude":3234,"filename":3234,"peak_name":"Chli Sch\u00e4rhorn","degrees":133.6,"canton":"UR","distance_km":36.17},{"altitude":2213,"filename":2213,"peak_name":"Hundstock","degrees":133.6,"canton":"UR","distance_km":21},{"altitude":2664,"filename":2664,"peak_name":"Vorder Griessstock","degrees":134,"canton":"UR","distance_km":34.22},{"altitude":2183,"filename":2183,"peak_name":"Hagelst\u00f6ckli","degrees":134.1,"canton":"UR","distance_km":22.32},{"altitude":2180,"filename":2180,"peak_name":"Siwfass","degrees":134.5,"canton":"UR","distance_km":21.45},{"altitude":2024,"filename":2024,"peak_name":"Dibistock","degrees":134.7,"canton":"UR","distance_km":19.8},{"altitude":2717,"filename":2717,"peak_name":"Mittler Griessstock","degrees":135,"canton":"UR","distance_km":34.45},{"altitude":2182,"filename":2182,"peak_name":"Hagelstock","degrees":135.2,"canton":"UR","distance_km":21.55},{"altitude":2222,"filename":2222,"peak_name":"Diepen","degrees":136.1,"canton":"UR","distance_km":20.12},{"altitude":2944,"filename":2944,"peak_name":"Chli Ruchen","degrees":136.9,"canton":"UR","distance_km":35.36},{"altitude":2087,"filename":2087,"peak_name":"\u00c4bneter St\u00f6ckli","degrees":137,"canton":"UR","distance_km":19.54},{"altitude":3256,"filename":3256,"peak_name":"Piz Git","degrees":137.6,"canton":"GR\/UR","distance_km":39.35},{"altitude":2296,"filename":2296,"peak_name":"Chli Spitzen","degrees":138,"canton":"UR","distance_km":30.36},{"altitude":3127,"filename":3127,"peak_name":"Chli D\u00fcssi","degrees":138.1,"canton":"GR\/UR","distance_km":39.56},{"altitude":2400,"filename":2400,"peak_name":"Gross Spitzen","degrees":138.5,"canton":"UR","distance_km":30.04},{"altitude":2825,"filename":2825,"peak_name":"Chanzeli","degrees":138.6,"canton":"UR","distance_km":35.25},{"altitude":2078,"filename":2078,"peak_name":"Rophaien","degrees":138.6,"canton":"UR","distance_km":18.84},{"altitude":2404,"filename":2404,"peak_name":"Blauw H\u00f6reli","degrees":138.9,"canton":"UR","distance_km":29.99},{"altitude":1662,"filename":1662,"peak_name":"Rigi Scheidegg","degrees":139.7,"canton":"SZ","distance_km":4.16},{"altitude":3138,"filename":3138,"peak_name":"Gross Ruchen","degrees":140.3,"canton":"UR","distance_km":35.17},{"altitude":2473,"filename":2473,"peak_name":"Blinzi","degrees":141.1,"canton":"UR","distance_km":30.26},{"altitude":2933,"filename":2933,"peak_name":"Pucher","degrees":142.1,"canton":"UR","distance_km":34.72},{"altitude":2445,"filename":2445,"peak_name":"Sittliser","degrees":142.2,"canton":"UR","distance_km":30.77},{"altitude":2286,"filename":2286,"peak_name":"Burg","degrees":142.7,"canton":"UR","distance_km":29.27},{"altitude":2842,"filename":2842,"peak_name":"Gwasmet","degrees":142.7,"canton":"UR","distance_km":34.56},{"altitude":2903,"filename":2903,"peak_name":"Wiss St\u00f6ckli","degrees":143.3,"canton":"UR","distance_km":33.99},{"altitude":2918,"filename":2918,"peak_name":"St\u00e4felstock","degrees":143.6,"canton":"UR","distance_km":33.46},{"altitude":2387,"filename":2387,"peak_name":"Plattigrat","degrees":143.7,"canton":"UR","distance_km":30.37},{"altitude":2568,"filename":"2568_2","peak_name":"Schwarz St\u00f6ckli","degrees":143.8,"canton":"UR","distance_km":32.55},{"altitude":3188,"filename":3188,"peak_name":"Gross Windg\u00e4llen","degrees":145,"canton":"UR","distance_km":33.5},{"altitude":2506,"filename":2506,"peak_name":"Hoch Fulen","degrees":145.3,"canton":"UR","distance_km":30.24},{"altitude":2470,"filename":2470,"peak_name":"Rot Grat","degrees":146.2,"canton":"UR","distance_km":30.83},{"altitude":2822,"filename":2822,"peak_name":"Rot Horn","degrees":147.1,"canton":"UR","distance_km":33.4},{"altitude":3328,"filename":3328,"peak_name":"Piz Tgietschen","degrees":147.3,"canton":"GR\/UR","distance_km":41.08},{"altitude":2463,"filename":2463,"peak_name":"Rinderstock","degrees":147.3,"canton":"UR","distance_km":30.89},{"altitude":2986,"filename":2986,"peak_name":"Chli Windg\u00e4llen","degrees":148,"canton":"UR","distance_km":33.93},{"altitude":2416,"filename":2416,"peak_name":"B\u00e4lmeten","degrees":148.5,"canton":"UR","distance_km":29.16},{"altitude":2089,"filename":2089,"peak_name":"Chapuziner","degrees":149.3,"canton":"UR","distance_km":29.51},{"altitude":3016,"filename":3016,"peak_name":"Witenalpstock","degrees":149.9,"canton":"GR\/UR","distance_km":40.89},{"altitude":2021,"filename":2021,"peak_name":"Griggeler","degrees":150,"canton":"UR","distance_km":28.07},{"altitude":2613,"filename":2613,"peak_name":"Etzlibergstock","degrees":150.8,"canton":"UR","distance_km":40.17},{"altitude":2788,"filename":2788,"peak_name":"Gwasmet","degrees":150.8,"canton":"GR\/UR","distance_km":41.51},{"altitude":2709,"filename":2709,"peak_name":"Chr\u00fczlistock","degrees":152,"canton":"GR\/UR","distance_km":42.73},{"altitude":3109,"filename":3109,"peak_name":"Piz Vallatscha","degrees":152.5,"canton":"GR","distance_km":59.06},{"altitude":2602,"filename":2602,"peak_name":"Piz Pali","degrees":152.9,"canton":"GR\/UR","distance_km":42.74},{"altitude":3187,"filename":3187,"peak_name":"Scopi","degrees":153.1,"canton":"GR\/TI","distance_km":59.99},{"altitude":2940,"filename":2940,"peak_name":"Piz Gierm","degrees":153.7,"canton":"GR","distance_km":53.63},{"altitude":2461,"filename":"2461_2","peak_name":"Rossbodenstock","degrees":154.5,"canton":"UR","distance_km":40.77},{"altitude":2593,"filename":2593,"peak_name":"Chli Mutsch","degrees":154.8,"canton":"UR","distance_km":42.48},{"altitude":2791,"filename":2791,"peak_name":"Mutsch","degrees":154.9,"canton":"GR\/UR","distance_km":43.06},{"altitude":1923,"filename":1923,"peak_name":"Niederbauen Chulm","degrees":155,"canton":"NW\/UR","distance_km":13.29},{"altitude":2762,"filename":2762,"peak_name":"Rot Bristen","degrees":155.8,"canton":"UR","distance_km":38.24},{"altitude":3059,"filename":3059,"peak_name":"Piz Nair","degrees":155.9,"canton":"GR\/UR","distance_km":43.27},{"altitude":3073,"filename":3073,"peak_name":"Bristen","degrees":156.4,"canton":"UR","distance_km":38.55},{"altitude":2812,"filename":2812,"peak_name":"Ruchen","degrees":157.4,"canton":"UR","distance_km":39.8},{"altitude":3084,"filename":3084,"peak_name":"Rot Wichel","degrees":157.6,"canton":"GR\/UR","distance_km":42.69},{"altitude":2911,"filename":2911,"peak_name":"Sunnig Wichel","degrees":157.6,"canton":"UR","distance_km":41.12},{"altitude":2033,"filename":2033,"peak_name":"Sunnig Grat","degrees":158,"canton":"UR","distance_km":32.51},{"altitude":3061,"filename":3061,"peak_name":"Giuvst\u00f6ckli","degrees":158.3,"canton":"GR\/UR","distance_km":43.1},{"altitude":3011,"filename":3011,"peak_name":"Brichplanggenstock","degrees":158.7,"canton":"GR\/UR","distance_km":42.99},{"altitude":2096,"filename":2096,"peak_name":"Schijen","degrees":158.7,"canton":"UR","distance_km":31.17},{"altitude":2734,"filename":2734,"peak_name":"M\u00e4ttenberg","degrees":158.8,"canton":"UR","distance_km":40.97},{"altitude":2117,"filename":"2117_2","peak_name":"Oberbauenstock","degrees":161.9,"canton":"NW\/UR","distance_km":15},{"altitude":2673,"filename":2673,"peak_name":"Rot Gitschen","degrees":164.8,"canton":"UR","distance_km":22.48},{"altitude":2574,"filename":2574,"peak_name":"Chessel","degrees":166.8,"canton":"UR","distance_km":21.55},{"altitude":2907,"filename":2907,"peak_name":"Gitschenh\u00f6reli","degrees":166.8,"canton":"UR","distance_km":23.66},{"altitude":2952,"filename":2952,"peak_name":"Brunnistock","degrees":167.2,"canton":"UR","distance_km":23.74},{"altitude":2057,"filename":"2057_2","peak_name":"Fulen","degrees":167.3,"canton":"UR","distance_km":18.83},{"altitude":2155,"filename":"2155_2","peak_name":"Chli Schlieren","degrees":168.2,"canton":"UR","distance_km":20.17},{"altitude":2830,"filename":2830,"peak_name":"Schlieren","degrees":169.3,"canton":"UR","distance_km":21.37},{"altitude":2928,"filename":2928,"peak_name":"Uri Rotstock","degrees":169.3,"canton":"UR","distance_km":22.01},{"altitude":3133,"filename":3133,"peak_name":"Schlossberg","degrees":172.8,"canton":"UR","distance_km":28.43},{"altitude":3198,"filename":3198,"peak_name":"Gross Spannort","degrees":173.5,"canton":"UR","distance_km":30.15},{"altitude":2759,"filename":2759,"peak_name":"Schlossstock","degrees":173.7,"canton":"UR","distance_km":23.21},{"altitude":2070,"filename":2070,"peak_name":"Jochlistock","degrees":174.6,"canton":"NW\/UR","distance_km":15.86},{"altitude":3140,"filename":3140,"peak_name":"Chli Spannort","degrees":174.7,"canton":"UR","distance_km":30.82},{"altitude":2107,"filename":"2107_2","peak_name":"B\u00e4renstock","degrees":175,"canton":"UR","distance_km":18.97},{"altitude":2887,"filename":2887,"peak_name":"Wissigstock","degrees":175.2,"canton":"OW\/UR","distance_km":23.54},{"altitude":2819,"filename":2819,"peak_name":"Engelberger Rotstock","degrees":176.8,"canton":"OW\/UR","distance_km":22.58},{"altitude":3417,"filename":3417,"peak_name":"Fleckistock","degrees":177.8,"canton":"UR","distance_km":38.84},{"altitude":2727,"filename":2727,"peak_name":"Leist","degrees":177.8,"canton":"OW\/UR","distance_km":24.39},{"altitude":3417,"filename":"3417_2","peak_name":"Rot Stock","degrees":177.8,"canton":"UR","distance_km":38.84},{"altitude":3313,"filename":3313,"peak_name":"Stucklistock","degrees":179,"canton":"UR","distance_km":37.74},{"altitude":2729,"filename":2729,"peak_name":"Hasenstock","degrees":179.3,"canton":"OW\/UR","distance_km":22.41},{"altitude":2782,"filename":2782,"peak_name":"Oberberg","degrees":180.3,"canton":"OW\/UR","distance_km":22.18},{"altitude":2290,"filename":2290,"peak_name":"Risetenstock","degrees":180.3,"canton":"NW\/UR","distance_km":16.48},{"altitude":1748,"filename":1748,"peak_name":"Klewenstock","degrees":181.5,"canton":"NW","distance_km":13.71},{"altitude":2145,"filename":2145,"peak_name":"Schinberg","degrees":181.7,"canton":"NW","distance_km":15.98},{"altitude":2191,"filename":2191,"peak_name":"Glatt Grat","degrees":182.1,"canton":"NW\/UR","distance_km":16.65},{"altitude":2720,"filename":2720,"peak_name":"Hasenst\u00f6ck","degrees":182.5,"canton":"NW\/UR","distance_km":21.97},{"altitude":2400,"filename":"2400_3","peak_name":"Chaiserstuel","degrees":183.1,"canton":"NW\/UR","distance_km":20},{"altitude":2413,"filename":2413,"peak_name":"Hoh Brisen","degrees":184.1,"canton":"NW\/UR","distance_km":17.76},{"altitude":2639,"filename":2639,"peak_name":"Laucherenstock","degrees":184.3,"canton":"NW\/OW","distance_km":22.53},{"altitude":2082,"filename":"2082_2","peak_name":"Elfer","degrees":184.5,"canton":"NW","distance_km":16.48},{"altitude":3608,"filename":3608,"peak_name":"Schneestock","degrees":185.3,"canton":"UR\/VS","distance_km":45.7},{"altitude":3630,"filename":3630,"peak_name":"Dammastock","degrees":185.4,"canton":"UR\/VS","distance_km":46.19},{"altitude":2135,"filename":2135,"peak_name":"Zwelfer","degrees":185.5,"canton":"NW","distance_km":16.75},{"altitude":3238,"filename":"3238_2","peak_name":"Titlis","degrees":185.8,"canton":"BE\/OW","distance_km":31.85},{"altitude":2404,"filename":"2404_2","peak_name":"Brisen","degrees":185.9,"canton":"NW\/UR","distance_km":17.67},{"altitude":2418,"filename":2418,"peak_name":"Laucherengrat","degrees":186.7,"canton":"NW\/OW","distance_km":22.75},{"altitude":2397,"filename":2397,"peak_name":"Planggengrat","degrees":187.3,"canton":"NW\/OW","distance_km":22.87},{"altitude":2901,"filename":2901,"peak_name":"Rotst\u00f6ckli","degrees":187.6,"canton":"NW\/OW","distance_km":31.35},{"altitude":3447,"filename":3447,"peak_name":"Hinter Tierberg","degrees":188.2,"canton":"BE\/UR","distance_km":42.22},{"altitude":2637,"filename":"2637_2","peak_name":"Gross S\u00e4ttelistock","degrees":188.4,"canton":"NW\/OW","distance_km":22.92},{"altitude":2092,"filename":2092,"peak_name":"Lauwistock","degrees":188.5,"canton":"NW","distance_km":17.65},{"altitude":2418,"filename":"2418_2","peak_name":"Chli S\u00e4ttelistock","degrees":189.4,"canton":"NW","distance_km":22.43},{"altitude":2568,"filename":2568,"peak_name":"Schyegg Stock","degrees":189.6,"canton":"NW\/OW","distance_km":23.31},{"altitude":2578,"filename":2578,"peak_name":"Spitz Mann","degrees":190.3,"canton":"NW\/OW","distance_km":23.27},{"altitude":3003,"filename":3003,"peak_name":"Reissend Nollen","degrees":190.5,"canton":"BE\/OW","distance_km":32.89},{"altitude":2593,"filename":"2593_2","peak_name":"Rigidalstock","degrees":191.7,"canton":"NW\/OW","distance_km":23.28},{"altitude":2572,"filename":2572,"peak_name":"Gross Walenstock","degrees":192,"canton":"NW\/OW","distance_km":22.75},{"altitude":1923,"filename":"1923_2","peak_name":"Giri","degrees":192.5,"canton":"NW","distance_km":17.47},{"altitude":1785,"filename":1785,"peak_name":"Musenalp","degrees":192.6,"canton":"NW","distance_km":14.4},{"altitude":2267,"filename":"2267_2","peak_name":"Rund","degrees":192.8,"canton":"NW","distance_km":21.95},{"altitude":3042,"filename":3042,"peak_name":"Wendenst\u00f6cke","degrees":193,"canton":"BE","distance_km":33.76},{"altitude":3009,"filename":3009,"peak_name":"Pfaffenhuet","degrees":193.6,"canton":"BE","distance_km":34.19},{"altitude":2346,"filename":2346,"peak_name":"Vorder Walenstock","degrees":194.1,"canton":"OW","distance_km":22.76},{"altitude":2970,"filename":2970,"peak_name":"M\u00e4hren","degrees":194.2,"canton":"BE","distance_km":34.42},{"altitude":2778,"filename":2778,"peak_name":"Gadmerflue","degrees":195.3,"canton":"BE","distance_km":34.72},{"altitude":2662,"filename":2662,"peak_name":"Graustock","degrees":195.8,"canton":"BE\/NW\/OW","distance_km":31.16},{"altitude":2923,"filename":2923,"peak_name":"M\u00e4hrenhorn","degrees":197.4,"canton":"BE","distance_km":42.69},{"altitude":2639,"filename":"2639_2","peak_name":"Schwarzhorn","degrees":198.3,"canton":"NW\/OW","distance_km":30.75},{"altitude":1807,"filename":1807,"peak_name":"Buochserhorn","degrees":198.5,"canton":"NW","distance_km":13.09},{"altitude":2026,"filename":2026,"peak_name":"Alpelenh\u00f6rnli","degrees":198.7,"canton":"NW","distance_km":29.99},{"altitude":2700,"filename":2700,"peak_name":"Rotsandnollen","degrees":200,"canton":"NW\/OW","distance_km":30.45},{"altitude":2630,"filename":2630,"peak_name":"H\u00fcenderbergli","degrees":200.2,"canton":"NW\/OW","distance_km":30.19},{"altitude":2044,"filename":"2044_2","peak_name":"Schafbandschnauz","degrees":200.2,"canton":"NW","distance_km":29.33},{"altitude":2078,"filename":"2078_2","peak_name":"Scheideggstock","degrees":200.7,"canton":"NW","distance_km":27.42},{"altitude":1934,"filename":1934,"peak_name":"Klein Storchen","degrees":201,"canton":"NW","distance_km":26.98},{"altitude":2078,"filename":"2078_3","peak_name":"Gross Storchen","degrees":201.2,"canton":"NW","distance_km":27.21},{"altitude":2670,"filename":2670,"peak_name":"Barglen","degrees":201.3,"canton":"OW","distance_km":31.18},{"altitude":1896,"filename":1896,"peak_name":"Salistock","degrees":201.7,"canton":"NW","distance_km":26.03},{"altitude":2416,"filename":"2416_2","peak_name":"Sattel","degrees":202.1,"canton":"NW","distance_km":29.3},{"altitude":2244,"filename":2244,"peak_name":"Stierendossen","degrees":202.1,"canton":"NW","distance_km":27.26},{"altitude":2223,"filename":2223,"peak_name":"Bockistock","degrees":202.3,"canton":"NW","distance_km":27.16},{"altitude":2206,"filename":2206,"peak_name":"Bockigrat","degrees":202.5,"canton":"NW","distance_km":27.64},{"altitude":2676,"filename":2676,"peak_name":"Wild Geissberg","degrees":202.5,"canton":"NW\/OW","distance_km":29.66},{"altitude":2102,"filename":2102,"peak_name":"Hohliecht","degrees":202.8,"canton":"NW","distance_km":26.79},{"altitude":3638,"filename":3638,"peak_name":"Studerhorn","degrees":203.2,"canton":"BE\/VS","distance_km":63.72},{"altitude":2514,"filename":2514,"peak_name":"Zahm Geissberg","degrees":203.5,"canton":"NW\/OW","distance_km":29.49},{"altitude":3230,"filename":3230,"peak_name":"Trifthorn","degrees":203.7,"canton":"BE","distance_km":56.76},{"altitude":3473,"filename":3473,"peak_name":"Lauteraar Roth\u00f6rner","degrees":204.3,"canton":"BE","distance_km":60.01},{"altitude":2351,"filename":2351,"peak_name":"Widderfeld Stock","degrees":204.4,"canton":"NW\/OW","distance_km":27.38},{"altitude":3329,"filename":3329,"peak_name":"Ewigschneehorn","degrees":204.7,"canton":"BE","distance_km":56.53},{"altitude":4274,"filename":4274,"peak_name":"Finsteraarhorn","degrees":204.8,"canton":"BE\/VS","distance_km":63.92},{"altitude":3647,"filename":3647,"peak_name":"Hugihorn","degrees":205,"canton":"BE","distance_km":59.67},{"altitude":2491,"filename":"2491_2","peak_name":"L\u00e4uber","degrees":205.1,"canton":"BE","distance_km":37.75},{"altitude":3292,"filename":3292,"peak_name":"Hangendgletscherhorn","degrees":205.3,"canton":"BE","distance_km":52.81},{"altitude":3953,"filename":3953,"peak_name":"Agassizhorn","degrees":205.9,"canton":"BE\/VS","distance_km":63.38},{"altitude":2026,"filename":"2026_2","peak_name":"Nollen","degrees":206.5,"canton":"OW","distance_km":34.76},{"altitude":2534,"filename":2534,"peak_name":"Gloggh\u00fcs","degrees":206.6,"canton":"BE\/OW","distance_km":37.03},{"altitude":3259,"filename":3259,"peak_name":"R\u00e4nfenhorn","degrees":206.8,"canton":"BE","distance_km":53},{"altitude":3601,"filename":3601,"peak_name":"Ankenb\u00e4lli","degrees":207,"canton":"BE","distance_km":55.89},{"altitude":2088,"filename":2088,"peak_name":"Schluchigrat","degrees":207.1,"canton":"NW\/OW","distance_km":24.58},{"altitude":3656,"filename":3656,"peak_name":"B\u00e4rglistock","degrees":207.5,"canton":"BE","distance_km":55.69},{"altitude":2855,"filename":2855,"peak_name":"Gstellihorn","degrees":207.7,"canton":"BE","distance_km":49.85},{"altitude":4078,"filename":4078,"peak_name":"Schreckhorn","degrees":207.7,"canton":"BE","distance_km":58.97},{"altitude":2767,"filename":2767,"peak_name":"Urbachsengelhorn","degrees":207.7,"canton":"BE","distance_km":48.53},{"altitude":3138,"filename":"3138_2","peak_name":"Dossen","degrees":207.8,"canton":"BE","distance_km":51.58},{"altitude":2643,"filename":2643,"peak_name":"Chlys Engelhorn","degrees":207.9,"canton":"BE","distance_km":47.97},{"altitude":2782,"filename":"2782_2","peak_name":"Grosses Engelhorn","degrees":207.9,"canton":"BE","distance_km":48.68},{"altitude":2639,"filename":"2639_3","peak_name":"Hohjegiburg","degrees":208,"canton":"BE","distance_km":47.6},{"altitude":2106,"filename":2106,"peak_name":"Schluchberg","degrees":208,"canton":"NW\/OW","distance_km":24.06},{"altitude":2005,"filename":2005,"peak_name":"Laucherenstock","degrees":208.2,"canton":"NW","distance_km":23.43},{"altitude":2621,"filename":2621,"peak_name":"Kingspitz","degrees":208.4,"canton":"BE","distance_km":48.47},{"altitude":3689,"filename":3689,"peak_name":"Rosenhorn","degrees":208.7,"canton":"BE","distance_km":54.17},{"altitude":2381,"filename":2381,"peak_name":"Fuli Flue","degrees":208.8,"canton":"BE\/OW","distance_km":36.91},{"altitude":4049,"filename":4049,"peak_name":"Grosses Fiescherhorn","degrees":209.3,"canton":"BE\/VS","distance_km":64.84},{"altitude":2050,"filename":2050,"peak_name":"Gr\u00e4fimattstand","degrees":209.7,"canton":"NW\/OW","distance_km":23.67},{"altitude":2701,"filename":2701,"peak_name":"Kleines Wellhorn","degrees":209.7,"canton":"BE","distance_km":50.72},{"altitude":3704,"filename":3704,"peak_name":"Mittelhorn","degrees":209.8,"canton":"BE","distance_km":54.33},{"altitude":3192,"filename":3192,"peak_name":"Wellhorn","degrees":209.8,"canton":"BE","distance_km":51.7},{"altitude":2312,"filename":2312,"peak_name":"Haupt","degrees":209.9,"canton":"OW","distance_km":34.81},{"altitude":2481,"filename":2481,"peak_name":"Hochstollen","degrees":210.2,"canton":"OW","distance_km":36.68},{"altitude":2035,"filename":2035,"peak_name":"Gr\u00e4fimattnollen","degrees":210.3,"canton":"NW\/OW","distance_km":23.18},{"altitude":3701,"filename":3701,"peak_name":"Wetterhorn","degrees":210.6,"canton":"BE","distance_km":54.35},{"altitude":2014,"filename":2014,"peak_name":"Arvigrat","degrees":210.7,"canton":"NW\/OW","distance_km":22.08},{"altitude":2019,"filename":2019,"peak_name":"H\u00f6chgrat","degrees":211.1,"canton":"OW","distance_km":24.06},{"altitude":2263,"filename":2263,"peak_name":"Abgsch\u00fctz","degrees":211.2,"canton":"OW","distance_km":36.22},{"altitude":2082,"filename":"2082_3","peak_name":"Vorstegg","degrees":211.3,"canton":"OW","distance_km":32.29},{"altitude":3361,"filename":3361,"peak_name":"Scheideggwetterhorn","degrees":211.4,"canton":"BE","distance_km":53.96},{"altitude":3933,"filename":3933,"peak_name":"Trugberg","degrees":211.7,"canton":"VS","distance_km":67.1},{"altitude":2129,"filename":2129,"peak_name":"Seefeldstock","degrees":212.1,"canton":"OW","distance_km":36.14},{"altitude":2146,"filename":2146,"peak_name":"Heitlistock","degrees":212.5,"canton":"OW","distance_km":32.67},{"altitude":3983,"filename":3983,"peak_name":"Gletscherhorn","degrees":212.6,"canton":"BE\/VS","distance_km":72.24},{"altitude":2710,"filename":2710,"peak_name":"Ostegg","degrees":212.9,"canton":"BE","distance_km":61.31},{"altitude":2326,"filename":2326,"peak_name":"Tschingel","degrees":213.2,"canton":"BE","distance_km":47.24},{"altitude":4099,"filename":4099,"peak_name":"M\u00f6nch","degrees":213.3,"canton":"BE\/VS","distance_km":66.74},{"altitude":3692,"filename":3692,"peak_name":"Grosser Turm","degrees":213.7,"canton":"BE","distance_km":64.06},{"altitude":2392,"filename":2392,"peak_name":"Grindelgrat","degrees":213.8,"canton":"BE","distance_km":48.21},{"altitude":2086,"filename":"2086_2","peak_name":"Astelhorn","degrees":213.9,"canton":"OW","distance_km":31.16},{"altitude":3970,"filename":3970,"peak_name":"Eiger","degrees":213.9,"canton":"BE","distance_km":64.64},{"altitude":2105,"filename":2105,"peak_name":"Wandelen","degrees":214.2,"canton":"OW","distance_km":31.67},{"altitude":4089,"filename":4089,"peak_name":"Wengener Jungfrau","degrees":214.2,"canton":"BE\/VS","distance_km":69.93},{"altitude":2099,"filename":2099,"peak_name":"Wengenhorn","degrees":214.6,"canton":"OW","distance_km":31.75},{"altitude":3402,"filename":3402,"peak_name":"Schneehorn","degrees":214.7,"canton":"BE","distance_km":69.13},{"altitude":3695,"filename":3695,"peak_name":"Silberhorn","degrees":215,"canton":"BE","distance_km":70.36},{"altitude":3386,"filename":3386,"peak_name":"Rotbr\u00e4tt","degrees":215.6,"canton":"BE","distance_km":70.75},{"altitude":2659,"filename":2659,"peak_name":"Gemschberg","degrees":215.8,"canton":"BE","distance_km":52.43},{"altitude":2015,"filename":2015,"peak_name":"Hanen","degrees":215.8,"canton":"OW","distance_km":32.14},{"altitude":2304,"filename":2304,"peak_name":"Wandelhorn","degrees":215.9,"canton":"BE","distance_km":47.65},{"altitude":2710,"filename":"2710_2","peak_name":"Garzen","degrees":216.1,"canton":"BE","distance_km":49.28},{"altitude":2715,"filename":2715,"peak_name":"Schwarzenberg","degrees":216.5,"canton":"BE","distance_km":49.73},{"altitude":2928,"filename":"2928_2","peak_name":"Schwarzhorn","degrees":216.6,"canton":"BE","distance_km":51.7},{"altitude":2043,"filename":2043,"peak_name":"G\u00fcpfi","degrees":216.7,"canton":"OW","distance_km":36.42},{"altitude":2891,"filename":2891,"peak_name":"Wildg\u00e4rst","degrees":217.2,"canton":"BE","distance_km":51.17},{"altitude":1898,"filename":1898,"peak_name":"Stanserhorn","degrees":217.3,"canton":"NW\/OW","distance_km":17.91},{"altitude":2069,"filename":"2069_2","peak_name":"Schryberhorn","degrees":217.8,"canton":"BE","distance_km":49.54},{"altitude":2798,"filename":2798,"peak_name":"G\u00e4rstenhorn","degrees":218.1,"canton":"BE","distance_km":51.9},{"altitude":3304,"filename":3304,"peak_name":"Tschingelspitz","degrees":218.5,"canton":"BE","distance_km":78.12},{"altitude":2233,"filename":2233,"peak_name":"Oltschiburg","degrees":218.7,"canton":"BE","distance_km":48.89},{"altitude":3436,"filename":3436,"peak_name":"Gspaltenhorn","degrees":219.1,"canton":"BE","distance_km":78.72},{"altitude":2757,"filename":2757,"peak_name":"Reeti","degrees":219.1,"canton":"BE","distance_km":56.59},{"altitude":2321,"filename":"2321_2","peak_name":"Axalphorn","degrees":219.4,"canton":"BE","distance_km":50.29},{"altitude":3224,"filename":3224,"peak_name":"B\u00f6se Tritt","degrees":219.4,"canton":"BE","distance_km":78.59},{"altitude":2595,"filename":2595,"peak_name":"Mittagschrinne","degrees":219.4,"canton":"BE","distance_km":54.9},{"altitude":2751,"filename":"2751_3","peak_name":"Simelihorn","degrees":219.5,"canton":"BE","distance_km":56.54},{"altitude":3193,"filename":3193,"peak_name":"B\u00fctlasse","degrees":219.8,"canton":"BE","distance_km":78.5},{"altitude":2689,"filename":2689,"peak_name":"Esel","degrees":219.8,"canton":"BE","distance_km":56.73},{"altitude":3627,"filename":3627,"peak_name":"Morgenhorn","degrees":219.8,"canton":"BE","distance_km":81.84},{"altitude":2244,"filename":"2244_2","peak_name":"Tschingel","degrees":220,"canton":"BE","distance_km":51.27},{"altitude":3650,"filename":3650,"peak_name":"Wyssi Frau","degrees":220,"canton":"BE","distance_km":82.45},{"altitude":2619,"filename":2619,"peak_name":"Gassenboden","degrees":220.2,"canton":"BE","distance_km":56.25},{"altitude":3063,"filename":3063,"peak_name":"Vorderi B\u00fctlasse","degrees":220.2,"canton":"BE","distance_km":77.92},{"altitude":2681,"filename":2681,"peak_name":"Faulhorn","degrees":220.5,"canton":"BE","distance_km":56.36},{"altitude":3643,"filename":"3643_2","peak_name":"Doldenhorn","degrees":220.8,"canton":"BE","distance_km":86.95},{"altitude":3475,"filename":3475,"peak_name":"Kleindoldenhorn","degrees":221.1,"canton":"BE","distance_km":87.23},{"altitude":2790,"filename":2790,"peak_name":"Schwarzbirg","degrees":221.2,"canton":"BE","distance_km":73.36},{"altitude":2970,"filename":"2970_2","peak_name":"Schilthorn","degrees":221.3,"canton":"BE","distance_km":74.45},{"altitude":2573,"filename":2573,"peak_name":"Winteregg","degrees":221.4,"canton":"BE","distance_km":58.34},{"altitude":3232,"filename":3232,"peak_name":"Doldenstock","degrees":221.5,"canton":"BE","distance_km":87.26},{"altitude":2929,"filename":2929,"peak_name":"Hundshorn","degrees":221.7,"canton":"BE","distance_km":77.15},{"altitude":2373,"filename":"2373_2","peak_name":"Schwabhorn","degrees":221.8,"canton":"BE","distance_km":56.12},{"altitude":2004,"filename":"2004_2","peak_name":"Wilerhorn","degrees":221.8,"canton":"BE\/OW","distance_km":42.74},{"altitude":2828,"filename":2828,"peak_name":"Rote H\u00e4rd","degrees":221.9,"canton":"BE","distance_km":74.91},{"altitude":2465,"filename":2465,"peak_name":"Indri S\u00e4gissa","degrees":222.1,"canton":"BE","distance_km":58.68},{"altitude":2833,"filename":2833,"peak_name":"Chilchflue","degrees":222.2,"canton":"BE","distance_km":74.96},{"altitude":2426,"filename":"2426_3","peak_name":"Ussri S\u00e4gissa","degrees":222.4,"canton":"BE","distance_km":59.26},{"altitude":2849,"filename":2849,"peak_name":"Wild Andrist","degrees":222.4,"canton":"BE","distance_km":77.19},{"altitude":2609,"filename":2609,"peak_name":"M\u00e4ra","degrees":222.8,"canton":"BE","distance_km":72.52},{"altitude":2485,"filename":2485,"peak_name":"Schwarze Schopf","degrees":222.8,"canton":"BE","distance_km":71.09},{"altitude":2526,"filename":2526,"peak_name":"Spaltenhorn","degrees":222.9,"canton":"BE","distance_km":71.36},{"altitude":2135,"filename":"2135_2","peak_name":"B\u00e4ttenalpburg","degrees":223,"canton":"BE","distance_km":55.07},{"altitude":2068,"filename":2068,"peak_name":"Litschgiburg","degrees":223,"canton":"BE","distance_km":54.65},{"altitude":2681,"filename":"2681_2","peak_name":"Zahm Andrist","degrees":223.1,"canton":"BE","distance_km":77.24},{"altitude":2506,"filename":"2506_2","peak_name":"Bira","degrees":223.2,"canton":"BE","distance_km":71.93},{"altitude":2170,"filename":2170,"peak_name":"Furggenhorn","degrees":223.3,"canton":"BE","distance_km":57.23},{"altitude":2296,"filename":"2296_2","peak_name":"Roteflue","degrees":223.4,"canton":"BE","distance_km":57.94},{"altitude":2566,"filename":2566,"peak_name":"Lobh\u00f6rner","degrees":223.6,"canton":"BE","distance_km":70.36},{"altitude":2011,"filename":2011,"peak_name":"Sch\u00f6nb\u00fcel","degrees":223.9,"canton":"OW","distance_km":41.96},{"altitude":2422,"filename":2422,"peak_name":"Schn\u00e4bel","degrees":224,"canton":"BE","distance_km":70.15},{"altitude":2777,"filename":2777,"peak_name":"Schwalmere","degrees":224.2,"canton":"BE","distance_km":72.53},{"altitude":2060,"filename":2060,"peak_name":"M\u00e4ndli","degrees":224.5,"canton":"OW","distance_km":40.8},{"altitude":2205,"filename":"2205_2","peak_name":"H\u00f6ch Gumme","degrees":224.6,"canton":"BE\/OW","distance_km":42.44},{"altitude":2108,"filename":2108,"peak_name":"Stellenen","degrees":224.7,"canton":"OW","distance_km":41.26},{"altitude":3049,"filename":3049,"peak_name":"Vordere Lohner","degrees":225.2,"canton":"BE","distance_km":94.57},{"altitude":2742,"filename":2742,"peak_name":"Aermighorn","degrees":225.3,"canton":"BE","distance_km":82.16},{"altitude":3002,"filename":3002,"peak_name":"Mittlere Lohner","degrees":225.3,"canton":"BE","distance_km":93.48},{"altitude":2073,"filename":"2073_2","peak_name":"Rossflue","degrees":225.3,"canton":"OW","distance_km":40.12},{"altitude":1128,"filename":1128,"peak_name":"B\u00fcrgenstock","degrees":225.8,"canton":"LU\/NW","distance_km":9.11},{"altitude":2011,"filename":"2011_2","peak_name":"Giswilerstock","degrees":226,"canton":"OW","distance_km":39.61},{"altitude":2011,"filename":"2011_3","peak_name":"Schafnase","degrees":226.1,"canton":"OW","distance_km":39.61},{"altitude":2005,"filename":"2005_2","peak_name":"Arnitriste","degrees":226.5,"canton":"OW","distance_km":42.31},{"altitude":2440,"filename":2440,"peak_name":"First","degrees":226.6,"canton":"BE","distance_km":74.61},{"altitude":2350,"filename":2350,"peak_name":"Brienzer Rothorn","degrees":227.5,"canton":"BE\/LU\/OW","distance_km":44.86},{"altitude":2115,"filename":2115,"peak_name":"Br\u00e4tterstock","degrees":228.5,"canton":"LU","distance_km":44.82},{"altitude":2320,"filename":"2320_2","peak_name":"Schong\u00fctsch","degrees":228.5,"canton":"BE\/LU","distance_km":45.37},{"altitude":2148,"filename":2148,"peak_name":"Burg","degrees":229.4,"canton":"BE","distance_km":47.65},{"altitude":2165,"filename":2165,"peak_name":"Briefenhorn","degrees":229.7,"canton":"BE\/LU","distance_km":47.58},{"altitude":2141,"filename":2141,"peak_name":"Balmi","degrees":229.9,"canton":"BE\/LU","distance_km":48.47},{"altitude":2221,"filename":2221,"peak_name":"Tannhorn","degrees":230,"canton":"BE\/LU","distance_km":49.36},{"altitude":2763,"filename":2763,"peak_name":"Albristhorn","degrees":230.3,"canton":"BE","distance_km":98.26},{"altitude":2436,"filename":"2436_2","peak_name":"Dr\u00fcm\u00e4nnler","degrees":230.6,"canton":"BE","distance_km":92.94},{"altitude":2435,"filename":2435,"peak_name":"Wyssi Flue","degrees":230.7,"canton":"BE","distance_km":92.46},{"altitude":2325,"filename":2325,"peak_name":"Linterhorn","degrees":231,"canton":"BE","distance_km":89.32},{"altitude":2495,"filename":2495,"peak_name":"Ladholzhorn","degrees":231.1,"canton":"BE","distance_km":90.06},{"altitude":2609,"filename":"2609_2","peak_name":"Winterhorn","degrees":231.1,"canton":"BE","distance_km":90.9},{"altitude":2354,"filename":2354,"peak_name":"Wyssi Flue","degrees":231.4,"canton":"BE","distance_km":88.16},{"altitude":2652,"filename":2652,"peak_name":"M\u00e4nnliflue","degrees":231.5,"canton":"BE","distance_km":91.06},{"altitude":2597,"filename":2597,"peak_name":"Schattigi Schibe","degrees":231.7,"canton":"BE","distance_km":91.25},{"altitude":2454,"filename":2454,"peak_name":"Riedb\u00fcndihorn","degrees":231.8,"canton":"BE","distance_km":87.06},{"altitude":2460,"filename":2460,"peak_name":"Cheibehorn","degrees":232.2,"canton":"BE","distance_km":90.52},{"altitude":2347,"filename":2347,"peak_name":"M\u00e4ggisserhorn","degrees":232.5,"canton":"BE","distance_km":84.75},{"altitude":2321,"filename":"2321_3","peak_name":"Steinschlaghorn","degrees":232.8,"canton":"BE","distance_km":83.36},{"altitude":1949,"filename":1949,"peak_name":"Hagleren","degrees":233.4,"canton":"LU","distance_km":41.67},{"altitude":2339,"filename":2339,"peak_name":"Standhore","degrees":233.4,"canton":"BE","distance_km":82.4},{"altitude":2321,"filename":"2321_4","peak_name":"Triesthore","degrees":233.4,"canton":"BE","distance_km":81.5},{"altitude":2408,"filename":2408,"peak_name":"Drunengalm","degrees":233.6,"canton":"BE","distance_km":81.61},{"altitude":2394,"filename":2394,"peak_name":"Fromberghorn","degrees":233.7,"canton":"BE","distance_km":80.52},{"altitude":2063,"filename":2063,"peak_name":"Burgfeldstand","degrees":234.3,"canton":"BE","distance_km":64.43},{"altitude":2062,"filename":2062,"peak_name":"Gemmenalphorn","degrees":234.6,"canton":"BE","distance_km":63.07},{"altitude":1895,"filename":1895,"peak_name":"Miesenstock","degrees":234.9,"canton":"OW","distance_km":36.07},{"altitude":1738,"filename":1738,"peak_name":"J\u00e4nzi","degrees":235.4,"canton":"OW","distance_km":28.77},{"altitude":2197,"filename":2197,"peak_name":"Hohgant","degrees":235.6,"canton":"BE","distance_km":53.55},{"altitude":2037,"filename":2037,"peak_name":"Schibeng\u00fctsch","degrees":236,"canton":"LU","distance_km":49.02},{"altitude":2029,"filename":2029,"peak_name":"T\u00fcrstenh\u00e4uptli","degrees":236.5,"canton":"LU","distance_km":48.57},{"altitude":2092,"filename":"2092_2","peak_name":"Hengst","degrees":237.8,"canton":"LU","distance_km":47.19},{"altitude":2091,"filename":2091,"peak_name":"H\u00e4chle","degrees":238.5,"canton":"LU","distance_km":45.63},{"altitude":2040,"filename":2040,"peak_name":"F\u00fcrstein","degrees":239.9,"canton":"LU\/OW","distance_km":36.32},{"altitude":2041,"filename":2041,"peak_name":"Matthorn","degrees":240.9,"canton":"OW","distance_km":20.1},{"altitude":2118,"filename":2118,"peak_name":"Esel","degrees":243,"canton":"OW","distance_km":19.43},{"altitude":2120,"filename":2120,"peak_name":"Pilatus","degrees":243,"canton":"NW\/OW","distance_km":19.44},{"altitude":1917,"filename":1917,"peak_name":"Mittagg\u00fcpfi","degrees":246.7,"canton":"LU\/OW","distance_km":24.56},{"altitude":1204,"filename":1204,"peak_name":"Le Gibloux","degrees":249.2,"canton":"FR","distance_km":117.67},{"altitude":1603,"filename":1603,"peak_name":"Studberg","degrees":249.4,"canton":"LU","distance_km":22.92},{"altitude":937,"filename":937,"peak_name":"Ulmizberg","degrees":257.4,"canton":"BE","distance_km":81.83},{"altitude":1607,"filename":1607,"peak_name":"Le Chasseron","degrees":261.2,"canton":"VD","distance_km":149.95},{"altitude":1408,"filename":1408,"peak_name":"Napf","degrees":261.3,"canton":"BE\/LU","distance_km":41.87},{"altitude":1463,"filename":1463,"peak_name":"Le Soliat","degrees":263.9,"canton":"VD","distance_km":134.93},{"altitude":1288,"filename":1288,"peak_name":"Tablettes","degrees":265.9,"canton":"NE","distance_km":129.32},{"altitude":1422,"filename":1422,"peak_name":"T\u00eate de Ran","degrees":269.7,"canton":"NE","distance_km":123.99},{"altitude":1571,"filename":1571,"peak_name":"Petit Chasseral","degrees":274.5,"canton":"NE","distance_km":108.71},{"altitude":1382,"filename":1382,"peak_name":"Mont Sujet","degrees":274.8,"canton":"BE","distance_km":102.17},{"altitude":684,"filename":684,"peak_name":"Hombrig","degrees":275.1,"canton":"LU","distance_km":11.15},{"altitude":1395,"filename":1395,"peak_name":"R\u00f6ti","degrees":286.7,"canton":"SO","distance_km":75.97},{"altitude":1302,"filename":1302,"peak_name":"Mont Raimeux","degrees":288.8,"canton":"JU","distance_km":84.81},{"altitude":1251,"filename":"1251_2","peak_name":"Chamben","degrees":288.9,"canton":"SO","distance_km":73.21},{"altitude":1225,"filename":1225,"peak_name":"Hornegg","degrees":290.4,"canton":"SO","distance_km":75.62},{"altitude":1102,"filename":1102,"peak_name":"Geissflue","degrees":292.1,"canton":"SO","distance_km":74.34},{"altitude":1204,"filename":"1204_2","peak_name":"Hohe Winde","degrees":294.4,"canton":"SO","distance_km":75.63},{"altitude":977,"filename":977,"peak_name":"Roggen","degrees":295.8,"canton":"SO","distance_km":63.7},{"altitude":1024,"filename":1024,"peak_name":"Hirnichopf","degrees":297.2,"canton":"SO","distance_km":74.61},{"altitude":1104,"filename":1104,"peak_name":"Beretenchopf","degrees":299.1,"canton":"SO","distance_km":64.39},{"altitude":1169,"filename":1169,"peak_name":"Hinteri Egg","degrees":300.4,"canton":"BL","distance_km":68.39},{"altitude":1123,"filename":1123,"peak_name":"Belchenflue","degrees":303,"canton":"BL\/SO","distance_km":61.6},{"altitude":1042,"filename":1042,"peak_name":"Lauchflue","degrees":303.6,"canton":"BL","distance_km":63.64},{"altitude":982,"filename":982,"peak_name":"Ifleter Berg","degrees":305,"canton":"BL\/SO","distance_km":60.39},{"altitude":664,"filename":664,"peak_name":"S\u00e4li","degrees":305.2,"canton":"AG\/SO","distance_km":52.88},{"altitude":913,"filename":913,"peak_name":"Walten","degrees":306.4,"canton":"BL","distance_km":61.74},{"altitude":1001,"filename":1001,"peak_name":"Wisenberg","degrees":309.5,"canton":"BL","distance_km":59.72},{"altitude":935,"filename":935,"peak_name":"Burgflue","degrees":310.7,"canton":"BL\/SO","distance_km":57.83},{"altitude":805,"filename":805,"peak_name":"Gugen","degrees":314.6,"canton":"SO","distance_km":54.73},{"altitude":963,"filename":963,"peak_name":"Geissflue","degrees":314.7,"canton":"BL\/SO","distance_km":56.85},{"altitude":908,"filename":908,"peak_name":"Geissfluegrat","degrees":315.4,"canton":"AG\/SO","distance_km":56.66},{"altitude":866,"filename":866,"peak_name":"Wasserflue","degrees":319.2,"canton":"AG","distance_km":54.51},{"altitude":865,"filename":865,"peak_name":"Strihen","degrees":321.3,"canton":"AG","distance_km":55.86},{"altitude":772,"filename":772,"peak_name":"Gisliflue","degrees":324.8,"canton":"AG","distance_km":49.81},{"altitude":650,"filename":650,"peak_name":"Frickberg","degrees":326.1,"canton":"AG","distance_km":60.79},{"altitude":782,"filename":782,"peak_name":"Homberg","degrees":326.1,"canton":"AG","distance_km":53.51},{"altitude":647,"filename":647,"peak_name":"Chestenberg","degrees":331.1,"canton":"AG","distance_km":46.54},{"altitude":700,"filename":700,"peak_name":"Geissberg","degrees":335,"canton":"AG","distance_km":57.82},{"altitude":787,"filename":787,"peak_name":"Heitersberg","degrees":345.1,"canton":"AG","distance_km":38.32},{"altitude":866,"filename":"866_2","peak_name":"L\u00e4geren","degrees":350.9,"canton":"ZH","distance_km":47.78},{"altitude":583,"filename":"583_2","peak_name":"Hasleren","degrees":352.5,"canton":"ZH","distance_km":41.17},{"altitude":652,"filename":652,"peak_name":"Buechhoger","degrees":355.6,"canton":"ZH","distance_km":35.54},{"altitude":615,"filename":615,"peak_name":"Gubrist","degrees":356.4,"canton":"ZH","distance_km":40.71},{"altitude":706,"filename":706,"peak_name":"B\u00fcel","degrees":357.4,"canton":"ZH","distance_km":33.9},{"altitude":829,"filename":829,"peak_name":"Aeugsterberg","degrees":359.6,"canton":"ZH","distance_km":24.16}]
+[
+  {
+    "altitude": 871,
+    "filename": 871,
+    "peak_name": "Uetliberg",
+    "degrees": 0.1,
+    "canton": "ZH",
+    "distance_km": 32.56
+  },
+  {
+    "altitude": 661,
+    "filename": 661,
+    "peak_name": "Wannenberg",
+    "degrees": 0.5,
+    "canton": "SH",
+    "distance_km": 68.21
+  },
+  {
+    "altitude": 900,
+    "filename": 900,
+    "peak_name": "Lang Randen",
+    "degrees": 2,
+    "canton": "SH",
+    "distance_km": 75.96
+  },
+  {
+    "altitude": 912,
+    "filename": 912,
+    "peak_name": "Hagen",
+    "degrees": 3.7,
+    "canton": "SH",
+    "distance_km": 80.1
+  },
+  {
+    "altitude": 676,
+    "filename": 676,
+    "peak_name": "Zürichberg",
+    "degrees": 8.8,
+    "canton": "ZH",
+    "distance_km": 37.1
+  },
+  {
+    "altitude": 915,
+    "filename": 915,
+    "peak_name": "Bürglen",
+    "degrees": 9.3,
+    "canton": "ZH",
+    "distance_km": 22.68
+  },
+  {
+    "altitude": 498,
+    "filename": 498,
+    "peak_name": "Burghölzli",
+    "degrees": 9.9,
+    "canton": "ZH",
+    "distance_km": 33.64
+  },
+  {
+    "altitude": 909,
+    "filename": 909,
+    "peak_name": "Albishorn",
+    "degrees": 11,
+    "canton": "ZH",
+    "distance_km": 22.06
+  },
+  {
+    "altitude": 701,
+    "filename": 701,
+    "peak_name": "Adlisberg",
+    "degrees": 12.5,
+    "canton": "ZH",
+    "distance_km": 35.82
+  },
+  {
+    "altitude": 683,
+    "filename": 683,
+    "peak_name": "Baarburg",
+    "degrees": 17.3,
+    "canton": "ZG",
+    "distance_km": 17.26
+  },
+  {
+    "altitude": 708,
+    "filename": 708,
+    "peak_name": "Guglen",
+    "degrees": 17.5,
+    "canton": "ZH",
+    "distance_km": 34.09
+  },
+  {
+    "altitude": 543,
+    "filename": 543,
+    "peak_name": "Tannenberg",
+    "degrees": 19,
+    "canton": "ZH",
+    "distance_km": 43.54
+  },
+  {
+    "altitude": 639,
+    "filename": 639,
+    "peak_name": "Stammerberg",
+    "degrees": 19.5,
+    "canton": "ZH",
+    "distance_km": 70.41
+  },
+  {
+    "altitude": 547,
+    "filename": 547,
+    "peak_name": "Hackenberg",
+    "degrees": 20,
+    "canton": "ZH",
+    "distance_km": 43.37
+  },
+  {
+    "altitude": 535,
+    "filename": 535,
+    "peak_name": "Hochrain",
+    "degrees": 21.5,
+    "canton": "ZH",
+    "distance_km": 41.29
+  },
+  {
+    "altitude": 769,
+    "filename": 769,
+    "peak_name": "Zimmerberg",
+    "degrees": 21.9,
+    "canton": "ZH",
+    "distance_km": 20.88
+  },
+  {
+    "altitude": 1039,
+    "filename": 1039,
+    "peak_name": "Zugerberg",
+    "degrees": 22.7,
+    "canton": "ZG",
+    "distance_km": 9.99
+  },
+  {
+    "altitude": 578,
+    "filename": 578,
+    "peak_name": "Schüsselberg",
+    "degrees": 24.2,
+    "canton": "ZH",
+    "distance_km": 43.63
+  },
+  {
+    "altitude": 670,
+    "filename": 670,
+    "peak_name": "Hörnli",
+    "degrees": 26.2,
+    "canton": "TG",
+    "distance_km": 70.16
+  },
+  {
+    "altitude": 853,
+    "filename": 853,
+    "peak_name": "Pfannenstiel",
+    "degrees": 27.4,
+    "canton": "ZH",
+    "distance_km": 29.73
+  },
+  {
+    "altitude": 741,
+    "filename": 741,
+    "peak_name": "Furtbüel",
+    "degrees": 28.6,
+    "canton": "ZH",
+    "distance_km": 44.63
+  },
+  {
+    "altitude": 583,
+    "filename": 583,
+    "peak_name": "Halden",
+    "degrees": 28.9,
+    "canton": "ZH",
+    "distance_km": 42.32
+  },
+  {
+    "altitude": 820,
+    "filename": 820,
+    "peak_name": "Hochwacht",
+    "degrees": 33,
+    "canton": "ZH",
+    "distance_km": 44.88
+  },
+  {
+    "altitude": 819,
+    "filename": 819,
+    "peak_name": "Tämbrig",
+    "degrees": 33.4,
+    "canton": "ZH",
+    "distance_km": 44.56
+  },
+  {
+    "altitude": 806,
+    "filename": 806,
+    "peak_name": "Iselisberg",
+    "degrees": 33.6,
+    "canton": "ZH",
+    "distance_km": 46.44
+  },
+  {
+    "altitude": 768,
+    "filename": 768,
+    "peak_name": "Isikerberg",
+    "degrees": 34.2,
+    "canton": "ZH",
+    "distance_km": 44.13
+  },
+  {
+    "altitude": 738,
+    "filename": 738,
+    "peak_name": "Zimberg",
+    "degrees": 36,
+    "canton": "ZH",
+    "distance_km": 43.69
+  },
+  {
+    "altitude": 928,
+    "filename": 928,
+    "peak_name": "Stoffel",
+    "degrees": 38.5,
+    "canton": "ZH",
+    "distance_km": 43.79
+  },
+  {
+    "altitude": 864,
+    "filename": 864,
+    "peak_name": "Ebnerberg",
+    "degrees": 38.9,
+    "canton": "ZH",
+    "distance_km": 41.72
+  },
+  {
+    "altitude": 681,
+    "filename": 681,
+    "peak_name": "Ottenberg",
+    "degrees": 39.1,
+    "canton": "TG",
+    "distance_km": 76.46
+  },
+  {
+    "altitude": 879,
+    "filename": 879,
+    "peak_name": "Höchi",
+    "degrees": 39.4,
+    "canton": "ZH",
+    "distance_km": 43
+  },
+  {
+    "altitude": 778,
+    "filename": 778,
+    "peak_name": "Lättenberg",
+    "degrees": 40.7,
+    "canton": "ZH",
+    "distance_km": 42.31
+  },
+  {
+    "altitude": 1133,
+    "filename": 1133,
+    "peak_name": "Hörnli",
+    "degrees": 43.8,
+    "canton": "ZH",
+    "distance_km": 49.16
+  },
+  {
+    "altitude": 1064,
+    "filename": 1064,
+    "peak_name": "Bschlis Gipfel",
+    "degrees": 44.2,
+    "canton": "ZH",
+    "distance_km": 44.84
+  },
+  {
+    "altitude": 1023,
+    "filename": 1023,
+    "peak_name": "Hasenböl",
+    "degrees": 47.1,
+    "canton": "ZH",
+    "distance_km": 45.94
+  },
+  {
+    "altitude": 1210,
+    "filename": 1210,
+    "peak_name": "Gottschalkenberg",
+    "degrees": 47.3,
+    "canton": "ZG",
+    "distance_km": 16.75
+  },
+  {
+    "altitude": 1051,
+    "filename": 1051,
+    "peak_name": "Auenberg",
+    "degrees": 47.5,
+    "canton": "ZH",
+    "distance_km": 40.97
+  },
+  {
+    "altitude": 1148,
+    "filename": 1148,
+    "peak_name": "Roten",
+    "degrees": 48,
+    "canton": "ZH/SG",
+    "distance_km": 49.17
+  },
+  {
+    "altitude": 1110,
+    "filename": 1110,
+    "peak_name": "Bachtel",
+    "degrees": 48.1,
+    "canton": "ZH",
+    "distance_km": 40.31
+  },
+  {
+    "altitude": 1088,
+    "filename": 1088,
+    "peak_name": "Hirzegg",
+    "degrees": 48.6,
+    "canton": "SG/ZH",
+    "distance_km": 48.56
+  },
+  {
+    "altitude": 1232,
+    "filename": 1232,
+    "peak_name": "Hüttchopf",
+    "degrees": 50,
+    "canton": "ZH",
+    "distance_km": 45.24
+  },
+  {
+    "altitude": 1292,
+    "filename": 1292,
+    "peak_name": "Schnebelhorn",
+    "degrees": 50.5,
+    "canton": "ZH/SG",
+    "distance_km": 47.93
+  },
+  {
+    "altitude": 1154,
+    "filename": 1154,
+    "peak_name": "Tössstock",
+    "degrees": 51.7,
+    "canton": "ZH",
+    "distance_km": 45.72
+  },
+  {
+    "altitude": 1314,
+    "filename": 1314,
+    "peak_name": "Höchhand",
+    "degrees": 53.4,
+    "canton": "SG",
+    "distance_km": 46.04
+  },
+  {
+    "altitude": 1286,
+    "filename": 1286,
+    "peak_name": "Schwarzenberg",
+    "degrees": 53.6,
+    "canton": "SG",
+    "distance_km": 44.87
+  },
+  {
+    "altitude": 1332,
+    "filename": 1332,
+    "peak_name": "Tweralpspitz",
+    "degrees": 56.8,
+    "canton": "SG",
+    "distance_km": 48.54
+  },
+  {
+    "altitude": 1098,
+    "filename": 1098,
+    "peak_name": "Etzel",
+    "degrees": 57.1,
+    "canton": "SZ",
+    "distance_km": 25.29
+  },
+  {
+    "altitude": 1087,
+    "filename": 1087,
+    "peak_name": "Köbelberg",
+    "degrees": 57.7,
+    "canton": "SG",
+    "distance_km": 45.13
+  },
+  {
+    "altitude": 1167,
+    "filename": 1167,
+    "peak_name": "Wilkethöchi",
+    "degrees": 58.1,
+    "canton": "SG",
+    "distance_km": 60.9
+  },
+  {
+    "altitude": 961,
+    "filename": 961,
+    "peak_name": "Rorschacherberg",
+    "degrees": 59.1,
+    "canton": "SG",
+    "distance_km": 88.81
+  },
+  {
+    "altitude": 1275,
+    "filename": 1275,
+    "peak_name": "Hochhamm",
+    "degrees": 62.3,
+    "canton": "AR",
+    "distance_km": 64.44
+  },
+  {
+    "altitude": 1251,
+    "filename": 1251,
+    "peak_name": "Gäbris",
+    "degrees": 63,
+    "canton": "AR",
+    "distance_km": 82.7
+  },
+  {
+    "altitude": 1315,
+    "filename": 1315,
+    "peak_name": "Regelstein",
+    "degrees": 63.7,
+    "canton": "SG",
+    "distance_km": 49.7
+  },
+  {
+    "altitude": 1580,
+    "filename": 1580,
+    "peak_name": "Wildspitz",
+    "degrees": 65.4,
+    "canton": "SZ/ZG",
+    "distance_km": 7.66
+  },
+  {
+    "altitude": 1443,
+    "filename": 1443,
+    "peak_name": "Tanzboden",
+    "degrees": 67.9,
+    "canton": "SG",
+    "distance_km": 50.54
+  },
+  {
+    "altitude": 1506,
+    "filename": 1506,
+    "peak_name": "Fänerenspitz",
+    "degrees": 68.1,
+    "canton": "AI",
+    "distance_km": 80.7
+  },
+  {
+    "altitude": 1244,
+    "filename": 1244,
+    "peak_name": "Morgartenberg",
+    "degrees": 68.8,
+    "canton": "SZ",
+    "distance_km": 13.79
+  },
+  {
+    "altitude": 1277,
+    "filename": 1277,
+    "peak_name": "Pfiffegg",
+    "degrees": 69.2,
+    "canton": "SZ",
+    "distance_km": 30.48
+  },
+  {
+    "altitude": 1925,
+    "filename": 1925,
+    "peak_name": "Schäfler",
+    "degrees": 69.4,
+    "canton": "AI",
+    "distance_km": 72.9
+  },
+  {
+    "altitude": 2218,
+    "filename": 2218,
+    "peak_name": "Grauchopf",
+    "degrees": 70.5,
+    "canton": "AR/SG",
+    "distance_km": 67.73
+  },
+  {
+    "altitude": 1781,
+    "filename": 1781,
+    "peak_name": "Stockberg",
+    "degrees": 70.5,
+    "canton": "SG",
+    "distance_km": 60.57
+  },
+  {
+    "altitude": 1327,
+    "filename": 1327,
+    "peak_name": "Rinderweidhorn",
+    "degrees": 70.6,
+    "canton": "SZ",
+    "distance_km": 28.8
+  },
+  {
+    "altitude": 2501,
+    "filename": 2501,
+    "peak_name": "Säntis",
+    "degrees": 70.7,
+    "canton": "AI/AR/SG",
+    "distance_km": 68.5
+  },
+  {
+    "altitude": 2377,
+    "filename": 2377,
+    "peak_name": "Chalbersäntis",
+    "degrees": 71,
+    "canton": "AI/SG",
+    "distance_km": 68.65
+  },
+  {
+    "altitude": 2158,
+    "filename": 2158,
+    "peak_name": "Silberplatten",
+    "degrees": 71,
+    "canton": "SG",
+    "distance_km": 66.29
+  },
+  {
+    "altitude": 2111,
+    "filename": 2111,
+    "peak_name": "Stoss",
+    "degrees": 71.5,
+    "canton": "SG",
+    "distance_km": 65.9
+  },
+  {
+    "altitude": 1987,
+    "filename": 1987,
+    "peak_name": "Lütispitz",
+    "degrees": 72,
+    "canton": "SG",
+    "distance_km": 63.29
+  },
+  {
+    "altitude": 2436,
+    "filename": 2436,
+    "peak_name": "Altmann",
+    "degrees": 72.1,
+    "canton": "AI/SG",
+    "distance_km": 70.22
+  },
+  {
+    "altitude": 2321,
+    "filename": 2321,
+    "peak_name": "Nädliger",
+    "degrees": 72.1,
+    "canton": "AI/SG",
+    "distance_km": 69.59
+  },
+  {
+    "altitude": 2294,
+    "filename": 2294,
+    "peak_name": "Jöchli",
+    "degrees": 72.4,
+    "canton": "SG",
+    "distance_km": 69.13
+  },
+  {
+    "altitude": 1950,
+    "filename": 1950,
+    "peak_name": "Speer",
+    "degrees": 72.5,
+    "canton": "SG",
+    "distance_km": 50.47
+  },
+  {
+    "altitude": 2342,
+    "filename": 2342,
+    "peak_name": "Moor",
+    "degrees": 72.6,
+    "canton": "AI/SG",
+    "distance_km": 69.3
+  },
+  {
+    "altitude": 2373,
+    "filename": 2373,
+    "peak_name": "Wildhuser Schafberg",
+    "degrees": 72.7,
+    "canton": "SG",
+    "distance_km": 68.47
+  },
+  {
+    "altitude": 1865,
+    "filename": 1865,
+    "peak_name": "Federispitz",
+    "degrees": 74.1,
+    "canton": "SG",
+    "distance_km": 47.47
+  },
+  {
+    "altitude": 1936,
+    "filename": 1936,
+    "peak_name": "Mattstock",
+    "degrees": 74.7,
+    "canton": "SG",
+    "distance_km": 50.93
+  },
+  {
+    "altitude": 1428,
+    "filename": 1428,
+    "peak_name": "Lachnerstock",
+    "degrees": 74.9,
+    "canton": "SZ",
+    "distance_km": 38.07
+  },
+  {
+    "altitude": 1789,
+    "filename": 1789,
+    "peak_name": "Gulmen",
+    "degrees": 75.7,
+    "canton": "SG",
+    "distance_km": 54.43
+  },
+  {
+    "altitude": 1479,
+    "filename": 1479,
+    "peak_name": "Nüsellstock",
+    "degrees": 76,
+    "canton": "SZ",
+    "distance_km": 16.41
+  },
+  {
+    "altitude": 1675,
+    "filename": 1675,
+    "peak_name": "Planggenstock",
+    "degrees": 76.6,
+    "canton": "GL",
+    "distance_km": 39.6
+  },
+  {
+    "altitude": 1640,
+    "filename": 1640,
+    "peak_name": "Hirzli",
+    "degrees": 76.8,
+    "canton": "GL",
+    "distance_km": 40.57
+  },
+  {
+    "altitude": 1695,
+    "filename": 1695,
+    "peak_name": "Gross Aubrig",
+    "degrees": 77.7,
+    "canton": "SZ",
+    "distance_km": 30.73
+  },
+  {
+    "altitude": 1642,
+    "filename": 1642,
+    "peak_name": "Chli Aubrig",
+    "degrees": 77.9,
+    "canton": "SZ",
+    "distance_km": 29.19
+  },
+  {
+    "altitude": 1876,
+    "filename": 1876,
+    "peak_name": "Chöpfenberg",
+    "degrees": 78.3,
+    "canton": "GL/SZ",
+    "distance_km": 37.24
+  },
+  {
+    "altitude": 2205,
+    "filename": 2205,
+    "peak_name": "Selun",
+    "degrees": 78.6,
+    "canton": "SG",
+    "distance_km": 59.43
+  },
+  {
+    "altitude": 1491,
+    "filename": 1491,
+    "peak_name": "Amselspitz",
+    "degrees": 78.7,
+    "canton": "SZ",
+    "distance_km": 19.89
+  },
+  {
+    "altitude": 2267,
+    "filename": 2267,
+    "peak_name": "Frümsel",
+    "degrees": 78.8,
+    "canton": "SG",
+    "distance_km": 60.2
+  },
+  {
+    "altitude": 2101,
+    "filename": 2101,
+    "peak_name": "Leistchamm",
+    "degrees": 78.8,
+    "canton": "SG",
+    "distance_km": 56.15
+  },
+  {
+    "altitude": 1777,
+    "filename": 1777,
+    "peak_name": "Brüggler",
+    "degrees": 78.9,
+    "canton": "GL",
+    "distance_km": 38.46
+  },
+  {
+    "altitude": 2098,
+    "filename": 2098,
+    "peak_name": "Glattchamm",
+    "degrees": 78.9,
+    "canton": "SG",
+    "distance_km": 56.67
+  },
+  {
+    "altitude": 2194,
+    "filename": 2194,
+    "peak_name": "Schären",
+    "degrees": 78.9,
+    "canton": "SG",
+    "distance_km": 58.03
+  },
+  {
+    "altitude": 2306,
+    "filename": 2306,
+    "peak_name": "Hinterrugg",
+    "degrees": 79.1,
+    "canton": "SG",
+    "distance_km": 63.17
+  },
+  {
+    "altitude": 2163,
+    "filename": 2163,
+    "peak_name": "Nägeliberg",
+    "degrees": 79.1,
+    "canton": "SG",
+    "distance_km": 57.38
+  },
+  {
+    "altitude": 2208,
+    "filename": 2208,
+    "peak_name": "Rosenböden",
+    "degrees": 79.9,
+    "canton": "SG",
+    "distance_km": 64.32
+  },
+  {
+    "altitude": 2025,
+    "filename": 2025,
+    "peak_name": "Höchst",
+    "degrees": 80.5,
+    "canton": "SG",
+    "distance_km": 66.25
+  },
+  {
+    "altitude": 2225,
+    "filename": 2225,
+    "peak_name": "Rotstein",
+    "degrees": 81.2,
+    "canton": "SG",
+    "distance_km": 68.89
+  },
+  {
+    "altitude": 1932,
+    "filename": 1932,
+    "peak_name": "Bockmattli",
+    "degrees": 81.3,
+    "canton": "SZ",
+    "distance_km": 36.3
+  },
+  {
+    "altitude": 2269,
+    "filename": 2269,
+    "peak_name": "Sichelchamm",
+    "degrees": 81.6,
+    "canton": "SG",
+    "distance_km": 67.12
+  },
+  {
+    "altitude": 2384,
+    "filename": 2384,
+    "peak_name": "Grosser Fulfirst",
+    "degrees": 82.2,
+    "canton": "SG",
+    "distance_km": 69.65
+  },
+  {
+    "altitude": 2044,
+    "filename": 2044,
+    "peak_name": "Schiberg",
+    "degrees": 82.6,
+    "canton": "GL/SZ",
+    "distance_km": 35.82
+  },
+  {
+    "altitude": 2082,
+    "filename": 2082,
+    "peak_name": "Plattenberg",
+    "degrees": 83.3,
+    "canton": "GL/SZ",
+    "distance_km": 36.32
+  },
+  {
+    "altitude": 2133,
+    "filename": 2133,
+    "peak_name": "Brünnelistock",
+    "degrees": 84.3,
+    "canton": "GL/SZ",
+    "distance_km": 37.14
+  },
+  {
+    "altitude": 2075,
+    "filename": 2075,
+    "peak_name": "Rossalpelispitz",
+    "degrees": 84.7,
+    "canton": "GL/SZ",
+    "distance_km": 36.65
+  },
+  {
+    "altitude": 1504,
+    "filename": 1504,
+    "peak_name": "Chli Mutzenstein",
+    "degrees": 84.8,
+    "canton": "SZ",
+    "distance_km": 30.52
+  },
+  {
+    "altitude": 2097,
+    "filename": 2097,
+    "peak_name": "Zindlenspitz",
+    "degrees": 85.6,
+    "canton": "GL/SZ",
+    "distance_km": 36.12
+  },
+  {
+    "altitude": 2390,
+    "filename": 2390,
+    "peak_name": "Mürtschenstock",
+    "degrees": 86,
+    "canton": "GL",
+    "distance_km": 50.33
+  },
+  {
+    "altitude": 2283,
+    "filename": 2283,
+    "peak_name": "Rautispitz",
+    "degrees": 86.8,
+    "canton": "GL",
+    "distance_km": 41.29
+  },
+  {
+    "altitude": 2410,
+    "filename": 2410,
+    "peak_name": "Fulen",
+    "degrees": 86.9,
+    "canton": "GL",
+    "distance_km": 50.13
+  },
+  {
+    "altitude": 1616,
+    "filename": 1616,
+    "peak_name": "Gschwändstock",
+    "degrees": 87,
+    "canton": "SZ",
+    "distance_km": 19.91
+  },
+  {
+    "altitude": 2027,
+    "filename": 2027,
+    "peak_name": "Lachenstock",
+    "degrees": 87.3,
+    "canton": "GL/SZ",
+    "distance_km": 35.86
+  },
+  {
+    "altitude": 2441,
+    "filename": 2441,
+    "peak_name": "Ruchen",
+    "degrees": 87.3,
+    "canton": "GL",
+    "distance_km": 50.07
+  },
+  {
+    "altitude": 2282,
+    "filename": 2282,
+    "peak_name": "Wiggis",
+    "degrees": 87.7,
+    "canton": "GL",
+    "distance_km": 41.12
+  },
+  {
+    "altitude": 2093,
+    "filename": 2093,
+    "peak_name": "Fluebrig",
+    "degrees": 88,
+    "canton": "SZ",
+    "distance_km": 30.24
+  },
+  {
+    "altitude": 2245,
+    "filename": 2245,
+    "peak_name": "Chli Gumen",
+    "degrees": 88.4,
+    "canton": "GL",
+    "distance_km": 39.08
+  },
+  {
+    "altitude": 2256,
+    "filename": 2256,
+    "peak_name": "Gumenstock",
+    "degrees": 88.4,
+    "canton": "GL",
+    "distance_km": 39.48
+  },
+  {
+    "altitude": 1566,
+    "filename": 1566,
+    "peak_name": "Hochstuckli",
+    "degrees": 88.6,
+    "canton": "SZ",
+    "distance_km": 14.02
+  },
+  {
+    "altitude": 2259,
+    "filename": 2259,
+    "peak_name": "Schijen",
+    "degrees": 88.6,
+    "canton": "GL",
+    "distance_km": 38.48
+  },
+  {
+    "altitude": 2069,
+    "filename": 2069,
+    "peak_name": "Turner",
+    "degrees": 88.6,
+    "canton": "SZ",
+    "distance_km": 30.7
+  },
+  {
+    "altitude": 2317,
+    "filename": 2317,
+    "peak_name": "Gulmen",
+    "degrees": 89.1,
+    "canton": "SG",
+    "distance_km": 55.92
+  },
+  {
+    "altitude": 2080,
+    "filename": 2080,
+    "peak_name": "Redertengrat",
+    "degrees": 89.4,
+    "canton": "GL/SZ",
+    "distance_km": 35.28
+  },
+  {
+    "altitude": 2294,
+    "filename": 2294,
+    "peak_name": "Mutteristock",
+    "degrees": 90.5,
+    "canton": "GL/SZ",
+    "distance_km": 34.77
+  },
+  {
+    "altitude": 2385,
+    "filename": 2385,
+    "peak_name": "Schwarzstöckli",
+    "degrees": 91.2,
+    "canton": "GL",
+    "distance_km": 49.34
+  },
+  {
+    "altitude": 1789,
+    "filename": 1789,
+    "peak_name": "Leiterenstollen",
+    "degrees": 91.4,
+    "canton": "SZ",
+    "distance_km": 27.41
+  },
+  {
+    "altitude": 1970,
+    "filename": 1970,
+    "peak_name": "Gantspitz",
+    "degrees": 91.7,
+    "canton": "SZ",
+    "distance_km": 30.06
+  },
+  {
+    "altitude": 2524,
+    "filename": 2524,
+    "peak_name": "Magerrain",
+    "degrees": 91.7,
+    "canton": "GL/SG",
+    "distance_km": 55.9
+  },
+  {
+    "altitude": 2384,
+    "filename": 2384,
+    "peak_name": "Heustock",
+    "degrees": 91.9,
+    "canton": "GL",
+    "distance_km": 49.35
+  },
+  {
+    "altitude": 2179,
+    "filename": 2179,
+    "peak_name": "Ochsenchopf",
+    "degrees": 92.3,
+    "canton": "GL/SZ",
+    "distance_km": 33.48
+  },
+  {
+    "altitude": 2400,
+    "filename": 2400,
+    "peak_name": "Chli Höch",
+    "degrees": 92.4,
+    "canton": "GL",
+    "distance_km": 49.69
+  },
+  {
+    "altitude": 2489,
+    "filename": 2489,
+    "peak_name": "Rottor",
+    "degrees": 92.4,
+    "canton": "GL/SG",
+    "distance_km": 52.52
+  },
+  {
+    "altitude": 1988,
+    "filename": 1988,
+    "peak_name": "Wannenstöckli",
+    "degrees": 92.4,
+    "canton": "GL/SZ",
+    "distance_km": 32.68
+  },
+  {
+    "altitude": 2496,
+    "filename": 2496,
+    "peak_name": "Bützistock",
+    "degrees": 92.5,
+    "canton": "GL/SG",
+    "distance_km": 52.59
+  },
+  {
+    "altitude": 2471,
+    "filename": 2471,
+    "peak_name": "Heustock",
+    "degrees": 92.7,
+    "canton": "GL/SG",
+    "distance_km": 52.94
+  },
+  {
+    "altitude": 2426,
+    "filename": 2426,
+    "peak_name": "Höch",
+    "degrees": 92.7,
+    "canton": "GL",
+    "distance_km": 50
+  },
+  {
+    "altitude": 2436,
+    "filename": 2436,
+    "peak_name": "Gufelstock",
+    "degrees": 93,
+    "canton": "GL",
+    "distance_km": 50.38
+  },
+  {
+    "altitude": 2004,
+    "filename": 2004,
+    "peak_name": "Wänifirst",
+    "degrees": 93.1,
+    "canton": "SZ",
+    "distance_km": 30.23
+  },
+  {
+    "altitude": 1966,
+    "filename": 1966,
+    "peak_name": "Biet",
+    "degrees": 93.6,
+    "canton": "SZ",
+    "distance_km": 27.13
+  },
+  {
+    "altitude": 2396,
+    "filename": 2396,
+    "peak_name": "Breitchamm",
+    "degrees": 93.6,
+    "canton": "GL",
+    "distance_km": 50.37
+  },
+  {
+    "altitude": 2327,
+    "filename": 2327,
+    "peak_name": "Vorder Glärnisch",
+    "degrees": 94.2,
+    "canton": "GL",
+    "distance_km": 42.42
+  },
+  {
+    "altitude": 2320,
+    "filename": 2320,
+    "peak_name": "Güntelchamm",
+    "degrees": 94.6,
+    "canton": "GL",
+    "distance_km": 50.52
+  },
+  {
+    "altitude": 2473,
+    "filename": 2473,
+    "peak_name": "Schnüerligrat",
+    "degrees": 94.6,
+    "canton": "SG",
+    "distance_km": 60.53
+  },
+  {
+    "altitude": 2073,
+    "filename": 2073,
+    "peak_name": "Fläschenspitz",
+    "degrees": 95.2,
+    "canton": "SZ",
+    "distance_km": 29.53
+  },
+  {
+    "altitude": 1811,
+    "filename": 1811,
+    "peak_name": "Kleiner Mythen",
+    "degrees": 95.8,
+    "canton": "SZ",
+    "distance_km": 15.26
+  },
+  {
+    "altitude": 2901,
+    "filename": 2901,
+    "peak_name": "Ruchen",
+    "degrees": 96.5,
+    "canton": "GL",
+    "distance_km": 39.55
+  },
+  {
+    "altitude": 2107,
+    "filename": 2107,
+    "peak_name": "Milchplanggenstock",
+    "degrees": 97.6,
+    "canton": "GL",
+    "distance_km": 35.12
+  },
+  {
+    "altitude": 2883,
+    "filename": 2883,
+    "peak_name": "Schwander Grat",
+    "degrees": 97.6,
+    "canton": "GL",
+    "distance_km": 40.08
+  },
+  {
+    "altitude": 2627,
+    "filename": 2627,
+    "peak_name": "Inner Fürberg",
+    "degrees": 97.7,
+    "canton": "GL",
+    "distance_km": 37.98
+  },
+  {
+    "altitude": 2605,
+    "filename": 2605,
+    "peak_name": "Usser Fürberg",
+    "degrees": 97.7,
+    "canton": "GL",
+    "distance_km": 37.14
+  },
+  {
+    "altitude": 2446,
+    "filename": 2446,
+    "peak_name": "Näbelchäppler",
+    "degrees": 97.9,
+    "canton": "GL",
+    "distance_km": 36.41
+  },
+  {
+    "altitude": 1778,
+    "filename": 1778,
+    "peak_name": "Roggenstock",
+    "degrees": 98.3,
+    "canton": "SZ",
+    "distance_km": 23.44
+  },
+  {
+    "altitude": 2057,
+    "filename": 2057,
+    "peak_name": "Lauiberg",
+    "degrees": 98.4,
+    "canton": "SZ",
+    "distance_km": 28.99
+  },
+  {
+    "altitude": 2915,
+    "filename": 2915,
+    "peak_name": "Glärnisch",
+    "degrees": 98.5,
+    "canton": "GL",
+    "distance_km": 39.56
+  },
+  {
+    "altitude": 2025,
+    "filename": 2025,
+    "peak_name": "Rütistein",
+    "degrees": 99.2,
+    "canton": "SZ",
+    "distance_km": 27.35
+  },
+  {
+    "altitude": 2637,
+    "filename": 2637,
+    "peak_name": "Bächihorn",
+    "degrees": 99.3,
+    "canton": "GL",
+    "distance_km": 38.16
+  },
+  {
+    "altitude": 2914,
+    "filename": 2914,
+    "peak_name": "Bächistock",
+    "degrees": 99.6,
+    "canton": "GL",
+    "distance_km": 38.94
+  },
+  {
+    "altitude": 2117,
+    "filename": 2117,
+    "peak_name": "Twäriberg",
+    "degrees": 99.6,
+    "canton": "SZ",
+    "distance_km": 27.04
+  },
+  {
+    "altitude": 1899,
+    "filename": 1899,
+    "peak_name": "Grosser Mythen",
+    "degrees": 100.1,
+    "canton": "SZ",
+    "distance_km": 15.75
+  },
+  {
+    "altitude": 2661,
+    "filename": 2661,
+    "peak_name": "Rad",
+    "degrees": 100.9,
+    "canton": "GL",
+    "distance_km": 38.4
+  },
+  {
+    "altitude": 2215,
+    "filename": 2215,
+    "peak_name": "Höch Hund",
+    "degrees": 101,
+    "canton": "SZ",
+    "distance_km": 28.12
+  },
+  {
+    "altitude": 2282,
+    "filename": 2282,
+    "peak_name": "Druesberg",
+    "degrees": 101.5,
+    "canton": "SZ",
+    "distance_km": 27.12
+  },
+  {
+    "altitude": 2657,
+    "filename": 2657,
+    "peak_name": "Bösbächistock ",
+    "degrees": 102,
+    "canton": "GL",
+    "distance_km": 38.41
+  },
+  {
+    "altitude": 1572,
+    "filename": 1572,
+    "peak_name": "Gross Schijen",
+    "degrees": 102.5,
+    "canton": "SZ",
+    "distance_km": 20.14
+  },
+  {
+    "altitude": 2215,
+    "filename": 2215,
+    "peak_name": "Forstberg",
+    "degrees": 102.7,
+    "canton": "SZ",
+    "distance_km": 26.47
+  },
+  {
+    "altitude": 3056,
+    "filename": 3056,
+    "peak_name": "Piz Sardona",
+    "degrees": 103.3,
+    "canton": "GL/SG",
+    "distance_km": 60.17
+  },
+  {
+    "altitude": 2541,
+    "filename": 2541,
+    "peak_name": "Hinter Gassenstock",
+    "degrees": 103.7,
+    "canton": "GL",
+    "distance_km": 36.45
+  },
+  {
+    "altitude": 1590,
+    "filename": 1590,
+    "peak_name": "Hudelschijen",
+    "degrees": 104.1,
+    "canton": "SZ",
+    "distance_km": 20.2
+  },
+  {
+    "altitude": 2802,
+    "filename": 2802,
+    "peak_name": "Bös Fulen",
+    "degrees": 104.9,
+    "canton": "GL/SZ",
+    "distance_km": 36.4
+  },
+  {
+    "altitude": 1771,
+    "filename": 1771,
+    "peak_name": "Spirstock",
+    "degrees": 105,
+    "canton": "SZ",
+    "distance_km": 22.64
+  },
+  {
+    "altitude": 2721,
+    "filename": 2721,
+    "peak_name": "Grisset",
+    "degrees": 106.2,
+    "canton": "SZ",
+    "distance_km": 35.97
+  },
+  {
+    "altitude": 2573,
+    "filename": 2573,
+    "peak_name": "Pfannenstock",
+    "degrees": 107.1,
+    "canton": "SZ",
+    "distance_km": 34.08
+  },
+  {
+    "altitude": 2342,
+    "filename": 2342,
+    "peak_name": "Chli Pfannenstock",
+    "degrees": 107.3,
+    "canton": "SZ",
+    "distance_km": 33.43
+  },
+  {
+    "altitude": 2898,
+    "filename": 2898,
+    "peak_name": "Piz Grisch",
+    "degrees": 108.4,
+    "canton": "GL/GR",
+    "distance_km": 58.01
+  },
+  {
+    "altitude": 2805,
+    "filename": 2805,
+    "peak_name": "Gletscherhorn",
+    "degrees": 108.9,
+    "canton": "GL",
+    "distance_km": 55.35
+  },
+  {
+    "altitude": 2561,
+    "filename": 2561,
+    "peak_name": "Hanenstock",
+    "degrees": 109.1,
+    "canton": "GL",
+    "distance_km": 47.7
+  },
+  {
+    "altitude": 2401,
+    "filename": 2401,
+    "peak_name": "Flätstock",
+    "degrees": 109.3,
+    "canton": "SZ",
+    "distance_km": 36.98
+  },
+  {
+    "altitude": 3028,
+    "filename": 3028,
+    "peak_name": "Bündner Vorab",
+    "degrees": 110.7,
+    "canton": "GL/GR",
+    "distance_km": 54.99
+  },
+  {
+    "altitude": 2666,
+    "filename": 2666,
+    "peak_name": "Höch Turm",
+    "degrees": 111.1,
+    "canton": "SZ",
+    "distance_km": 36.96
+  },
+  {
+    "altitude": 2717,
+    "filename": 2717,
+    "peak_name": "Ortstock",
+    "degrees": 111.6,
+    "canton": "GL/SZ",
+    "distance_km": 38.12
+  },
+  {
+    "altitude": 2012,
+    "filename": 2012,
+    "peak_name": "Mandlieggen",
+    "degrees": 111.9,
+    "canton": "SZ",
+    "distance_km": 33.2
+  },
+  {
+    "altitude": 2426,
+    "filename": 2426,
+    "peak_name": "Gross Chilchberg",
+    "degrees": 112.5,
+    "canton": "SZ",
+    "distance_km": 35.31
+  },
+  {
+    "altitude": 2610,
+    "filename": 2610,
+    "peak_name": "Schijen",
+    "degrees": 113,
+    "canton": "GL/SZ/UR",
+    "distance_km": 37.47
+  },
+  {
+    "altitude": 2269,
+    "filename": 2269,
+    "peak_name": "Chli Chilchberg",
+    "degrees": 113.2,
+    "canton": "SZ",
+    "distance_km": 34.77
+  },
+  {
+    "altitude": 3158,
+    "filename": 3158,
+    "peak_name": "Hausstock",
+    "degrees": 113.7,
+    "canton": "GR",
+    "distance_km": 48.6
+  },
+  {
+    "altitude": 2678,
+    "filename": 2678,
+    "peak_name": "Vorstegstock",
+    "degrees": 114,
+    "canton": "GL",
+    "distance_km": 45.48
+  },
+  {
+    "altitude": 2810,
+    "filename": 2810,
+    "peak_name": "Scheidstöckli",
+    "degrees": 114.9,
+    "canton": "GL",
+    "distance_km": 45.73
+  },
+  {
+    "altitude": 3036,
+    "filename": 3036,
+    "peak_name": "Chli Ruchi",
+    "degrees": 115.1,
+    "canton": "GL/GR",
+    "distance_km": 47.97
+  },
+  {
+    "altitude": 3107,
+    "filename": 3107,
+    "peak_name": "Ruchi",
+    "degrees": 115.6,
+    "canton": "GL/GR",
+    "distance_km": 47.65
+  },
+  {
+    "altitude": 2850,
+    "filename": 2850,
+    "peak_name": "Rüchi",
+    "degrees": 115.8,
+    "canton": "GL",
+    "distance_km": 45.4
+  },
+  {
+    "altitude": 2584,
+    "filename": 2584,
+    "peak_name": "Jegerstöck",
+    "degrees": 115.9,
+    "canton": "SZ/UR",
+    "distance_km": 36.25
+  },
+  {
+    "altitude": 2109,
+    "filename": 2109,
+    "peak_name": "Pfaff",
+    "degrees": 116,
+    "canton": "SZ",
+    "distance_km": 32.72
+  },
+  {
+    "altitude": 2893,
+    "filename": 2893,
+    "peak_name": "Nüschenstock",
+    "degrees": 116.3,
+    "canton": "GL",
+    "distance_km": 45.64
+  },
+  {
+    "altitude": 2573,
+    "filename": 2573,
+    "peak_name": "Signalstock",
+    "degrees": 116.4,
+    "canton": "SZ/UR",
+    "distance_km": 36.15
+  },
+  {
+    "altitude": 2086,
+    "filename": 2086,
+    "peak_name": "Geissstock",
+    "degrees": 116.9,
+    "canton": "SZ",
+    "distance_km": 27.31
+  },
+  {
+    "altitude": 3089,
+    "filename": 3089,
+    "peak_name": "Muttenstock",
+    "degrees": 117.3,
+    "canton": "GL/GR",
+    "distance_km": 48.46
+  },
+  {
+    "altitude": 3025,
+    "filename": 3025,
+    "peak_name": "Piz Gavirolas",
+    "degrees": 117.7,
+    "canton": "GR",
+    "distance_km": 49.01
+  },
+  {
+    "altitude": 2502,
+    "filename": 2502,
+    "peak_name": "Rot Nossen",
+    "degrees": 117.8,
+    "canton": "SZ/UR",
+    "distance_km": 35.58
+  },
+  {
+    "altitude": 2956,
+    "filename": 2956,
+    "peak_name": "Muttenbergen",
+    "degrees": 118.4,
+    "canton": "GL/GR",
+    "distance_km": 48.2
+  },
+  {
+    "altitude": 2138,
+    "filename": 2138,
+    "peak_name": "Lauiberg",
+    "degrees": 119,
+    "canton": "UR",
+    "distance_km": 25.96
+  },
+  {
+    "altitude": 2486,
+    "filename": 2486,
+    "peak_name": "Läckistock",
+    "degrees": 119.3,
+    "canton": "UR",
+    "distance_km": 35.23
+  },
+  {
+    "altitude": 2323,
+    "filename": 2323,
+    "peak_name": "Mären",
+    "degrees": 119.8,
+    "canton": "SZ",
+    "distance_km": 33.81
+  },
+  {
+    "altitude": 2137,
+    "filename": 2137,
+    "peak_name": "Träsmerenhöreli",
+    "degrees": 119.8,
+    "canton": "SZ",
+    "distance_km": 27.13
+  },
+  {
+    "altitude": 2751,
+    "filename": 2751,
+    "peak_name": "Hauserhorn",
+    "degrees": 120,
+    "canton": "GL",
+    "distance_km": 44.24
+  },
+  {
+    "altitude": 2471,
+    "filename": 2471,
+    "peak_name": "Rotstock",
+    "degrees": 120,
+    "canton": "GL/UR",
+    "distance_km": 40.4
+  },
+  {
+    "altitude": 2751,
+    "filename": 2751,
+    "peak_name": "Vorder Selbsanft",
+    "degrees": 120,
+    "canton": "GL",
+    "distance_km": 44.24
+  },
+  {
+    "altitude": 2155,
+    "filename": 2155,
+    "peak_name": "Wiss Nollen",
+    "degrees": 120.7,
+    "canton": "SZ",
+    "distance_km": 24.07
+  },
+  {
+    "altitude": 2232,
+    "filename": 2232,
+    "peak_name": "Misthufen",
+    "degrees": 121.6,
+    "canton": "SZ",
+    "distance_km": 24.03
+  },
+  {
+    "altitude": 1767,
+    "filename": 1767,
+    "peak_name": "Mälchstöckli",
+    "degrees": 121.6,
+    "canton": "SZ",
+    "distance_km": 19.98
+  },
+  {
+    "altitude": 2175,
+    "filename": 2175,
+    "peak_name": "Gross Achslenstock",
+    "degrees": 122,
+    "canton": "SZ",
+    "distance_km": 23.22
+  },
+  {
+    "altitude": 2020,
+    "filename": 2020,
+    "peak_name": "Chli Achslenstock",
+    "degrees": 122.2,
+    "canton": "SZ",
+    "distance_km": 22.88
+  },
+  {
+    "altitude": 2380,
+    "filename": 2380,
+    "peak_name": "Alpler Horn",
+    "degrees": 122.6,
+    "canton": "UR",
+    "distance_km": 29.43
+  },
+  {
+    "altitude": 2972,
+    "filename": 2972,
+    "peak_name": "Gemsfairenstock",
+    "degrees": 122.6,
+    "canton": "GL/UR",
+    "distance_km": 39.49
+  },
+  {
+    "altitude": 1915,
+    "filename": 1915,
+    "peak_name": "Sisiger Spitz",
+    "degrees": 123.2,
+    "canton": "SZ",
+    "distance_km": 20.35
+  },
+  {
+    "altitude": 2505,
+    "filename": 2505,
+    "peak_name": "Glatten",
+    "degrees": 123.5,
+    "canton": "UR",
+    "distance_km": 34.5
+  },
+  {
+    "altitude": 2232,
+    "filename": 2232,
+    "peak_name": "Rupperslauistöckli",
+    "degrees": 123.5,
+    "canton": "UR",
+    "distance_km": 23.54
+  },
+  {
+    "altitude": 2081,
+    "filename": 2081,
+    "peak_name": "Höreli",
+    "degrees": 123.8,
+    "canton": "SZ",
+    "distance_km": 22.72
+  },
+  {
+    "altitude": 2967,
+    "filename": 2967,
+    "peak_name": "Speichstock",
+    "degrees": 124,
+    "canton": "GL/UR",
+    "distance_km": 38.81
+  },
+  {
+    "altitude": 2383,
+    "filename": 2383,
+    "peak_name": "Blüemberg",
+    "degrees": 124.5,
+    "canton": "SZ/UR",
+    "distance_km": 23.3
+  },
+  {
+    "altitude": 2961,
+    "filename": 2961,
+    "peak_name": "Tüfels Stöck",
+    "degrees": 124.6,
+    "canton": "GL/UR",
+    "distance_km": 38.8
+  },
+  {
+    "altitude": 1890,
+    "filename": 1890,
+    "peak_name": "Hengst",
+    "degrees": 124.8,
+    "canton": "SZ",
+    "distance_km": 19.08
+  },
+  {
+    "altitude": 2451,
+    "filename": 2451,
+    "peak_name": "Chronenstock",
+    "degrees": 125.4,
+    "canton": "SZ/UR",
+    "distance_km": 23.71
+  },
+  {
+    "altitude": 3079,
+    "filename": 3079,
+    "peak_name": "Bocktschingel",
+    "degrees": 125.7,
+    "canton": "GL/UR",
+    "distance_km": 38.71
+  },
+  {
+    "altitude": 1935,
+    "filename": 1935,
+    "peak_name": "Chlingenstock",
+    "degrees": 126.6,
+    "canton": "SZ",
+    "distance_km": 18.14
+  },
+  {
+    "altitude": 2515,
+    "filename": 2515,
+    "peak_name": "Chaiserstock",
+    "degrees": 126.8,
+    "canton": "SZ/UR",
+    "distance_km": 23.37
+  },
+  {
+    "altitude": 3419,
+    "filename": 3419,
+    "peak_name": "Bifertenstock\nDurschin",
+    "degrees": 127,
+    "canton": "GL/GR",
+    "distance_km": 45.62
+  },
+  {
+    "altitude": 2527,
+    "filename": 2527,
+    "peak_name": "Schwarz Stock",
+    "degrees": 127.1,
+    "canton": "UR",
+    "distance_km": 28.43
+  },
+  {
+    "altitude": 3390,
+    "filename": 3390,
+    "peak_name": "Sandgipfel",
+    "degrees": 127.4,
+    "canton": "GL",
+    "distance_km": 42.56
+  },
+  {
+    "altitude": 2764,
+    "filename": 2764,
+    "peak_name": "Schächentaler Windgällen",
+    "degrees": 127.9,
+    "canton": "UR",
+    "distance_km": 29.93
+  },
+  {
+    "altitude": 3268,
+    "filename": 3268,
+    "peak_name": "Clariden",
+    "degrees": 128.2,
+    "canton": "GL/UR",
+    "distance_km": 37.85
+  },
+  {
+    "altitude": 3586,
+    "filename": 3586,
+    "peak_name": "Glarner Tödi",
+    "degrees": 128.9,
+    "canton": "GL",
+    "distance_km": 42.59
+  },
+  {
+    "altitude": 3614,
+    "filename": 3614,
+    "peak_name": "Piz Russein",
+    "degrees": 128.9,
+    "canton": "GL/GR",
+    "distance_km": 42.61
+  },
+  {
+    "altitude": 2459,
+    "filename": 2459,
+    "peak_name": "Höch Pfaffen",
+    "degrees": 129.2,
+    "canton": "UR",
+    "distance_km": 27.86
+  },
+  {
+    "altitude": 1921,
+    "filename": 1921,
+    "peak_name": "Fronalpstock",
+    "degrees": 129.6,
+    "canton": "SZ",
+    "distance_km": 15.17
+  },
+  {
+    "altitude": 2018,
+    "filename": 2018,
+    "peak_name": "Höch Egg",
+    "degrees": 129.8,
+    "canton": "SZ",
+    "distance_km": 21.98
+  },
+  {
+    "altitude": 3432,
+    "filename": 3432,
+    "peak_name": "Piz Dado",
+    "degrees": 129.8,
+    "canton": "GL/GR",
+    "distance_km": 43.14
+  },
+  {
+    "altitude": 2256,
+    "filename": 2256,
+    "peak_name": "Gross Tisch",
+    "degrees": 130.4,
+    "canton": "SZ",
+    "distance_km": 22.43
+  },
+  {
+    "altitude": 2491,
+    "filename": 2491,
+    "peak_name": "Fulen",
+    "degrees": 130.5,
+    "canton": "SZ/UR",
+    "distance_km": 23.28
+  },
+  {
+    "altitude": 3214,
+    "filename": 3214,
+    "peak_name": "Chammliberg",
+    "degrees": 130.8,
+    "canton": "UR",
+    "distance_km": 36.69
+  },
+  {
+    "altitude": 1698,
+    "filename": 1698,
+    "peak_name": "Rigi Hochflue",
+    "degrees": 131.6,
+    "canton": "SZ",
+    "distance_km": 7.67
+  },
+  {
+    "altitude": 2461,
+    "filename": 2461,
+    "peak_name": "Rossstock",
+    "degrees": 131.7,
+    "canton": "SZ/UR",
+    "distance_km": 22.95
+  },
+  {
+    "altitude": 3102,
+    "filename": 3102,
+    "peak_name": "Heimstock",
+    "degrees": 132.6,
+    "canton": "GR/UR",
+    "distance_km": 40.35
+  },
+  {
+    "altitude": 2270,
+    "filename": 2270,
+    "peak_name": "Spilauer Stock",
+    "degrees": 133.3,
+    "canton": "UR",
+    "distance_km": 22.52
+  },
+  {
+    "altitude": 3295,
+    "filename": 3295,
+    "peak_name": "Gross Schärhorn",
+    "degrees": 133.4,
+    "canton": "UR",
+    "distance_km": 36.57
+  },
+  {
+    "altitude": 3234,
+    "filename": 3234,
+    "peak_name": "Chli Schärhorn",
+    "degrees": 133.6,
+    "canton": "UR",
+    "distance_km": 36.17
+  },
+  {
+    "altitude": 2213,
+    "filename": 2213,
+    "peak_name": "Hundstock",
+    "degrees": 133.6,
+    "canton": "UR",
+    "distance_km": 21
+  },
+  {
+    "altitude": 2664,
+    "filename": 2664,
+    "peak_name": "Vorder Griessstock",
+    "degrees": 134,
+    "canton": "UR",
+    "distance_km": 34.22
+  },
+  {
+    "altitude": 2183,
+    "filename": 2183,
+    "peak_name": "Hagelstöckli",
+    "degrees": 134.1,
+    "canton": "UR",
+    "distance_km": 22.32
+  },
+  {
+    "altitude": 2180,
+    "filename": 2180,
+    "peak_name": "Siwfass",
+    "degrees": 134.5,
+    "canton": "UR",
+    "distance_km": 21.45
+  },
+  {
+    "altitude": 2024,
+    "filename": 2024,
+    "peak_name": "Dibistock",
+    "degrees": 134.7,
+    "canton": "UR",
+    "distance_km": 19.8
+  },
+  {
+    "altitude": 2717,
+    "filename": 2717,
+    "peak_name": "Mittler Griessstock",
+    "degrees": 135,
+    "canton": "UR",
+    "distance_km": 34.45
+  },
+  {
+    "altitude": 2182,
+    "filename": 2182,
+    "peak_name": "Hagelstock",
+    "degrees": 135.2,
+    "canton": "UR",
+    "distance_km": 21.55
+  },
+  {
+    "altitude": 2222,
+    "filename": 2222,
+    "peak_name": "Diepen",
+    "degrees": 136.1,
+    "canton": "UR",
+    "distance_km": 20.12
+  },
+  {
+    "altitude": 2944,
+    "filename": 2944,
+    "peak_name": "Chli Ruchen",
+    "degrees": 136.9,
+    "canton": "UR",
+    "distance_km": 35.36
+  },
+  {
+    "altitude": 2087,
+    "filename": 2087,
+    "peak_name": "Äbneter Stöckli",
+    "degrees": 137,
+    "canton": "UR",
+    "distance_km": 19.54
+  },
+  {
+    "altitude": 3256,
+    "filename": 3256,
+    "peak_name": "Piz Git",
+    "degrees": 137.6,
+    "canton": "GR/UR",
+    "distance_km": 39.35
+  },
+  {
+    "altitude": 2296,
+    "filename": 2296,
+    "peak_name": "Chli Spitzen",
+    "degrees": 138,
+    "canton": "UR",
+    "distance_km": 30.36
+  },
+  {
+    "altitude": 3127,
+    "filename": 3127,
+    "peak_name": "Chli Düssi",
+    "degrees": 138.1,
+    "canton": "GR/UR",
+    "distance_km": 39.56
+  },
+  {
+    "altitude": 2400,
+    "filename": 2400,
+    "peak_name": "Gross Spitzen",
+    "degrees": 138.5,
+    "canton": "UR",
+    "distance_km": 30.04
+  },
+  {
+    "altitude": 2825,
+    "filename": 2825,
+    "peak_name": "Chanzeli",
+    "degrees": 138.6,
+    "canton": "UR",
+    "distance_km": 35.25
+  },
+  {
+    "altitude": 2078,
+    "filename": 2078,
+    "peak_name": "Rophaien",
+    "degrees": 138.6,
+    "canton": "UR",
+    "distance_km": 18.84
+  },
+  {
+    "altitude": 2404,
+    "filename": 2404,
+    "peak_name": "Blauw Höreli",
+    "degrees": 138.9,
+    "canton": "UR",
+    "distance_km": 29.99
+  },
+  {
+    "altitude": 1662,
+    "filename": 1662,
+    "peak_name": "Rigi Scheidegg",
+    "degrees": 139.7,
+    "canton": "SZ",
+    "distance_km": 4.16
+  },
+  {
+    "altitude": 3138,
+    "filename": 3138,
+    "peak_name": "Gross Ruchen",
+    "degrees": 140.3,
+    "canton": "UR",
+    "distance_km": 35.17
+  },
+  {
+    "altitude": 2473,
+    "filename": 2473,
+    "peak_name": "Blinzi",
+    "degrees": 141.1,
+    "canton": "UR",
+    "distance_km": 30.26
+  },
+  {
+    "altitude": 2933,
+    "filename": 2933,
+    "peak_name": "Pucher",
+    "degrees": 142.1,
+    "canton": "UR",
+    "distance_km": 34.72
+  },
+  {
+    "altitude": 2445,
+    "filename": 2445,
+    "peak_name": "Sittliser",
+    "degrees": 142.2,
+    "canton": "UR",
+    "distance_km": 30.77
+  },
+  {
+    "altitude": 2286,
+    "filename": 2286,
+    "peak_name": "Burg",
+    "degrees": 142.7,
+    "canton": "UR",
+    "distance_km": 29.27
+  },
+  {
+    "altitude": 2842,
+    "filename": 2842,
+    "peak_name": "Gwasmet",
+    "degrees": 142.7,
+    "canton": "UR",
+    "distance_km": 34.56
+  },
+  {
+    "altitude": 2903,
+    "filename": 2903,
+    "peak_name": "Wiss Stöckli",
+    "degrees": 143.3,
+    "canton": "UR",
+    "distance_km": 33.99
+  },
+  {
+    "altitude": 2918,
+    "filename": 2918,
+    "peak_name": "Stäfelstock",
+    "degrees": 143.6,
+    "canton": "UR",
+    "distance_km": 33.46
+  },
+  {
+    "altitude": 2387,
+    "filename": 2387,
+    "peak_name": "Plattigrat",
+    "degrees": 143.7,
+    "canton": "UR",
+    "distance_km": 30.37
+  },
+  {
+    "altitude": 2568,
+    "filename": "2568_2",
+    "peak_name": "Schwarz Stöckli",
+    "degrees": 143.8,
+    "canton": "UR",
+    "distance_km": 32.55
+  },
+  {
+    "altitude": 3188,
+    "filename": 3188,
+    "peak_name": "Gross Windgällen",
+    "degrees": 145,
+    "canton": "UR",
+    "distance_km": 33.5
+  },
+  {
+    "altitude": 2506,
+    "filename": 2506,
+    "peak_name": "Hoch Fulen",
+    "degrees": 145.3,
+    "canton": "UR",
+    "distance_km": 30.24
+  },
+  {
+    "altitude": 2470,
+    "filename": 2470,
+    "peak_name": "Rot Grat",
+    "degrees": 146.2,
+    "canton": "UR",
+    "distance_km": 30.83
+  },
+  {
+    "altitude": 2822,
+    "filename": 2822,
+    "peak_name": "Rot Horn",
+    "degrees": 147.1,
+    "canton": "UR",
+    "distance_km": 33.4
+  },
+  {
+    "altitude": 3328,
+    "filename": 3328,
+    "peak_name": "Piz Tgietschen",
+    "degrees": 147.3,
+    "canton": "GR/UR",
+    "distance_km": 41.08
+  },
+  {
+    "altitude": 2463,
+    "filename": 2463,
+    "peak_name": "Rinderstock",
+    "degrees": 147.3,
+    "canton": "UR",
+    "distance_km": 30.89
+  },
+  {
+    "altitude": 2986,
+    "filename": 2986,
+    "peak_name": "Chli Windgällen",
+    "degrees": 148,
+    "canton": "UR",
+    "distance_km": 33.93
+  },
+  {
+    "altitude": 2416,
+    "filename": 2416,
+    "peak_name": "Bälmeten",
+    "degrees": 148.5,
+    "canton": "UR",
+    "distance_km": 29.16
+  },
+  {
+    "altitude": 2089,
+    "filename": 2089,
+    "peak_name": "Chapuziner",
+    "degrees": 149.3,
+    "canton": "UR",
+    "distance_km": 29.51
+  },
+  {
+    "altitude": 3016,
+    "filename": 3016,
+    "peak_name": "Witenalpstock",
+    "degrees": 149.9,
+    "canton": "GR/UR",
+    "distance_km": 40.89
+  },
+  {
+    "altitude": 2021,
+    "filename": 2021,
+    "peak_name": "Griggeler",
+    "degrees": 150,
+    "canton": "UR",
+    "distance_km": 28.07
+  },
+  {
+    "altitude": 2613,
+    "filename": 2613,
+    "peak_name": "Etzlibergstock",
+    "degrees": 150.8,
+    "canton": "UR",
+    "distance_km": 40.17
+  },
+  {
+    "altitude": 2788,
+    "filename": 2788,
+    "peak_name": "Gwasmet",
+    "degrees": 150.8,
+    "canton": "GR/UR",
+    "distance_km": 41.51
+  },
+  {
+    "altitude": 2709,
+    "filename": 2709,
+    "peak_name": "Chrüzlistock",
+    "degrees": 152,
+    "canton": "GR/UR",
+    "distance_km": 42.73
+  },
+  {
+    "altitude": 3109,
+    "filename": 3109,
+    "peak_name": "Piz Vallatscha",
+    "degrees": 152.5,
+    "canton": "GR",
+    "distance_km": 59.06
+  },
+  {
+    "altitude": 2602,
+    "filename": 2602,
+    "peak_name": "Piz Pali",
+    "degrees": 152.9,
+    "canton": "GR/UR",
+    "distance_km": 42.74
+  },
+  {
+    "altitude": 3187,
+    "filename": 3187,
+    "peak_name": "Scopi",
+    "degrees": 153.1,
+    "canton": "GR/TI",
+    "distance_km": 59.99
+  },
+  {
+    "altitude": 2940,
+    "filename": 2940,
+    "peak_name": "Piz Gierm",
+    "degrees": 153.7,
+    "canton": "GR",
+    "distance_km": 53.63
+  },
+  {
+    "altitude": 2461,
+    "filename": "2461_2",
+    "peak_name": "Rossbodenstock",
+    "degrees": 154.5,
+    "canton": "UR",
+    "distance_km": 40.77
+  },
+  {
+    "altitude": 2593,
+    "filename": 2593,
+    "peak_name": "Chli Mutsch",
+    "degrees": 154.8,
+    "canton": "UR",
+    "distance_km": 42.48
+  },
+  {
+    "altitude": 2791,
+    "filename": 2791,
+    "peak_name": "Mutsch",
+    "degrees": 154.9,
+    "canton": "GR/UR",
+    "distance_km": 43.06
+  },
+  {
+    "altitude": 1923,
+    "filename": 1923,
+    "peak_name": "Niederbauen Chulm",
+    "degrees": 155,
+    "canton": "NW/UR",
+    "distance_km": 13.29
+  },
+  {
+    "altitude": 2762,
+    "filename": 2762,
+    "peak_name": "Rot Bristen",
+    "degrees": 155.8,
+    "canton": "UR",
+    "distance_km": 38.24
+  },
+  {
+    "altitude": 3059,
+    "filename": 3059,
+    "peak_name": "Piz Nair",
+    "degrees": 155.9,
+    "canton": "GR/UR",
+    "distance_km": 43.27
+  },
+  {
+    "altitude": 3073,
+    "filename": 3073,
+    "peak_name": "Bristen",
+    "degrees": 156.4,
+    "canton": "UR",
+    "distance_km": 38.55
+  },
+  {
+    "altitude": 2812,
+    "filename": 2812,
+    "peak_name": "Ruchen",
+    "degrees": 157.4,
+    "canton": "UR",
+    "distance_km": 39.8
+  },
+  {
+    "altitude": 3084,
+    "filename": 3084,
+    "peak_name": "Rot Wichel",
+    "degrees": 157.6,
+    "canton": "GR/UR",
+    "distance_km": 42.69
+  },
+  {
+    "altitude": 2911,
+    "filename": 2911,
+    "peak_name": "Sunnig Wichel",
+    "degrees": 157.6,
+    "canton": "UR",
+    "distance_km": 41.12
+  },
+  {
+    "altitude": 2033,
+    "filename": 2033,
+    "peak_name": "Sunnig Grat",
+    "degrees": 158,
+    "canton": "UR",
+    "distance_km": 32.51
+  },
+  {
+    "altitude": 3061,
+    "filename": 3061,
+    "peak_name": "Giuvstöckli",
+    "degrees": 158.3,
+    "canton": "GR/UR",
+    "distance_km": 43.1
+  },
+  {
+    "altitude": 3011,
+    "filename": 3011,
+    "peak_name": "Brichplanggenstock",
+    "degrees": 158.7,
+    "canton": "GR/UR",
+    "distance_km": 42.99
+  },
+  {
+    "altitude": 2096,
+    "filename": 2096,
+    "peak_name": "Schijen",
+    "degrees": 158.7,
+    "canton": "UR",
+    "distance_km": 31.17
+  },
+  {
+    "altitude": 2734,
+    "filename": 2734,
+    "peak_name": "Mättenberg",
+    "degrees": 158.8,
+    "canton": "UR",
+    "distance_km": 40.97
+  },
+  {
+    "altitude": 2117,
+    "filename": "2117_2",
+    "peak_name": "Oberbauenstock",
+    "degrees": 161.9,
+    "canton": "NW/UR",
+    "distance_km": 15
+  },
+  {
+    "altitude": 2673,
+    "filename": 2673,
+    "peak_name": "Rot Gitschen",
+    "degrees": 164.8,
+    "canton": "UR",
+    "distance_km": 22.48
+  },
+  {
+    "altitude": 2574,
+    "filename": 2574,
+    "peak_name": "Chessel",
+    "degrees": 166.8,
+    "canton": "UR",
+    "distance_km": 21.55
+  },
+  {
+    "altitude": 2907,
+    "filename": 2907,
+    "peak_name": "Gitschenhöreli",
+    "degrees": 166.8,
+    "canton": "UR",
+    "distance_km": 23.66
+  },
+  {
+    "altitude": 2952,
+    "filename": 2952,
+    "peak_name": "Brunnistock",
+    "degrees": 167.2,
+    "canton": "UR",
+    "distance_km": 23.74
+  },
+  {
+    "altitude": 2057,
+    "filename": "2057_2",
+    "peak_name": "Fulen",
+    "degrees": 167.3,
+    "canton": "UR",
+    "distance_km": 18.83
+  },
+  {
+    "altitude": 2155,
+    "filename": "2155_2",
+    "peak_name": "Chli Schlieren",
+    "degrees": 168.2,
+    "canton": "UR",
+    "distance_km": 20.17
+  },
+  {
+    "altitude": 2830,
+    "filename": 2830,
+    "peak_name": "Schlieren",
+    "degrees": 169.3,
+    "canton": "UR",
+    "distance_km": 21.37
+  },
+  {
+    "altitude": 2928,
+    "filename": 2928,
+    "peak_name": "Uri Rotstock",
+    "degrees": 169.3,
+    "canton": "UR",
+    "distance_km": 22.01
+  },
+  {
+    "altitude": 3133,
+    "filename": 3133,
+    "peak_name": "Schlossberg",
+    "degrees": 172.8,
+    "canton": "UR",
+    "distance_km": 28.43
+  },
+  {
+    "altitude": 3198,
+    "filename": 3198,
+    "peak_name": "Gross Spannort",
+    "degrees": 173.5,
+    "canton": "UR",
+    "distance_km": 30.15
+  },
+  {
+    "altitude": 2759,
+    "filename": 2759,
+    "peak_name": "Schlossstock",
+    "degrees": 173.7,
+    "canton": "UR",
+    "distance_km": 23.21
+  },
+  {
+    "altitude": 2070,
+    "filename": 2070,
+    "peak_name": "Jochlistock",
+    "degrees": 174.6,
+    "canton": "NW/UR",
+    "distance_km": 15.86
+  },
+  {
+    "altitude": 3140,
+    "filename": 3140,
+    "peak_name": "Chli Spannort",
+    "degrees": 174.7,
+    "canton": "UR",
+    "distance_km": 30.82
+  },
+  {
+    "altitude": 2107,
+    "filename": "2107_2",
+    "peak_name": "Bärenstock",
+    "degrees": 175,
+    "canton": "UR",
+    "distance_km": 18.97
+  },
+  {
+    "altitude": 2887,
+    "filename": 2887,
+    "peak_name": "Wissigstock",
+    "degrees": 175.2,
+    "canton": "OW/UR",
+    "distance_km": 23.54
+  },
+  {
+    "altitude": 2819,
+    "filename": 2819,
+    "peak_name": "Engelberger Rotstock",
+    "degrees": 176.8,
+    "canton": "OW/UR",
+    "distance_km": 22.58
+  },
+  {
+    "altitude": 3417,
+    "filename": 3417,
+    "peak_name": "Fleckistock",
+    "degrees": 177.8,
+    "canton": "UR",
+    "distance_km": 38.84
+  },
+  {
+    "altitude": 2727,
+    "filename": 2727,
+    "peak_name": "Leist",
+    "degrees": 177.8,
+    "canton": "OW/UR",
+    "distance_km": 24.39
+  },
+  {
+    "altitude": 3417,
+    "filename": "3417_2",
+    "peak_name": "Rot Stock",
+    "degrees": 177.8,
+    "canton": "UR",
+    "distance_km": 38.84
+  },
+  {
+    "altitude": 3313,
+    "filename": 3313,
+    "peak_name": "Stucklistock",
+    "degrees": 179,
+    "canton": "UR",
+    "distance_km": 37.74
+  },
+  {
+    "altitude": 2729,
+    "filename": 2729,
+    "peak_name": "Hasenstock",
+    "degrees": 179.3,
+    "canton": "OW/UR",
+    "distance_km": 22.41
+  },
+  {
+    "altitude": 2782,
+    "filename": 2782,
+    "peak_name": "Oberberg",
+    "degrees": 180.3,
+    "canton": "OW/UR",
+    "distance_km": 22.18
+  },
+  {
+    "altitude": 2290,
+    "filename": 2290,
+    "peak_name": "Risetenstock",
+    "degrees": 180.3,
+    "canton": "NW/UR",
+    "distance_km": 16.48
+  },
+  {
+    "altitude": 1748,
+    "filename": 1748,
+    "peak_name": "Klewenstock",
+    "degrees": 181.5,
+    "canton": "NW",
+    "distance_km": 13.71
+  },
+  {
+    "altitude": 2145,
+    "filename": 2145,
+    "peak_name": "Schinberg",
+    "degrees": 181.7,
+    "canton": "NW",
+    "distance_km": 15.98
+  },
+  {
+    "altitude": 2191,
+    "filename": 2191,
+    "peak_name": "Glatt Grat",
+    "degrees": 182.1,
+    "canton": "NW/UR",
+    "distance_km": 16.65
+  },
+  {
+    "altitude": 2720,
+    "filename": 2720,
+    "peak_name": "Hasenstöck",
+    "degrees": 182.5,
+    "canton": "NW/UR",
+    "distance_km": 21.97
+  },
+  {
+    "altitude": 2400,
+    "filename": "2400_3",
+    "peak_name": "Chaiserstuel",
+    "degrees": 183.1,
+    "canton": "NW/UR",
+    "distance_km": 20
+  },
+  {
+    "altitude": 2413,
+    "filename": 2413,
+    "peak_name": "Hoh Brisen",
+    "degrees": 184.1,
+    "canton": "NW/UR",
+    "distance_km": 17.76
+  },
+  {
+    "altitude": 2639,
+    "filename": 2639,
+    "peak_name": "Laucherenstock",
+    "degrees": 184.3,
+    "canton": "NW/OW",
+    "distance_km": 22.53
+  },
+  {
+    "altitude": 2082,
+    "filename": "2082_2",
+    "peak_name": "Elfer",
+    "degrees": 184.5,
+    "canton": "NW",
+    "distance_km": 16.48
+  },
+  {
+    "altitude": 3608,
+    "filename": 3608,
+    "peak_name": "Schneestock",
+    "degrees": 185.3,
+    "canton": "UR/VS",
+    "distance_km": 45.7
+  },
+  {
+    "altitude": 3630,
+    "filename": 3630,
+    "peak_name": "Dammastock",
+    "degrees": 185.4,
+    "canton": "UR/VS",
+    "distance_km": 46.19
+  },
+  {
+    "altitude": 2135,
+    "filename": 2135,
+    "peak_name": "Zwelfer",
+    "degrees": 185.5,
+    "canton": "NW",
+    "distance_km": 16.75
+  },
+  {
+    "altitude": 3238,
+    "filename": "3238_2",
+    "peak_name": "Titlis",
+    "degrees": 185.8,
+    "canton": "BE/OW",
+    "distance_km": 31.85
+  },
+  {
+    "altitude": 2404,
+    "filename": "2404_2",
+    "peak_name": "Brisen",
+    "degrees": 185.9,
+    "canton": "NW/UR",
+    "distance_km": 17.67
+  },
+  {
+    "altitude": 2418,
+    "filename": 2418,
+    "peak_name": "Laucherengrat",
+    "degrees": 186.7,
+    "canton": "NW/OW",
+    "distance_km": 22.75
+  },
+  {
+    "altitude": 2397,
+    "filename": 2397,
+    "peak_name": "Planggengrat",
+    "degrees": 187.3,
+    "canton": "NW/OW",
+    "distance_km": 22.87
+  },
+  {
+    "altitude": 2901,
+    "filename": 2901,
+    "peak_name": "Rotstöckli",
+    "degrees": 187.6,
+    "canton": "NW/OW",
+    "distance_km": 31.35
+  },
+  {
+    "altitude": 3447,
+    "filename": 3447,
+    "peak_name": "Hinter Tierberg",
+    "degrees": 188.2,
+    "canton": "BE/UR",
+    "distance_km": 42.22
+  },
+  {
+    "altitude": 2637,
+    "filename": "2637_2",
+    "peak_name": "Gross Sättelistock",
+    "degrees": 188.4,
+    "canton": "NW/OW",
+    "distance_km": 22.92
+  },
+  {
+    "altitude": 2092,
+    "filename": 2092,
+    "peak_name": "Lauwistock",
+    "degrees": 188.5,
+    "canton": "NW",
+    "distance_km": 17.65
+  },
+  {
+    "altitude": 2418,
+    "filename": "2418_2",
+    "peak_name": "Chli Sättelistock",
+    "degrees": 189.4,
+    "canton": "NW",
+    "distance_km": 22.43
+  },
+  {
+    "altitude": 2568,
+    "filename": 2568,
+    "peak_name": "Schyegg Stock",
+    "degrees": 189.6,
+    "canton": "NW/OW",
+    "distance_km": 23.31
+  },
+  {
+    "altitude": 2578,
+    "filename": 2578,
+    "peak_name": "Spitz Mann",
+    "degrees": 190.3,
+    "canton": "NW/OW",
+    "distance_km": 23.27
+  },
+  {
+    "altitude": 3003,
+    "filename": 3003,
+    "peak_name": "Reissend Nollen",
+    "degrees": 190.5,
+    "canton": "BE/OW",
+    "distance_km": 32.89
+  },
+  {
+    "altitude": 2593,
+    "filename": "2593_2",
+    "peak_name": "Rigidalstock",
+    "degrees": 191.7,
+    "canton": "NW/OW",
+    "distance_km": 23.28
+  },
+  {
+    "altitude": 2572,
+    "filename": 2572,
+    "peak_name": "Gross Walenstock",
+    "degrees": 192,
+    "canton": "NW/OW",
+    "distance_km": 22.75
+  },
+  {
+    "altitude": 1923,
+    "filename": "1923_2",
+    "peak_name": "Giri",
+    "degrees": 192.5,
+    "canton": "NW",
+    "distance_km": 17.47
+  },
+  {
+    "altitude": 1785,
+    "filename": 1785,
+    "peak_name": "Musenalp",
+    "degrees": 192.6,
+    "canton": "NW",
+    "distance_km": 14.4
+  },
+  {
+    "altitude": 2267,
+    "filename": "2267_2",
+    "peak_name": "Rund",
+    "degrees": 192.8,
+    "canton": "NW",
+    "distance_km": 21.95
+  },
+  {
+    "altitude": 3042,
+    "filename": 3042,
+    "peak_name": "Wendenstöcke",
+    "degrees": 193,
+    "canton": "BE",
+    "distance_km": 33.76
+  },
+  {
+    "altitude": 3009,
+    "filename": 3009,
+    "peak_name": "Pfaffenhuet",
+    "degrees": 193.6,
+    "canton": "BE",
+    "distance_km": 34.19
+  },
+  {
+    "altitude": 2346,
+    "filename": 2346,
+    "peak_name": "Vorder Walenstock",
+    "degrees": 194.1,
+    "canton": "OW",
+    "distance_km": 22.76
+  },
+  {
+    "altitude": 2970,
+    "filename": 2970,
+    "peak_name": "Mähren",
+    "degrees": 194.2,
+    "canton": "BE",
+    "distance_km": 34.42
+  },
+  {
+    "altitude": 2778,
+    "filename": 2778,
+    "peak_name": "Gadmerflue",
+    "degrees": 195.3,
+    "canton": "BE",
+    "distance_km": 34.72
+  },
+  {
+    "altitude": 2662,
+    "filename": 2662,
+    "peak_name": "Graustock",
+    "degrees": 195.8,
+    "canton": "BE/NW/OW",
+    "distance_km": 31.16
+  },
+  {
+    "altitude": 2923,
+    "filename": 2923,
+    "peak_name": "Mährenhorn",
+    "degrees": 197.4,
+    "canton": "BE",
+    "distance_km": 42.69
+  },
+  {
+    "altitude": 2639,
+    "filename": "2639_2",
+    "peak_name": "Schwarzhorn",
+    "degrees": 198.3,
+    "canton": "NW/OW",
+    "distance_km": 30.75
+  },
+  {
+    "altitude": 1807,
+    "filename": 1807,
+    "peak_name": "Buochserhorn",
+    "degrees": 198.5,
+    "canton": "NW",
+    "distance_km": 13.09
+  },
+  {
+    "altitude": 2026,
+    "filename": 2026,
+    "peak_name": "Alpelenhörnli",
+    "degrees": 198.7,
+    "canton": "NW",
+    "distance_km": 29.99
+  },
+  {
+    "altitude": 2700,
+    "filename": 2700,
+    "peak_name": "Rotsandnollen",
+    "degrees": 200,
+    "canton": "NW/OW",
+    "distance_km": 30.45
+  },
+  {
+    "altitude": 2630,
+    "filename": 2630,
+    "peak_name": "Hüenderbergli",
+    "degrees": 200.2,
+    "canton": "NW/OW",
+    "distance_km": 30.19
+  },
+  {
+    "altitude": 2044,
+    "filename": "2044_2",
+    "peak_name": "Schafbandschnauz",
+    "degrees": 200.2,
+    "canton": "NW",
+    "distance_km": 29.33
+  },
+  {
+    "altitude": 2078,
+    "filename": "2078_2",
+    "peak_name": "Scheideggstock",
+    "degrees": 200.7,
+    "canton": "NW",
+    "distance_km": 27.42
+  },
+  {
+    "altitude": 1934,
+    "filename": 1934,
+    "peak_name": "Klein Storchen",
+    "degrees": 201,
+    "canton": "NW",
+    "distance_km": 26.98
+  },
+  {
+    "altitude": 2078,
+    "filename": "2078_3",
+    "peak_name": "Gross Storchen",
+    "degrees": 201.2,
+    "canton": "NW",
+    "distance_km": 27.21
+  },
+  {
+    "altitude": 2670,
+    "filename": 2670,
+    "peak_name": "Barglen",
+    "degrees": 201.3,
+    "canton": "OW",
+    "distance_km": 31.18
+  },
+  {
+    "altitude": 1896,
+    "filename": 1896,
+    "peak_name": "Salistock",
+    "degrees": 201.7,
+    "canton": "NW",
+    "distance_km": 26.03
+  },
+  {
+    "altitude": 2416,
+    "filename": "2416_2",
+    "peak_name": "Sattel",
+    "degrees": 202.1,
+    "canton": "NW",
+    "distance_km": 29.3
+  },
+  {
+    "altitude": 2244,
+    "filename": 2244,
+    "peak_name": "Stierendossen",
+    "degrees": 202.1,
+    "canton": "NW",
+    "distance_km": 27.26
+  },
+  {
+    "altitude": 2223,
+    "filename": 2223,
+    "peak_name": "Bockistock",
+    "degrees": 202.3,
+    "canton": "NW",
+    "distance_km": 27.16
+  },
+  {
+    "altitude": 2206,
+    "filename": 2206,
+    "peak_name": "Bockigrat",
+    "degrees": 202.5,
+    "canton": "NW",
+    "distance_km": 27.64
+  },
+  {
+    "altitude": 2676,
+    "filename": 2676,
+    "peak_name": "Wild Geissberg",
+    "degrees": 202.5,
+    "canton": "NW/OW",
+    "distance_km": 29.66
+  },
+  {
+    "altitude": 2102,
+    "filename": 2102,
+    "peak_name": "Hohliecht",
+    "degrees": 202.8,
+    "canton": "NW",
+    "distance_km": 26.79
+  },
+  {
+    "altitude": 3638,
+    "filename": 3638,
+    "peak_name": "Studerhorn",
+    "degrees": 203.2,
+    "canton": "BE/VS",
+    "distance_km": 63.72
+  },
+  {
+    "altitude": 2514,
+    "filename": 2514,
+    "peak_name": "Zahm Geissberg",
+    "degrees": 203.5,
+    "canton": "NW/OW",
+    "distance_km": 29.49
+  },
+  {
+    "altitude": 3230,
+    "filename": 3230,
+    "peak_name": "Trifthorn",
+    "degrees": 203.7,
+    "canton": "BE",
+    "distance_km": 56.76
+  },
+  {
+    "altitude": 3473,
+    "filename": 3473,
+    "peak_name": "Lauteraar Rothörner",
+    "degrees": 204.3,
+    "canton": "BE",
+    "distance_km": 60.01
+  },
+  {
+    "altitude": 2351,
+    "filename": 2351,
+    "peak_name": "Widderfeld Stock",
+    "degrees": 204.4,
+    "canton": "NW/OW",
+    "distance_km": 27.38
+  },
+  {
+    "altitude": 3329,
+    "filename": 3329,
+    "peak_name": "Ewigschneehorn",
+    "degrees": 204.7,
+    "canton": "BE",
+    "distance_km": 56.53
+  },
+  {
+    "altitude": 4274,
+    "filename": 4274,
+    "peak_name": "Finsteraarhorn",
+    "degrees": 204.8,
+    "canton": "BE/VS",
+    "distance_km": 63.92
+  },
+  {
+    "altitude": 3647,
+    "filename": 3647,
+    "peak_name": "Hugihorn",
+    "degrees": 205,
+    "canton": "BE",
+    "distance_km": 59.67
+  },
+  {
+    "altitude": 2491,
+    "filename": "2491_2",
+    "peak_name": "Läuber",
+    "degrees": 205.1,
+    "canton": "BE",
+    "distance_km": 37.75
+  },
+  {
+    "altitude": 3292,
+    "filename": 3292,
+    "peak_name": "Hangendgletscherhorn",
+    "degrees": 205.3,
+    "canton": "BE",
+    "distance_km": 52.81
+  },
+  {
+    "altitude": 3953,
+    "filename": 3953,
+    "peak_name": "Agassizhorn",
+    "degrees": 205.9,
+    "canton": "BE/VS",
+    "distance_km": 63.38
+  },
+  {
+    "altitude": 2026,
+    "filename": "2026_2",
+    "peak_name": "Nollen",
+    "degrees": 206.5,
+    "canton": "OW",
+    "distance_km": 34.76
+  },
+  {
+    "altitude": 2534,
+    "filename": 2534,
+    "peak_name": "Glogghüs",
+    "degrees": 206.6,
+    "canton": "BE/OW",
+    "distance_km": 37.03
+  },
+  {
+    "altitude": 3259,
+    "filename": 3259,
+    "peak_name": "Ränfenhorn",
+    "degrees": 206.8,
+    "canton": "BE",
+    "distance_km": 53
+  },
+  {
+    "altitude": 3601,
+    "filename": 3601,
+    "peak_name": "Ankenbälli",
+    "degrees": 207,
+    "canton": "BE",
+    "distance_km": 55.89
+  },
+  {
+    "altitude": 2088,
+    "filename": 2088,
+    "peak_name": "Schluchigrat",
+    "degrees": 207.1,
+    "canton": "NW/OW",
+    "distance_km": 24.58
+  },
+  {
+    "altitude": 3656,
+    "filename": 3656,
+    "peak_name": "Bärglistock",
+    "degrees": 207.5,
+    "canton": "BE",
+    "distance_km": 55.69
+  },
+  {
+    "altitude": 2855,
+    "filename": 2855,
+    "peak_name": "Gstellihorn",
+    "degrees": 207.7,
+    "canton": "BE",
+    "distance_km": 49.85
+  },
+  {
+    "altitude": 4078,
+    "filename": 4078,
+    "peak_name": "Schreckhorn",
+    "degrees": 207.7,
+    "canton": "BE",
+    "distance_km": 58.97
+  },
+  {
+    "altitude": 2767,
+    "filename": 2767,
+    "peak_name": "Urbachsengelhorn",
+    "degrees": 207.7,
+    "canton": "BE",
+    "distance_km": 48.53
+  },
+  {
+    "altitude": 3138,
+    "filename": "3138_2",
+    "peak_name": "Dossen",
+    "degrees": 207.8,
+    "canton": "BE",
+    "distance_km": 51.58
+  },
+  {
+    "altitude": 2643,
+    "filename": 2643,
+    "peak_name": "Chlys Engelhorn",
+    "degrees": 207.9,
+    "canton": "BE",
+    "distance_km": 47.97
+  },
+  {
+    "altitude": 2782,
+    "filename": "2782_2",
+    "peak_name": "Grosses Engelhorn",
+    "degrees": 207.9,
+    "canton": "BE",
+    "distance_km": 48.68
+  },
+  {
+    "altitude": 2639,
+    "filename": "2639_3",
+    "peak_name": "Hohjegiburg",
+    "degrees": 208,
+    "canton": "BE",
+    "distance_km": 47.6
+  },
+  {
+    "altitude": 2106,
+    "filename": 2106,
+    "peak_name": "Schluchberg",
+    "degrees": 208,
+    "canton": "NW/OW",
+    "distance_km": 24.06
+  },
+  {
+    "altitude": 2005,
+    "filename": 2005,
+    "peak_name": "Laucherenstock",
+    "degrees": 208.2,
+    "canton": "NW",
+    "distance_km": 23.43
+  },
+  {
+    "altitude": 2621,
+    "filename": 2621,
+    "peak_name": "Kingspitz",
+    "degrees": 208.4,
+    "canton": "BE",
+    "distance_km": 48.47
+  },
+  {
+    "altitude": 3689,
+    "filename": 3689,
+    "peak_name": "Rosenhorn",
+    "degrees": 208.7,
+    "canton": "BE",
+    "distance_km": 54.17
+  },
+  {
+    "altitude": 2381,
+    "filename": 2381,
+    "peak_name": "Fuli Flue",
+    "degrees": 208.8,
+    "canton": "BE/OW",
+    "distance_km": 36.91
+  },
+  {
+    "altitude": 4049,
+    "filename": 4049,
+    "peak_name": "Grosses Fiescherhorn",
+    "degrees": 209.3,
+    "canton": "BE/VS",
+    "distance_km": 64.84
+  },
+  {
+    "altitude": 2050,
+    "filename": 2050,
+    "peak_name": "Gräfimattstand",
+    "degrees": 209.7,
+    "canton": "NW/OW",
+    "distance_km": 23.67
+  },
+  {
+    "altitude": 2701,
+    "filename": 2701,
+    "peak_name": "Kleines Wellhorn",
+    "degrees": 209.7,
+    "canton": "BE",
+    "distance_km": 50.72
+  },
+  {
+    "altitude": 3704,
+    "filename": 3704,
+    "peak_name": "Mittelhorn",
+    "degrees": 209.8,
+    "canton": "BE",
+    "distance_km": 54.33
+  },
+  {
+    "altitude": 3192,
+    "filename": 3192,
+    "peak_name": "Wellhorn",
+    "degrees": 209.8,
+    "canton": "BE",
+    "distance_km": 51.7
+  },
+  {
+    "altitude": 2312,
+    "filename": 2312,
+    "peak_name": "Haupt",
+    "degrees": 209.9,
+    "canton": "OW",
+    "distance_km": 34.81
+  },
+  {
+    "altitude": 2481,
+    "filename": 2481,
+    "peak_name": "Hochstollen",
+    "degrees": 210.2,
+    "canton": "OW",
+    "distance_km": 36.68
+  },
+  {
+    "altitude": 2035,
+    "filename": 2035,
+    "peak_name": "Gräfimattnollen",
+    "degrees": 210.3,
+    "canton": "NW/OW",
+    "distance_km": 23.18
+  },
+  {
+    "altitude": 3701,
+    "filename": 3701,
+    "peak_name": "Wetterhorn",
+    "degrees": 210.6,
+    "canton": "BE",
+    "distance_km": 54.35
+  },
+  {
+    "altitude": 2014,
+    "filename": 2014,
+    "peak_name": "Arvigrat",
+    "degrees": 210.7,
+    "canton": "NW/OW",
+    "distance_km": 22.08
+  },
+  {
+    "altitude": 2019,
+    "filename": 2019,
+    "peak_name": "Höchgrat",
+    "degrees": 211.1,
+    "canton": "OW",
+    "distance_km": 24.06
+  },
+  {
+    "altitude": 2263,
+    "filename": 2263,
+    "peak_name": "Abgschütz",
+    "degrees": 211.2,
+    "canton": "OW",
+    "distance_km": 36.22
+  },
+  {
+    "altitude": 2082,
+    "filename": "2082_3",
+    "peak_name": "Vorstegg",
+    "degrees": 211.3,
+    "canton": "OW",
+    "distance_km": 32.29
+  },
+  {
+    "altitude": 3361,
+    "filename": 3361,
+    "peak_name": "Scheideggwetterhorn",
+    "degrees": 211.4,
+    "canton": "BE",
+    "distance_km": 53.96
+  },
+  {
+    "altitude": 3933,
+    "filename": 3933,
+    "peak_name": "Trugberg",
+    "degrees": 211.7,
+    "canton": "VS",
+    "distance_km": 67.1
+  },
+  {
+    "altitude": 2129,
+    "filename": 2129,
+    "peak_name": "Seefeldstock",
+    "degrees": 212.1,
+    "canton": "OW",
+    "distance_km": 36.14
+  },
+  {
+    "altitude": 2146,
+    "filename": 2146,
+    "peak_name": "Heitlistock",
+    "degrees": 212.5,
+    "canton": "OW",
+    "distance_km": 32.67
+  },
+  {
+    "altitude": 3983,
+    "filename": 3983,
+    "peak_name": "Gletscherhorn",
+    "degrees": 212.6,
+    "canton": "BE/VS",
+    "distance_km": 72.24
+  },
+  {
+    "altitude": 2710,
+    "filename": 2710,
+    "peak_name": "Ostegg",
+    "degrees": 212.9,
+    "canton": "BE",
+    "distance_km": 61.31
+  },
+  {
+    "altitude": 2326,
+    "filename": 2326,
+    "peak_name": "Tschingel",
+    "degrees": 213.2,
+    "canton": "BE",
+    "distance_km": 47.24
+  },
+  {
+    "altitude": 4099,
+    "filename": 4099,
+    "peak_name": "Mönch",
+    "degrees": 213.3,
+    "canton": "BE/VS",
+    "distance_km": 66.74
+  },
+  {
+    "altitude": 3692,
+    "filename": 3692,
+    "peak_name": "Grosser Turm",
+    "degrees": 213.7,
+    "canton": "BE",
+    "distance_km": 64.06
+  },
+  {
+    "altitude": 2392,
+    "filename": 2392,
+    "peak_name": "Grindelgrat",
+    "degrees": 213.8,
+    "canton": "BE",
+    "distance_km": 48.21
+  },
+  {
+    "altitude": 2086,
+    "filename": "2086_2",
+    "peak_name": "Astelhorn",
+    "degrees": 213.9,
+    "canton": "OW",
+    "distance_km": 31.16
+  },
+  {
+    "altitude": 3970,
+    "filename": 3970,
+    "peak_name": "Eiger",
+    "degrees": 213.9,
+    "canton": "BE",
+    "distance_km": 64.64
+  },
+  {
+    "altitude": 2105,
+    "filename": 2105,
+    "peak_name": "Wandelen",
+    "degrees": 214.2,
+    "canton": "OW",
+    "distance_km": 31.67
+  },
+  {
+    "altitude": 4089,
+    "filename": 4089,
+    "peak_name": "Wengener Jungfrau",
+    "degrees": 214.2,
+    "canton": "BE/VS",
+    "distance_km": 69.93
+  },
+  {
+    "altitude": 2099,
+    "filename": 2099,
+    "peak_name": "Wengenhorn",
+    "degrees": 214.6,
+    "canton": "OW",
+    "distance_km": 31.75
+  },
+  {
+    "altitude": 3402,
+    "filename": 3402,
+    "peak_name": "Schneehorn",
+    "degrees": 214.7,
+    "canton": "BE",
+    "distance_km": 69.13
+  },
+  {
+    "altitude": 3695,
+    "filename": 3695,
+    "peak_name": "Silberhorn",
+    "degrees": 215,
+    "canton": "BE",
+    "distance_km": 70.36
+  },
+  {
+    "altitude": 3386,
+    "filename": 3386,
+    "peak_name": "Rotbrätt",
+    "degrees": 215.6,
+    "canton": "BE",
+    "distance_km": 70.75
+  },
+  {
+    "altitude": 2659,
+    "filename": 2659,
+    "peak_name": "Gemschberg",
+    "degrees": 215.8,
+    "canton": "BE",
+    "distance_km": 52.43
+  },
+  {
+    "altitude": 2015,
+    "filename": 2015,
+    "peak_name": "Hanen",
+    "degrees": 215.8,
+    "canton": "OW",
+    "distance_km": 32.14
+  },
+  {
+    "altitude": 2304,
+    "filename": 2304,
+    "peak_name": "Wandelhorn",
+    "degrees": 215.9,
+    "canton": "BE",
+    "distance_km": 47.65
+  },
+  {
+    "altitude": 2710,
+    "filename": "2710_2",
+    "peak_name": "Garzen",
+    "degrees": 216.1,
+    "canton": "BE",
+    "distance_km": 49.28
+  },
+  {
+    "altitude": 2715,
+    "filename": 2715,
+    "peak_name": "Schwarzenberg",
+    "degrees": 216.5,
+    "canton": "BE",
+    "distance_km": 49.73
+  },
+  {
+    "altitude": 2928,
+    "filename": "2928_2",
+    "peak_name": "Schwarzhorn",
+    "degrees": 216.6,
+    "canton": "BE",
+    "distance_km": 51.7
+  },
+  {
+    "altitude": 2043,
+    "filename": 2043,
+    "peak_name": "Güpfi",
+    "degrees": 216.7,
+    "canton": "OW",
+    "distance_km": 36.42
+  },
+  {
+    "altitude": 2891,
+    "filename": 2891,
+    "peak_name": "Wildgärst",
+    "degrees": 217.2,
+    "canton": "BE",
+    "distance_km": 51.17
+  },
+  {
+    "altitude": 1898,
+    "filename": 1898,
+    "peak_name": "Stanserhorn",
+    "degrees": 217.3,
+    "canton": "NW/OW",
+    "distance_km": 17.91
+  },
+  {
+    "altitude": 2069,
+    "filename": "2069_2",
+    "peak_name": "Schryberhorn",
+    "degrees": 217.8,
+    "canton": "BE",
+    "distance_km": 49.54
+  },
+  {
+    "altitude": 2798,
+    "filename": 2798,
+    "peak_name": "Gärstenhorn",
+    "degrees": 218.1,
+    "canton": "BE",
+    "distance_km": 51.9
+  },
+  {
+    "altitude": 3304,
+    "filename": 3304,
+    "peak_name": "Tschingelspitz",
+    "degrees": 218.5,
+    "canton": "BE",
+    "distance_km": 78.12
+  },
+  {
+    "altitude": 2233,
+    "filename": 2233,
+    "peak_name": "Oltschiburg",
+    "degrees": 218.7,
+    "canton": "BE",
+    "distance_km": 48.89
+  },
+  {
+    "altitude": 3436,
+    "filename": 3436,
+    "peak_name": "Gspaltenhorn",
+    "degrees": 219.1,
+    "canton": "BE",
+    "distance_km": 78.72
+  },
+  {
+    "altitude": 2757,
+    "filename": 2757,
+    "peak_name": "Reeti",
+    "degrees": 219.1,
+    "canton": "BE",
+    "distance_km": 56.59
+  },
+  {
+    "altitude": 2321,
+    "filename": "2321_2",
+    "peak_name": "Axalphorn",
+    "degrees": 219.4,
+    "canton": "BE",
+    "distance_km": 50.29
+  },
+  {
+    "altitude": 3224,
+    "filename": 3224,
+    "peak_name": "Böse Tritt",
+    "degrees": 219.4,
+    "canton": "BE",
+    "distance_km": 78.59
+  },
+  {
+    "altitude": 2595,
+    "filename": 2595,
+    "peak_name": "Mittagschrinne",
+    "degrees": 219.4,
+    "canton": "BE",
+    "distance_km": 54.9
+  },
+  {
+    "altitude": 2751,
+    "filename": "2751_3",
+    "peak_name": "Simelihorn",
+    "degrees": 219.5,
+    "canton": "BE",
+    "distance_km": 56.54
+  },
+  {
+    "altitude": 3193,
+    "filename": 3193,
+    "peak_name": "Bütlasse",
+    "degrees": 219.8,
+    "canton": "BE",
+    "distance_km": 78.5
+  },
+  {
+    "altitude": 2689,
+    "filename": 2689,
+    "peak_name": "Esel",
+    "degrees": 219.8,
+    "canton": "BE",
+    "distance_km": 56.73
+  },
+  {
+    "altitude": 3627,
+    "filename": 3627,
+    "peak_name": "Morgenhorn",
+    "degrees": 219.8,
+    "canton": "BE",
+    "distance_km": 81.84
+  },
+  {
+    "altitude": 2244,
+    "filename": "2244_2",
+    "peak_name": "Tschingel",
+    "degrees": 220,
+    "canton": "BE",
+    "distance_km": 51.27
+  },
+  {
+    "altitude": 3650,
+    "filename": 3650,
+    "peak_name": "Wyssi Frau",
+    "degrees": 220,
+    "canton": "BE",
+    "distance_km": 82.45
+  },
+  {
+    "altitude": 2619,
+    "filename": 2619,
+    "peak_name": "Gassenboden",
+    "degrees": 220.2,
+    "canton": "BE",
+    "distance_km": 56.25
+  },
+  {
+    "altitude": 3063,
+    "filename": 3063,
+    "peak_name": "Vorderi Bütlasse",
+    "degrees": 220.2,
+    "canton": "BE",
+    "distance_km": 77.92
+  },
+  {
+    "altitude": 2681,
+    "filename": 2681,
+    "peak_name": "Faulhorn",
+    "degrees": 220.5,
+    "canton": "BE",
+    "distance_km": 56.36
+  },
+  {
+    "altitude": 3643,
+    "filename": "3643_2",
+    "peak_name": "Doldenhorn",
+    "degrees": 220.8,
+    "canton": "BE",
+    "distance_km": 86.95
+  },
+  {
+    "altitude": 3475,
+    "filename": 3475,
+    "peak_name": "Kleindoldenhorn",
+    "degrees": 221.1,
+    "canton": "BE",
+    "distance_km": 87.23
+  },
+  {
+    "altitude": 2790,
+    "filename": 2790,
+    "peak_name": "Schwarzbirg",
+    "degrees": 221.2,
+    "canton": "BE",
+    "distance_km": 73.36
+  },
+  {
+    "altitude": 2970,
+    "filename": "2970_2",
+    "peak_name": "Schilthorn",
+    "degrees": 221.3,
+    "canton": "BE",
+    "distance_km": 74.45
+  },
+  {
+    "altitude": 2573,
+    "filename": 2573,
+    "peak_name": "Winteregg",
+    "degrees": 221.4,
+    "canton": "BE",
+    "distance_km": 58.34
+  },
+  {
+    "altitude": 3232,
+    "filename": 3232,
+    "peak_name": "Doldenstock",
+    "degrees": 221.5,
+    "canton": "BE",
+    "distance_km": 87.26
+  },
+  {
+    "altitude": 2929,
+    "filename": 2929,
+    "peak_name": "Hundshorn",
+    "degrees": 221.7,
+    "canton": "BE",
+    "distance_km": 77.15
+  },
+  {
+    "altitude": 2373,
+    "filename": "2373_2",
+    "peak_name": "Schwabhorn",
+    "degrees": 221.8,
+    "canton": "BE",
+    "distance_km": 56.12
+  },
+  {
+    "altitude": 2004,
+    "filename": "2004_2",
+    "peak_name": "Wilerhorn",
+    "degrees": 221.8,
+    "canton": "BE/OW",
+    "distance_km": 42.74
+  },
+  {
+    "altitude": 2828,
+    "filename": 2828,
+    "peak_name": "Rote Härd",
+    "degrees": 221.9,
+    "canton": "BE",
+    "distance_km": 74.91
+  },
+  {
+    "altitude": 2465,
+    "filename": 2465,
+    "peak_name": "Indri Sägissa",
+    "degrees": 222.1,
+    "canton": "BE",
+    "distance_km": 58.68
+  },
+  {
+    "altitude": 2833,
+    "filename": 2833,
+    "peak_name": "Chilchflue",
+    "degrees": 222.2,
+    "canton": "BE",
+    "distance_km": 74.96
+  },
+  {
+    "altitude": 2426,
+    "filename": "2426_3",
+    "peak_name": "Ussri Sägissa",
+    "degrees": 222.4,
+    "canton": "BE",
+    "distance_km": 59.26
+  },
+  {
+    "altitude": 2849,
+    "filename": 2849,
+    "peak_name": "Wild Andrist",
+    "degrees": 222.4,
+    "canton": "BE",
+    "distance_km": 77.19
+  },
+  {
+    "altitude": 2609,
+    "filename": 2609,
+    "peak_name": "Mära",
+    "degrees": 222.8,
+    "canton": "BE",
+    "distance_km": 72.52
+  },
+  {
+    "altitude": 2485,
+    "filename": 2485,
+    "peak_name": "Schwarze Schopf",
+    "degrees": 222.8,
+    "canton": "BE",
+    "distance_km": 71.09
+  },
+  {
+    "altitude": 2526,
+    "filename": 2526,
+    "peak_name": "Spaltenhorn",
+    "degrees": 222.9,
+    "canton": "BE",
+    "distance_km": 71.36
+  },
+  {
+    "altitude": 2135,
+    "filename": "2135_2",
+    "peak_name": "Bättenalpburg",
+    "degrees": 223,
+    "canton": "BE",
+    "distance_km": 55.07
+  },
+  {
+    "altitude": 2068,
+    "filename": 2068,
+    "peak_name": "Litschgiburg",
+    "degrees": 223,
+    "canton": "BE",
+    "distance_km": 54.65
+  },
+  {
+    "altitude": 2681,
+    "filename": "2681_2",
+    "peak_name": "Zahm Andrist",
+    "degrees": 223.1,
+    "canton": "BE",
+    "distance_km": 77.24
+  },
+  {
+    "altitude": 2506,
+    "filename": "2506_2",
+    "peak_name": "Bira",
+    "degrees": 223.2,
+    "canton": "BE",
+    "distance_km": 71.93
+  },
+  {
+    "altitude": 2170,
+    "filename": 2170,
+    "peak_name": "Furggenhorn",
+    "degrees": 223.3,
+    "canton": "BE",
+    "distance_km": 57.23
+  },
+  {
+    "altitude": 2296,
+    "filename": "2296_2",
+    "peak_name": "Roteflue",
+    "degrees": 223.4,
+    "canton": "BE",
+    "distance_km": 57.94
+  },
+  {
+    "altitude": 2566,
+    "filename": 2566,
+    "peak_name": "Lobhörner",
+    "degrees": 223.6,
+    "canton": "BE",
+    "distance_km": 70.36
+  },
+  {
+    "altitude": 2011,
+    "filename": 2011,
+    "peak_name": "Schönbüel",
+    "degrees": 223.9,
+    "canton": "OW",
+    "distance_km": 41.96
+  },
+  {
+    "altitude": 2422,
+    "filename": 2422,
+    "peak_name": "Schnäbel",
+    "degrees": 224,
+    "canton": "BE",
+    "distance_km": 70.15
+  },
+  {
+    "altitude": 2777,
+    "filename": 2777,
+    "peak_name": "Schwalmere",
+    "degrees": 224.2,
+    "canton": "BE",
+    "distance_km": 72.53
+  },
+  {
+    "altitude": 2060,
+    "filename": 2060,
+    "peak_name": "Mändli",
+    "degrees": 224.5,
+    "canton": "OW",
+    "distance_km": 40.8
+  },
+  {
+    "altitude": 2205,
+    "filename": "2205_2",
+    "peak_name": "Höch Gumme",
+    "degrees": 224.6,
+    "canton": "BE/OW",
+    "distance_km": 42.44
+  },
+  {
+    "altitude": 2108,
+    "filename": 2108,
+    "peak_name": "Stellenen",
+    "degrees": 224.7,
+    "canton": "OW",
+    "distance_km": 41.26
+  },
+  {
+    "altitude": 3049,
+    "filename": 3049,
+    "peak_name": "Vordere Lohner",
+    "degrees": 225.2,
+    "canton": "BE",
+    "distance_km": 94.57
+  },
+  {
+    "altitude": 2742,
+    "filename": 2742,
+    "peak_name": "Aermighorn",
+    "degrees": 225.3,
+    "canton": "BE",
+    "distance_km": 82.16
+  },
+  {
+    "altitude": 3002,
+    "filename": 3002,
+    "peak_name": "Mittlere Lohner",
+    "degrees": 225.3,
+    "canton": "BE",
+    "distance_km": 93.48
+  },
+  {
+    "altitude": 2073,
+    "filename": "2073_2",
+    "peak_name": "Rossflue",
+    "degrees": 225.3,
+    "canton": "OW",
+    "distance_km": 40.12
+  },
+  {
+    "altitude": 1128,
+    "filename": 1128,
+    "peak_name": "Bürgenstock",
+    "degrees": 225.8,
+    "canton": "LU/NW",
+    "distance_km": 9.11
+  },
+  {
+    "altitude": 2011,
+    "filename": "2011_2",
+    "peak_name": "Giswilerstock",
+    "degrees": 226,
+    "canton": "OW",
+    "distance_km": 39.61
+  },
+  {
+    "altitude": 2011,
+    "filename": "2011_3",
+    "peak_name": "Schafnase",
+    "degrees": 226.1,
+    "canton": "OW",
+    "distance_km": 39.61
+  },
+  {
+    "altitude": 2005,
+    "filename": "2005_2",
+    "peak_name": "Arnitriste",
+    "degrees": 226.5,
+    "canton": "OW",
+    "distance_km": 42.31
+  },
+  {
+    "altitude": 2440,
+    "filename": 2440,
+    "peak_name": "First",
+    "degrees": 226.6,
+    "canton": "BE",
+    "distance_km": 74.61
+  },
+  {
+    "altitude": 2350,
+    "filename": 2350,
+    "peak_name": "Brienzer Rothorn",
+    "degrees": 227.5,
+    "canton": "BE/LU/OW",
+    "distance_km": 44.86
+  },
+  {
+    "altitude": 2115,
+    "filename": 2115,
+    "peak_name": "Brätterstock",
+    "degrees": 228.5,
+    "canton": "LU",
+    "distance_km": 44.82
+  },
+  {
+    "altitude": 2320,
+    "filename": "2320_2",
+    "peak_name": "Schongütsch",
+    "degrees": 228.5,
+    "canton": "BE/LU",
+    "distance_km": 45.37
+  },
+  {
+    "altitude": 2148,
+    "filename": 2148,
+    "peak_name": "Burg",
+    "degrees": 229.4,
+    "canton": "BE",
+    "distance_km": 47.65
+  },
+  {
+    "altitude": 2165,
+    "filename": 2165,
+    "peak_name": "Briefenhorn",
+    "degrees": 229.7,
+    "canton": "BE/LU",
+    "distance_km": 47.58
+  },
+  {
+    "altitude": 2141,
+    "filename": 2141,
+    "peak_name": "Balmi",
+    "degrees": 229.9,
+    "canton": "BE/LU",
+    "distance_km": 48.47
+  },
+  {
+    "altitude": 2221,
+    "filename": 2221,
+    "peak_name": "Tannhorn",
+    "degrees": 230,
+    "canton": "BE/LU",
+    "distance_km": 49.36
+  },
+  {
+    "altitude": 2763,
+    "filename": 2763,
+    "peak_name": "Albristhorn",
+    "degrees": 230.3,
+    "canton": "BE",
+    "distance_km": 98.26
+  },
+  {
+    "altitude": 2436,
+    "filename": "2436_2",
+    "peak_name": "Drümännler",
+    "degrees": 230.6,
+    "canton": "BE",
+    "distance_km": 92.94
+  },
+  {
+    "altitude": 2435,
+    "filename": 2435,
+    "peak_name": "Wyssi Flue",
+    "degrees": 230.7,
+    "canton": "BE",
+    "distance_km": 92.46
+  },
+  {
+    "altitude": 2325,
+    "filename": 2325,
+    "peak_name": "Linterhorn",
+    "degrees": 231,
+    "canton": "BE",
+    "distance_km": 89.32
+  },
+  {
+    "altitude": 2495,
+    "filename": 2495,
+    "peak_name": "Ladholzhorn",
+    "degrees": 231.1,
+    "canton": "BE",
+    "distance_km": 90.06
+  },
+  {
+    "altitude": 2609,
+    "filename": "2609_2",
+    "peak_name": "Winterhorn",
+    "degrees": 231.1,
+    "canton": "BE",
+    "distance_km": 90.9
+  },
+  {
+    "altitude": 2354,
+    "filename": 2354,
+    "peak_name": "Wyssi Flue",
+    "degrees": 231.4,
+    "canton": "BE",
+    "distance_km": 88.16
+  },
+  {
+    "altitude": 2652,
+    "filename": 2652,
+    "peak_name": "Männliflue",
+    "degrees": 231.5,
+    "canton": "BE",
+    "distance_km": 91.06
+  },
+  {
+    "altitude": 2597,
+    "filename": 2597,
+    "peak_name": "Schattigi Schibe",
+    "degrees": 231.7,
+    "canton": "BE",
+    "distance_km": 91.25
+  },
+  {
+    "altitude": 2454,
+    "filename": 2454,
+    "peak_name": "Riedbündihorn",
+    "degrees": 231.8,
+    "canton": "BE",
+    "distance_km": 87.06
+  },
+  {
+    "altitude": 2460,
+    "filename": 2460,
+    "peak_name": "Cheibehorn",
+    "degrees": 232.2,
+    "canton": "BE",
+    "distance_km": 90.52
+  },
+  {
+    "altitude": 2347,
+    "filename": 2347,
+    "peak_name": "Mäggisserhorn",
+    "degrees": 232.5,
+    "canton": "BE",
+    "distance_km": 84.75
+  },
+  {
+    "altitude": 2321,
+    "filename": "2321_3",
+    "peak_name": "Steinschlaghorn",
+    "degrees": 232.8,
+    "canton": "BE",
+    "distance_km": 83.36
+  },
+  {
+    "altitude": 1949,
+    "filename": 1949,
+    "peak_name": "Hagleren",
+    "degrees": 233.4,
+    "canton": "LU",
+    "distance_km": 41.67
+  },
+  {
+    "altitude": 2339,
+    "filename": 2339,
+    "peak_name": "Standhore",
+    "degrees": 233.4,
+    "canton": "BE",
+    "distance_km": 82.4
+  },
+  {
+    "altitude": 2321,
+    "filename": "2321_4",
+    "peak_name": "Triesthore",
+    "degrees": 233.4,
+    "canton": "BE",
+    "distance_km": 81.5
+  },
+  {
+    "altitude": 2408,
+    "filename": 2408,
+    "peak_name": "Drunengalm",
+    "degrees": 233.6,
+    "canton": "BE",
+    "distance_km": 81.61
+  },
+  {
+    "altitude": 2394,
+    "filename": 2394,
+    "peak_name": "Fromberghorn",
+    "degrees": 233.7,
+    "canton": "BE",
+    "distance_km": 80.52
+  },
+  {
+    "altitude": 2063,
+    "filename": 2063,
+    "peak_name": "Burgfeldstand",
+    "degrees": 234.3,
+    "canton": "BE",
+    "distance_km": 64.43
+  },
+  {
+    "altitude": 2062,
+    "filename": 2062,
+    "peak_name": "Gemmenalphorn",
+    "degrees": 234.6,
+    "canton": "BE",
+    "distance_km": 63.07
+  },
+  {
+    "altitude": 1895,
+    "filename": 1895,
+    "peak_name": "Miesenstock",
+    "degrees": 234.9,
+    "canton": "OW",
+    "distance_km": 36.07
+  },
+  {
+    "altitude": 1738,
+    "filename": 1738,
+    "peak_name": "Jänzi",
+    "degrees": 235.4,
+    "canton": "OW",
+    "distance_km": 28.77
+  },
+  {
+    "altitude": 2197,
+    "filename": 2197,
+    "peak_name": "Hohgant",
+    "degrees": 235.6,
+    "canton": "BE",
+    "distance_km": 53.55
+  },
+  {
+    "altitude": 2037,
+    "filename": 2037,
+    "peak_name": "Schibengütsch",
+    "degrees": 236,
+    "canton": "LU",
+    "distance_km": 49.02
+  },
+  {
+    "altitude": 2029,
+    "filename": 2029,
+    "peak_name": "Türstenhäuptli",
+    "degrees": 236.5,
+    "canton": "LU",
+    "distance_km": 48.57
+  },
+  {
+    "altitude": 2092,
+    "filename": "2092_2",
+    "peak_name": "Hengst",
+    "degrees": 237.8,
+    "canton": "LU",
+    "distance_km": 47.19
+  },
+  {
+    "altitude": 2091,
+    "filename": 2091,
+    "peak_name": "Hächle",
+    "degrees": 238.5,
+    "canton": "LU",
+    "distance_km": 45.63
+  },
+  {
+    "altitude": 2040,
+    "filename": 2040,
+    "peak_name": "Fürstein",
+    "degrees": 239.9,
+    "canton": "LU/OW",
+    "distance_km": 36.32
+  },
+  {
+    "altitude": 2041,
+    "filename": 2041,
+    "peak_name": "Matthorn",
+    "degrees": 240.9,
+    "canton": "OW",
+    "distance_km": 20.1
+  },
+  {
+    "altitude": 2118,
+    "filename": 2118,
+    "peak_name": "Esel",
+    "degrees": 243,
+    "canton": "OW",
+    "distance_km": 19.43
+  },
+  {
+    "altitude": 2120,
+    "filename": 2120,
+    "peak_name": "Pilatus",
+    "degrees": 243,
+    "canton": "NW/OW",
+    "distance_km": 19.44
+  },
+  {
+    "altitude": 1917,
+    "filename": 1917,
+    "peak_name": "Mittaggüpfi",
+    "degrees": 246.7,
+    "canton": "LU/OW",
+    "distance_km": 24.56
+  },
+  {
+    "altitude": 1204,
+    "filename": 1204,
+    "peak_name": "Le Gibloux",
+    "degrees": 249.2,
+    "canton": "FR",
+    "distance_km": 117.67
+  },
+  {
+    "altitude": 1603,
+    "filename": 1603,
+    "peak_name": "Studberg",
+    "degrees": 249.4,
+    "canton": "LU",
+    "distance_km": 22.92
+  },
+  {
+    "altitude": 937,
+    "filename": 937,
+    "peak_name": "Ulmizberg",
+    "degrees": 257.4,
+    "canton": "BE",
+    "distance_km": 81.83
+  },
+  {
+    "altitude": 1607,
+    "filename": 1607,
+    "peak_name": "Le Chasseron",
+    "degrees": 261.2,
+    "canton": "VD",
+    "distance_km": 149.95
+  },
+  {
+    "altitude": 1408,
+    "filename": 1408,
+    "peak_name": "Napf",
+    "degrees": 261.3,
+    "canton": "BE/LU",
+    "distance_km": 41.87
+  },
+  {
+    "altitude": 1463,
+    "filename": 1463,
+    "peak_name": "Le Soliat",
+    "degrees": 263.9,
+    "canton": "VD",
+    "distance_km": 134.93
+  },
+  {
+    "altitude": 1288,
+    "filename": 1288,
+    "peak_name": "Tablettes",
+    "degrees": 265.9,
+    "canton": "NE",
+    "distance_km": 129.32
+  },
+  {
+    "altitude": 1422,
+    "filename": 1422,
+    "peak_name": "Tête de Ran",
+    "degrees": 269.7,
+    "canton": "NE",
+    "distance_km": 123.99
+  },
+  {
+    "altitude": 1571,
+    "filename": 1571,
+    "peak_name": "Petit Chasseral",
+    "degrees": 274.5,
+    "canton": "NE",
+    "distance_km": 108.71
+  },
+  {
+    "altitude": 1382,
+    "filename": 1382,
+    "peak_name": "Mont Sujet",
+    "degrees": 274.8,
+    "canton": "BE",
+    "distance_km": 102.17
+  },
+  {
+    "altitude": 684,
+    "filename": 684,
+    "peak_name": "Hombrig",
+    "degrees": 275.1,
+    "canton": "LU",
+    "distance_km": 11.15
+  },
+  {
+    "altitude": 1395,
+    "filename": 1395,
+    "peak_name": "Röti",
+    "degrees": 286.7,
+    "canton": "SO",
+    "distance_km": 75.97
+  },
+  {
+    "altitude": 1302,
+    "filename": 1302,
+    "peak_name": "Mont Raimeux",
+    "degrees": 288.8,
+    "canton": "JU",
+    "distance_km": 84.81
+  },
+  {
+    "altitude": 1251,
+    "filename": "1251_2",
+    "peak_name": "Chamben",
+    "degrees": 288.9,
+    "canton": "SO",
+    "distance_km": 73.21
+  },
+  {
+    "altitude": 1225,
+    "filename": 1225,
+    "peak_name": "Hornegg",
+    "degrees": 290.4,
+    "canton": "SO",
+    "distance_km": 75.62
+  },
+  {
+    "altitude": 1102,
+    "filename": 1102,
+    "peak_name": "Geissflue",
+    "degrees": 292.1,
+    "canton": "SO",
+    "distance_km": 74.34
+  },
+  {
+    "altitude": 1204,
+    "filename": "1204_2",
+    "peak_name": "Hohe Winde",
+    "degrees": 294.4,
+    "canton": "SO",
+    "distance_km": 75.63
+  },
+  {
+    "altitude": 977,
+    "filename": 977,
+    "peak_name": "Roggen",
+    "degrees": 295.8,
+    "canton": "SO",
+    "distance_km": 63.7
+  },
+  {
+    "altitude": 1024,
+    "filename": 1024,
+    "peak_name": "Hirnichopf",
+    "degrees": 297.2,
+    "canton": "SO",
+    "distance_km": 74.61
+  },
+  {
+    "altitude": 1104,
+    "filename": 1104,
+    "peak_name": "Beretenchopf",
+    "degrees": 299.1,
+    "canton": "SO",
+    "distance_km": 64.39
+  },
+  {
+    "altitude": 1169,
+    "filename": 1169,
+    "peak_name": "Hinteri Egg",
+    "degrees": 300.4,
+    "canton": "BL",
+    "distance_km": 68.39
+  },
+  {
+    "altitude": 1123,
+    "filename": 1123,
+    "peak_name": "Belchenflue",
+    "degrees": 303,
+    "canton": "BL/SO",
+    "distance_km": 61.6
+  },
+  {
+    "altitude": 1042,
+    "filename": 1042,
+    "peak_name": "Lauchflue",
+    "degrees": 303.6,
+    "canton": "BL",
+    "distance_km": 63.64
+  },
+  {
+    "altitude": 982,
+    "filename": 982,
+    "peak_name": "Ifleter Berg",
+    "degrees": 305,
+    "canton": "BL/SO",
+    "distance_km": 60.39
+  },
+  {
+    "altitude": 664,
+    "filename": 664,
+    "peak_name": "Säli",
+    "degrees": 305.2,
+    "canton": "AG/SO",
+    "distance_km": 52.88
+  },
+  {
+    "altitude": 913,
+    "filename": 913,
+    "peak_name": "Walten",
+    "degrees": 306.4,
+    "canton": "BL",
+    "distance_km": 61.74
+  },
+  {
+    "altitude": 1001,
+    "filename": 1001,
+    "peak_name": "Wisenberg",
+    "degrees": 309.5,
+    "canton": "BL",
+    "distance_km": 59.72
+  },
+  {
+    "altitude": 935,
+    "filename": 935,
+    "peak_name": "Burgflue",
+    "degrees": 310.7,
+    "canton": "BL/SO",
+    "distance_km": 57.83
+  },
+  {
+    "altitude": 805,
+    "filename": 805,
+    "peak_name": "Gugen",
+    "degrees": 314.6,
+    "canton": "SO",
+    "distance_km": 54.73
+  },
+  {
+    "altitude": 963,
+    "filename": 963,
+    "peak_name": "Geissflue",
+    "degrees": 314.7,
+    "canton": "BL/SO",
+    "distance_km": 56.85
+  },
+  {
+    "altitude": 908,
+    "filename": 908,
+    "peak_name": "Geissfluegrat",
+    "degrees": 315.4,
+    "canton": "AG/SO",
+    "distance_km": 56.66
+  },
+  {
+    "altitude": 866,
+    "filename": 866,
+    "peak_name": "Wasserflue",
+    "degrees": 319.2,
+    "canton": "AG",
+    "distance_km": 54.51
+  },
+  {
+    "altitude": 865,
+    "filename": 865,
+    "peak_name": "Strihen",
+    "degrees": 321.3,
+    "canton": "AG",
+    "distance_km": 55.86
+  },
+  {
+    "altitude": 772,
+    "filename": 772,
+    "peak_name": "Gisliflue",
+    "degrees": 324.8,
+    "canton": "AG",
+    "distance_km": 49.81
+  },
+  {
+    "altitude": 650,
+    "filename": 650,
+    "peak_name": "Frickberg",
+    "degrees": 326.1,
+    "canton": "AG",
+    "distance_km": 60.79
+  },
+  {
+    "altitude": 782,
+    "filename": 782,
+    "peak_name": "Homberg",
+    "degrees": 326.1,
+    "canton": "AG",
+    "distance_km": 53.51
+  },
+  {
+    "altitude": 647,
+    "filename": 647,
+    "peak_name": "Chestenberg",
+    "degrees": 331.1,
+    "canton": "AG",
+    "distance_km": 46.54
+  },
+  {
+    "altitude": 700,
+    "filename": 700,
+    "peak_name": "Geissberg",
+    "degrees": 335,
+    "canton": "AG",
+    "distance_km": 57.82
+  },
+  {
+    "altitude": 787,
+    "filename": 787,
+    "peak_name": "Heitersberg",
+    "degrees": 345.1,
+    "canton": "AG",
+    "distance_km": 38.32
+  },
+  {
+    "altitude": 866,
+    "filename": "866_2",
+    "peak_name": "Lägeren",
+    "degrees": 350.9,
+    "canton": "ZH",
+    "distance_km": 47.78
+  },
+  {
+    "altitude": 583,
+    "filename": "583_2",
+    "peak_name": "Hasleren",
+    "degrees": 352.5,
+    "canton": "ZH",
+    "distance_km": 41.17
+  },
+  {
+    "altitude": 652,
+    "filename": 652,
+    "peak_name": "Buechhoger",
+    "degrees": 355.6,
+    "canton": "ZH",
+    "distance_km": 35.54
+  },
+  {
+    "altitude": 615,
+    "filename": 615,
+    "peak_name": "Gubrist",
+    "degrees": 356.4,
+    "canton": "ZH",
+    "distance_km": 40.71
+  },
+  {
+    "altitude": 706,
+    "filename": 706,
+    "peak_name": "Büel",
+    "degrees": 357.4,
+    "canton": "ZH",
+    "distance_km": 33.9
+  },
+  {
+    "altitude": 829,
+    "filename": 829,
+    "peak_name": "Aeugsterberg",
+    "degrees": 359.6,
+    "canton": "ZH",
+    "distance_km": 24.16
+  }
+]
