@@ -1,6 +1,9 @@
 (function($, window, document) {
 
     var options = {
+       //Animation
+        rotationSpeed: 0.1,
+
         //display switches
         displayRays: true,
         displayPeaks: true,
@@ -35,11 +38,10 @@
         connectTheDotsWidth: 0.3,
         connectTheDotsSmoothPath: true,
         //Orbits = the concentric circles the dots sit on
-        orbitStrokeColor: 'rgba(255, 255, 255, 0.06)',
-        orbitStrokeWidth: 0.1,
+        orbitStrokeColor: 'rgba(255, 255, 255, 0.16)',
+        orbitStrokeWidth: 0.1
 
-        //Animation
-        rotationSpeed: 0.1
+ 
     };
 
     var data;
