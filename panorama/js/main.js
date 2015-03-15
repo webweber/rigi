@@ -41,7 +41,6 @@
         //Orbits = the concentric circles the dots sit on
         orbitStrokeColor: 'rgba(255, 255, 255, 0.16)',
         orbitStrokeWidth: 0.1
-
  
     };
 
@@ -92,14 +91,17 @@
 
         };
 
-        this.loadSound = function loadDogSound(url, idx, isLast) {
+        this.loadSound = function loadDogSound(url, idxSpeaker, idx, isLast) {
             var req = new XMLHttpRequest();
             req.open('GET', url, true);
             req.responseType = 'arraybuffer';
 
             req.onload = function() {
                 self.context.decodeAudioData(req.response, function(buffer) {
-                    self.buffers[idx] = buffer;
+                    if( self.buffers[idx] == undefined){
+                        self.buffers[idx] = new Array();
+                    }
+                    self.buffers[idx][idxSpeaker] = buffer;
                 }, function(err) {
                     console.log('decoding error for ' + url);
                 });
@@ -110,33 +112,61 @@
 
         this.loadSoundsForData = function(_data) {
             _data.forEach(function(anObject, idx) {
-                var soundUrl;
+                var soundUrl, idxSpeaker;
                 if (undefined != anObject.filename) {
 
-                    var randInd = Math.floor((Math.random() * options.speakers.length));
-                    var basepath = 'assets/'+options.speakers[randInd]+'/';
+                   // var randInd = Math.floor((Math.random() * options.speakers.length));
 
-                    //soundUrl = self.basepath + anObject.filename + self.extension;
+                    idxSpeaker = 0;
+                    var basepath = 'assets/'+options.speakers[idxSpeaker]+'/';
                     soundUrl = basepath + anObject.filename + self.extension;
-                    self.loadSound(soundUrl, idx);
+                    self.loadSound(soundUrl, idxSpeaker, idx);
+
+                    idxSpeaker = 1;                    
+                    var basepath2 = 'assets/'+options.speakers[idxSpeaker]+'/';
+                    soundUrl2 = basepath2 + anObject.filename + self.extension;
+                    self.loadSound(soundUrl2, idxSpeaker, idx);
                 }
 
             });
         }
 
         this.playSound = function playSound(idx) {
-            var buffer;
+            var buffer, buffer2;
 
-            if (undefined != self.buffers[idx]) {
-                buffer = self.buffers[idx];
-            }else return;
-            var src = self.context.createBufferSource();
-            src.buffer = buffer;
-            src.connect(self.context.destination);
-            src.start(0);
+
+            if (self.buffers[idx] != undefined ) {
+                if(self.buffers[idx][0] != undefined ){
+                    buffer  = self.buffers[idx][0];
+                    var src = self.context.createBufferSource();
+                    src.buffer = buffer;
+                    src.connect(self.context.destination);
+                    src.start(0);
+
+                    src.addEventListener('ended', function(){
+                        console.log('ended');
+                                     if(self.buffers[idx][1] != undefined ){
+                                        buffer2  = self.buffers[idx][1];
+                                        var src2 = self.context.createBufferSource();
+                                        src2.buffer = buffer2;
+                                        src2.connect(self.context.destination);
+                                        src2.start(0);
+                                    }
+                    }, false);
+
+                    src.onended = function(){
+                         console.log('ended 2');
+                    }.bind(this);
+                }
+
+   
+
+            }
+
+
         }
 
-        this.init();
+        this.init();  
     }
 
     // Pseudo singleton of soundscape. All calls go to this instance.
