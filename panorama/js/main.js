@@ -3,6 +3,7 @@
     var options = {
        //Animation
         rotationSpeed: 0.1,
+        speakers:['swissgerman','chinese_male'],// possible values = names of 'assets'-subfolders
 
         //display switches
         displayRays: true,
@@ -81,7 +82,8 @@
         var self = this;
         this.buffers = [];
 
-        this.basepath = 'assets/swissgerman/';
+     //   this.basepath = 'assets/swissgerman/';
+
         this.extension = '.mp3';
 
         this.init = function() {
@@ -110,7 +112,12 @@
             _data.forEach(function(anObject, idx) {
                 var soundUrl;
                 if (undefined != anObject.filename) {
-                    soundUrl = self.basepath + anObject.filename + self.extension;
+
+                    var randInd = Math.floor((Math.random() * options.speakers.length));
+                    var basepath = 'assets/'+options.speakers[randInd]+'/';
+
+                    //soundUrl = self.basepath + anObject.filename + self.extension;
+                    soundUrl = basepath + anObject.filename + self.extension;
                     self.loadSound(soundUrl, idx);
                 }
 
