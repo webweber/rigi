@@ -2,8 +2,11 @@
 
     var options = {
        //Animation
-        rotationSpeed: 0.1,
+        rotationSpeed: 0.1,// default: 0.1
+
+        //misc params
         speakers:['swissgerman','chinese_male'],// possible values = names of 'assets'-subfolders
+        initialRotation: -90, // North = -90
 
         //display switches
         displayRays: true,
@@ -136,30 +139,27 @@
 
 
             if (self.buffers[idx] != undefined ) {
-                if(self.buffers[idx][0] != undefined ){
+                if(self.buffers[idx][0] != undefined ){// 0 == speakers[0]
                     buffer  = self.buffers[idx][0];
                     var src = self.context.createBufferSource();
                     src.buffer = buffer;
                     src.connect(self.context.destination);
                     src.start(0);
-
-                    src.addEventListener('ended', function(){
-                        console.log('ended');
-                                     if(self.buffers[idx][1] != undefined ){
-                                        buffer2  = self.buffers[idx][1];
-                                        var src2 = self.context.createBufferSource();
-                                        src2.buffer = buffer2;
-                                        src2.connect(self.context.destination);
-                                        src2.start(0);
-                                    }
-                    }, false);
-
+/*
+                    src.addEventListener('ended', function(){// does not work?
+                        console.log('ended '+idx);
+                    }.bind(self), false);
+  */     
                     src.onended = function(){
-                         console.log('ended 2');
+                        if(self.buffers[idx][1] != undefined ){// 1 == speakers[1]
+                            buffer2  = self.buffers[idx][1];
+                            var src2 = self.context.createBufferSource();
+                            src2.buffer = buffer2;
+                            src2.connect(self.context.destination);
+                            src2.start(0);
+                        }
                     }.bind(this);
                 }
-
-   
 
             }
 
@@ -359,7 +359,7 @@
 
 
         //Rotate main layer to make o°=NORTH
-        paper.project.activeLayer.rotate(-90, paper.view.center);
+        paper.project.activeLayer.rotate(options.initialRotation, paper.view.center);
 
         //Invoke draw
 
