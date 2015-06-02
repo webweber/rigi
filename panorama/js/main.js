@@ -49,7 +49,8 @@
         rotationSpeed: 0.1,
 
         //Soundscape
-        masterVolume: 0.3
+        masterVolume: 0.35,
+        enableAudioFilter: true
 
  
     };
@@ -119,13 +120,30 @@
         this.extension = '.mp3';
 
         self.masterVolumeGainNode;
+        self.voiceFilter;
 
         this.init = function() {
             window.AudioContext = window.AudioContext || window.webkitAudioContext;
             self.context = new AudioContext();
+            //Create
             self.masterVolumeGainNode = self.context.createGain();
-            self.masterVolumeGainNode.connect(self.context.destination);
+            self.voiceFilter = self.context.createBiquadFilter();
+
+            //Configure
             self.masterVolumeGainNode.gain.value = options.masterVolume;
+
+            self.voiceFilter.type = "highpass";
+            self.voiceFilter.frequency.value = 850;
+            self.voiceFilter.Q.value = 25;
+            //Wire
+            if (options.enableAudioFilter) {
+                self.masterVolumeGainNode.connect(self.voiceFilter);    
+                self.voiceFilter.connect(self.context.destination);
+            }else{
+                self.masterVolumeGainNode.connect(self.context.destination);  
+            }
+            
+
             console.log("Soundscape loaded");
         };
 
@@ -190,7 +208,7 @@
                     buffer  = self.buffers[idx][0];
                     var src = self.context.createBufferSource();
                     src.buffer = buffer;
-                    src.connect(self.context.destination);
+                    src.connect(self.masterVolumeGainNode);
                     src.start(0);
 /*
                     src.addEventListener('ended', function(){// does not work?
@@ -202,7 +220,7 @@
                             buffer2  = self.buffers[idx][1];
                             var src2 = self.context.createBufferSource();
                             src2.buffer = buffer2;
-                            src2.connect(self.context.destination);
+                            src2.connect(self.masterVolumeGainNode);
                             src2.start(0);
                         }
                     }.bind(this);
