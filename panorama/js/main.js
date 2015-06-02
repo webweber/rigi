@@ -1,6 +1,13 @@
 (function($, window, document) {
 
     var options = {
+       //Animation
+        rotationSpeed: 0.1,// default: 0.1
+
+        //misc params
+        speakers:['swissgerman','chinese_male'],// possible values = names of 'assets'-subfolders
+        initialRotation: -90, // North = -90
+
         //display switches
         displayRays: true,
         displayPeaks: true,
@@ -43,6 +50,9 @@
 
         //Soundscape
         masterVolume: 0.3
+        orbitStrokeColor: 'rgba(255, 255, 255, 0.16)',
+        orbitStrokeWidth: 0.1
+ 
     };
 
     var data;
@@ -105,7 +115,8 @@
         var self = this;
         this.buffers = [];
 
-        this.basepath = 'assets/swissgerman/';
+     //   this.basepath = 'assets/swissgerman/';
+
         this.extension = '.mp3';
 
         self.masterVolumeGainNode;
@@ -119,7 +130,7 @@
             console.log("Soundscape loaded");
         };
 
-        this.loadSound = function loadDogSound(url, idx, isLast) {
+        this.loadSound = function loadDogSound(url, idxSpeaker, idx, isLast) {
             var req = new XMLHttpRequest();
             req.open('GET', url, true);
             req.responseType = 'arraybuffer';
@@ -128,6 +139,10 @@
                 self.context.decodeAudioData(req.response, function(buffer) {
                     self.buffers[idx] = buffer;
                     preloader("sound");
+                    if( self.buffers[idx] == undefined){
+                        self.buffers[idx] = new Array();
+                    }
+                    self.buffers[idx][idxSpeaker] = buffer;
                 }, function(err) {
                     console.log('decoding error for ' + url);
                     preloader("sound");
@@ -139,10 +154,20 @@
 
         this.loadSoundsForData = function(_data) {
             _data.forEach(function(anObject, idx) {
-                var soundUrl;
+                var soundUrl, idxSpeaker;
                 if (undefined != anObject.filename) {
-                    soundUrl = self.basepath + anObject.filename + self.extension;
-                    self.loadSound(soundUrl, idx);
+
+                   // var randInd = Math.floor((Math.random() * options.speakers.length));
+
+                    idxSpeaker = 0;
+                    var basepath = 'assets/'+options.speakers[idxSpeaker]+'/';
+                    soundUrl = basepath + anObject.filename + self.extension;
+                    self.loadSound(soundUrl, idxSpeaker, idx);
+
+                    idxSpeaker = 1;                    
+                    var basepath2 = 'assets/'+options.speakers[idxSpeaker]+'/';
+                    soundUrl2 = basepath2 + anObject.filename + self.extension;
+                    self.loadSound(soundUrl2, idxSpeaker, idx);
                 }
 
             });
@@ -158,9 +183,38 @@
             src.buffer = buffer;
             src.connect(self.masterVolumeGainNode);
             src.start(0);
+            var buffer, buffer2;
+
+
+            if (self.buffers[idx] != undefined ) {
+                if(self.buffers[idx][0] != undefined ){// 0 == speakers[0]
+                    buffer  = self.buffers[idx][0];
+                    var src = self.context.createBufferSource();
+                    src.buffer = buffer;
+                    src.connect(self.context.destination);
+                    src.start(0);
+/*
+                    src.addEventListener('ended', function(){// does not work?
+                        console.log('ended '+idx);
+                    }.bind(self), false);
+  */     
+                    src.onended = function(){
+                        if(self.buffers[idx][1] != undefined ){// 1 == speakers[1]
+                            buffer2  = self.buffers[idx][1];
+                            var src2 = self.context.createBufferSource();
+                            src2.buffer = buffer2;
+                            src2.connect(self.context.destination);
+                            src2.start(0);
+                        }
+                    }.bind(this);
+                }
+
+            }
+
+
         }
 
-        this.init();
+        this.init();  
     }
 
     // Pseudo singleton of soundscape. All calls go to this instance.
@@ -448,7 +502,7 @@
 
 
         //Rotate main layer to make o°=NORTH
-        paper.project.activeLayer.rotate(-90, paper.view.center);
+        paper.project.activeLayer.rotate(options.initialRotation, paper.view.center);
 
         //Invoke draw
         paper.view.draw();
