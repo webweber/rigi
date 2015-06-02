@@ -5,7 +5,7 @@
         rotationSpeed: 0.1,// default: 0.1
 
         //misc params
-        speakers:['swissgerman','chinese_male'],// possible values = names of 'assets'-subfolders
+        speakers:['swissgerman', 'chinese_female'],// possible values = names of 'assets'-subfolders
         initialRotation: -90, // North = -90
 
         //display switches
@@ -42,7 +42,7 @@
         connectTheDotsWidth: 0.3,
         connectTheDotsSmoothPath: true,
         //Orbits = the concentric circles the dots sit on
-        orbitStrokeColor: 'rgba(255, 255, 255, 0.04)',
+        orbitStrokeColor: 'rgba(255, 255, 255, 0.16)',
         orbitStrokeWidth: 0.1,
 
         //Animation
@@ -50,8 +50,7 @@
 
         //Soundscape
         masterVolume: 0.3
-        orbitStrokeColor: 'rgba(255, 255, 255, 0.16)',
-        orbitStrokeWidth: 0.1
+
  
     };
 
