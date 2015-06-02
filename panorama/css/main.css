@@ -1,197 +1,12 @@
-@import url(http://fonts.googleapis.com/css?family=Flamenco:300,400);
 
-/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
-
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
-
-html,
-button,
-input,
-select,
-textarea {
-    color: #222;
-}
-
-html {
-    font-size: 1em;
-    line-height: 1.4;
-}
-
-/*
- * Remove text-shadow in selection highlight: h5bp.com/i
- * These selection rule sets have to be separate.
- * Customize the background color to match your design.
- */
-
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-/*
- * A better looking default horizontal rule
- */
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-/*
- * Remove the gap between images, videos, audio and canvas and the bottom of
- * their containers: h5bp.com/i/440
- */
-
-audio,
-canvas,
-img,
-video {
-    vertical-align: middle;
-}
-
-/*
- * Remove default fieldset styles.
- */
-
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-
-/*
- * Allow only vertical resizing of textareas.
- */
-
-textarea {
-    resize: vertical;
-}
-
-/* ==========================================================================
-   Browse Happy prompt
-   ========================================================================== */
-
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-.title{
-    font-family: 'Flamenco', cursive;
-    font-weight: 300;
-    font-size: 72px;
-    text-align: center;
-    color: #d0d0d0;
-}
-
-
-canvas{
-    background-color: black;
-}
-
-
-
-
-
-
-
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Image replacement
- */
-
-.ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    /* IE 6/7 fallback */
-    *text-indent: -9999px;
-}
-
-.ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 150%;
-}
-
-/*
- * Hide from both screenreaders and browsers: h5bp.com/u
- */
-
-.hidden {
-    display: none !important;
-    visibility: hidden;
-}
-
-/*
- * Hide only visually, but have it available for screenreaders: h5bp.com/v
- */
-
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-}
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700);
+@media print,
 
 /*
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-}
-
-/*
- * Hide visually and from screenreaders, but maintain layout
- */
-
-.invisible {
-    visibility: hidden;
-}
-
+.visuallyhidden.focusable                                    : active,
 /*
  * Clearfix: contain floats
  *
@@ -203,24 +18,347 @@ canvas{
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
+.clearfix                                                    : before,
 
-.clearfix:before,
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+html,
+button,
+input,
+select,
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+audio,
+canvas,
+img,
+(-o-min-device-pixel-ratio                                   : 5/4),
+(-webkit-min-device-pixel-ratio                              : 1.25),
+
+textarea {
+    color : #222;
+}
+
+html {
+    background-color : rgb(23, 14, 14);
+    font-size        : 1em;
+    line-height      : 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+::-moz-selection {
+    background  : #b3d4fc;
+    text-shadow : none;
+}
+
+::selection {
+    background  : #b3d4fc;
+    text-shadow : none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+    display    : block;
+
+    height     : 1px;
+    margin     : 1em 0;
+    padding    : 0;
+
+    border     : 0;
+    border-top : 1px solid #ccc;
+}
+
+video {
+    vertical-align : middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+fieldset {
+    margin  : 0;
+    padding : 0;
+
+    border  : 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+    resize : vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+.browsehappy {
+    margin     : 0.2em 0;
+    padding    : 0.2em 0;
+
+    background : #ccc;
+    color      : #000;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/*==============================
+=            Loader            =
+==============================*/
+.loaderModal{
+    position           : absolute;
+    bottom             : 0px;
+    left               : 0px;
+    z-index            : 200;
+
+    height             : 100%;
+    width              : 100%;
+
+    opacity            : 0;
+    background-color   : rgb(23, 14, 14);
+
+    -webkit-transition : opacity 4s ease-out;
+}
+
+.loaderModal.loading{
+    opacity : 1;
+}
+
+.loader.ver{
+    position           : absolute;
+    display            : block;
+    bottom             : 0;
+    left               : 50%;
+    z-index            : 210;
+
+    height             : 0px;
+    width              : 2px;
+    margin-top         : 0px;
+    margin-left        : -1px;
+
+    opacity            : 0.0;
+    background         : red;
+
+    -webkit-transition : height 0.5s linear;
+    -webkit-transition : opacity 2.1s ease-out;
+}
+
+.loader.hor {
+    position           : absolute;
+    display            : block;
+    bottom             : 50%;
+    left               : 0%;
+    z-index            : 210;
+
+    height             : 4px;
+    width              : 0%;
+    margin-top         : -2px;
+
+    opacity            : 0.0;
+    background         : red;
+
+    -webkit-transition : width 0.5s linear;
+    -webkit-transition : opacity 2.1s ease-out;
+}
+
+.loader.loading{
+    opacity : 0.6;
+}
+
+/*-----  End of Loader  ------*/
+canvas{
+    position           : absolute;
+    top                : 100px;
+    left               : 0;
+
+    width              : 100%;
+
+    opacity            : 1;
+    background-color   : rgb(23, 14, 14);
+
+    -webkit-transition : opacity 0.4s ease-out;
+}
+
+.wordcloud{
+    float              : left;
+    box-sizing         : border-box;
+
+    overflow           : hidden;
+    height             : 100px;
+    width              : 50%;
+    margin-top         : 10px;
+    padding            : 0px 50px;
+
+    opacity            : 1;
+    background-color   : rgb(23, 14, 14);
+    font-family        : 'Maven Pro', sans-serif;
+    font-size          : 0px;
+    font-weight        : 700;
+    line-height        : 100px;
+
+    -webkit-transition : opacity 0.4s ease-out;
+}
+
+#w1{
+    padding-right : 0px;
+
+    direction     : rtl;
+    text-align    : right;
+}
+
+#w2{
+    padding-left : 0px;
+}
+
+.wordcloud p{
+    display        : inline-block;
+
+    font-size      : 14px;
+    color          : white;
+    color          : gray;
+    letter-spacing : 2px;
+    line-height    : 14px;
+    text-align     : center;
+    text-transform : uppercase;
+    vertical-align: middle;
+}
+
+.wordcloud p>p{
+    display       : block;
+
+
+    -webkit-animation-name      : fadeOut;
+    animation-name              : fadeOut;
+    -webkit-animation-duration  : 4s;
+    animation-duration          : 4s;
+
+    
+    -webkit-animation-fill-mode : both;
+    animation-fill-mode         : both;
+    margin        : 2px;
+    padding-right : 7px;
+
+    opacity       : 1;
+
+    
+}
+
+.wordcloud p.altitude{
+    font-size : 11px;
+    font-weight        : 400;
+    font-style: italic;
+    opacity: 0.5;
+}
+
+.wordcloud p.name{
+}
+
+@keyframes fadeOut {
+    0% {opacity: 1; color: red;}
+
+    20%{color: white;}
+
+    100% {opacity: 0;
+        letter-spacing : 3px;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Image replacement
+ */
+.ir {
+    overflow         : hidden;
+
+    background-color : transparent;
+    border           : 0;
+
+    /* IE 6/7 fallback */
+    *text-indent     : -9999px;
+}
+
+.ir:before {
+    content : "";
+
+    display : block;
+
+    height  : 150%;
+    width   : 0;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+.hidden {
+    display    : none !important;
+    visibility : hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+.visuallyhidden {
+    position : absolute;
+    clip     : rect(0 0 0 0);
+
+    overflow : hidden;
+    height   : 1px;
+    width    : 1px;
+    margin   : -1px;
+    padding  : 0;
+
+    border   : 0;
+}
+
+.visuallyhidden.focusable:focus {
+    position : static;
+    clip     : auto;
+
+    overflow : visible;
+    height   : auto;
+    width    : auto;
+    margin   : 0;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+.invisible {
+    visibility : hidden;
+}
+
 .clearfix:after {
     content: " "; /* 1 */
     display: table; /* 2 */
 }
 
 .clearfix:after {
-    clear: both;
+    clear : both;
 }
 
 /*
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-
 .clearfix {
-    *zoom: 1;
+    *zoom : 1;
 }
 
 /* ==========================================================================
@@ -228,15 +366,11 @@ canvas{
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
 }
 
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dppx) {
+(min-resolution: 120dppx) {
     /* Style adjustments for high resolution devices */
 }
 
@@ -244,70 +378,70 @@ canvas{
    Print styles.
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
-
 @media print {
-    * {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
     /*
      * Don't show links for images, or javascript/internal links
      */
+    .ir a                  : after,
 
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
+    a,
+    a[href^="javascript:"] : after,
+    pre,
+    tr,
+    p,
+    h2,
+    h2,
+
+    * {
+        background  : transparent !important;
+        text-shadow : none !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow  : none !important;
     }
 
-    pre,
+    a:visited {
+        text-decoration : underline;
+    }
+
+    a[href]:after {
+        content : " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content : " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after {
+        content : "";
+    }
+
     blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
+        border            : 1px solid #999;
+        page-break-inside : avoid;
     }
 
     thead {
         display: table-header-group; /* h5bp.com/t */
     }
 
-    tr,
     img {
-        page-break-inside: avoid;
+        page-break-inside : avoid;
     }
 
     img {
-        max-width: 100% !important;
+        max-width : 100% !important;
     }
 
     @page {
-        margin: 0.5cm;
+        margin : 0.5cm;
     }
 
-    p,
-    h2,
     h3 {
-        orphans: 3;
-        widows: 3;
+        orphans : 3;
+        widows  : 3;
     }
 
-    h2,
     h3 {
-        page-break-after: avoid;
+        page-break-after : avoid;
     }
 }

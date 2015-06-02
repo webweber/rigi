@@ -11,35 +11,38 @@
         //general
         rigiAltitude: 1798,
         outerPadding: 20,
-        backgroundColor: '#000',
+        backgroundColor: 'rgb(23, 14, 14)',
         //Center Circle
         centerCircleStrokeColor: '#666666',
         centerCircleStrokeWidth: 0.3,
         centerCircleRadius: 25,
         //Rays
-        rayStrokeColor: 'rgba(102, 102, 102, 0.7)',
+        rayStrokeColor: 'rgba(102, 102, 102, 0.2)',
         rayStrokeColorTaller: '#ff9999',
         rayStrokeColorSmaller: '#9999ff',
-        rayStrokeWidth: 0.2,
+        rayStrokeWidth: 0.5,
         //Peaks
-        peakStrokeColor: 'rgba(102, 102, 102, 0.7)',
-        peakFillColor: 'rgba(102, 102, 102, 0.7)',
-        peakStrokeWidth: 0.6,
-        peakRadius: 1.0,
+        peakStrokeColor: 'rgba(102, 102, 102, 0.2)',
+        peakFillColor: 'rgba(102, 102, 102, 0.1)',
+        peakStrokeWidth: 1,
+        peakRadius: 2.3,
         activePeakMarkerColor: 'red',
         //Beam ( upwards pointing indicator )
         beamColor: 'red',
-        beamStrokeWidth: 0.3,
+        beamStrokeWidth: 1,
         //ConnectTheDots Path
         connectTheDotsColor: '#ffcccc',
         connectTheDotsWidth: 0.3,
         connectTheDotsSmoothPath: true,
         //Orbits = the concentric circles the dots sit on
-        orbitStrokeColor: 'rgba(255, 255, 255, 0.06)',
+        orbitStrokeColor: 'rgba(255, 255, 255, 0.04)',
         orbitStrokeWidth: 0.1,
 
         //Animation
-        rotationSpeed: 0.1
+        rotationSpeed: 0.1,
+
+        //Soundscape
+        masterVolume: 0.3
     };
 
     var data;
@@ -63,16 +66,39 @@
         draw(data);
     }
 
-    var initDraw = function() {
-        sizes.maxDistance = maxDistance(data);
-        // Create an empty project and a view for the canvas:
-        var canvas = document.getElementById('myCanvas');
-        paper.setup(canvas);
-        paper.view.onResize = resizeHandler;
-        resizeHandler();
+
+
+    var initWordcloud = function() {
+
+    };
+
+    var addWord = function(idx) {
+        var w1 = document.getElementById('w1');
+        var w2 = document.getElementById('w2');
+
+        var word = data[idx];
+        var p = document.createElement("p");
+        var wordE = document.createElement("p");
+        var altitudeE = document.createElement("p");
+        $(wordE).addClass('name');
+        $(altitudeE).addClass('altitude');
+
+        p.insertBefore(altitudeE, p.firstChild);
+        p.insertBefore(wordE, altitudeE);
+
+        wordE.innerHTML = word['peak_name'];
+        altitudeE.innerHTML = word['altitude'];
+
+        if (idx % 2 == 0) {
+            w1.insertBefore(p, w1.firstChild);
+        } else {
+            w2.insertBefore(p, w2.firstChild);
+        }
+
+        // setTimeout(function() {
+        //     $(p).remove();
+        // }, 4000);
     }
-
-
 
 
     var Soundscape = function() {
@@ -82,10 +108,15 @@
         this.basepath = 'assets/swissgerman/';
         this.extension = '.mp3';
 
+        self.masterVolumeGainNode;
+
         this.init = function() {
             window.AudioContext = window.AudioContext || window.webkitAudioContext;
             self.context = new AudioContext();
-
+            self.masterVolumeGainNode = self.context.createGain();
+            self.masterVolumeGainNode.connect(self.context.destination);
+            self.masterVolumeGainNode.gain.value = options.masterVolume;
+            console.log("Soundscape loaded");
         };
 
         this.loadSound = function loadDogSound(url, idx, isLast) {
@@ -96,8 +127,10 @@
             req.onload = function() {
                 self.context.decodeAudioData(req.response, function(buffer) {
                     self.buffers[idx] = buffer;
+                    preloader("sound");
                 }, function(err) {
                     console.log('decoding error for ' + url);
+                    preloader("sound");
                 });
             }
             req.send();
@@ -120,10 +153,10 @@
 
             if (undefined != self.buffers[idx]) {
                 buffer = self.buffers[idx];
-            }else return;
+            } else return;
             var src = self.context.createBufferSource();
             src.buffer = buffer;
-            src.connect(self.context.destination);
+            src.connect(self.masterVolumeGainNode);
             src.start(0);
         }
 
@@ -133,15 +166,68 @@
     // Pseudo singleton of soundscape. All calls go to this instance.
     var globalSoundscape = new Soundscape;
 
+    var initPreloader = function(_data) {
+        console.log("preloader initialized");
+        var progress;
+        var length = _data.length;
+        var soundsLoaded = 0;
+        var firstCall = true;
+        var paperloaded = false;
+        window.preloader = function(type) {
+
+            if (type == "sound") {
+                soundsLoaded++;
+                progress = soundsLoaded / length;
+                $(".loader.hor").css('width', progress * 100 + "%");
+            };
+
+            if (type == "paper") {
+                console.log("paperloaded");
+                paperloaded = true;
+
+            };
+
+            if (progress > 0.95 && paperloaded == true && firstCall == true) {
+                console.log("progress > 90%");
+                firstCall = false;
+
+                paper.view.play();
+                $(".loader").removeClass('loading');
+                setTimeout(function() {
+
+                    $(".loaderModal").removeClass('loading');
+                }, 2500)
+
+            };
+        }
+    }
+
+    var initDraw = function() {
+        sizes.maxDistance = maxDistance(data);
+        // Create an empty project and a view for the canvas:
+        var canvas = document.getElementById('myCanvas');
+        paper.setup(canvas);
+
+        paper.view.onResize = resizeHandler;
+        resizeHandler();
+        paper.view.pause();
+        console.log("Draw loaded");
+        preloader("paper");
+
+    }
 
     var init = function() {
         $.getJSON("data/gipfel.json", function(_data) {
             data = _data;
-            degreesdata = degreesDataFromData(data);
-            globalSoundscape.loadSoundsForData(data);
+            initPreloader(data);
+            degreesdata = degreesDataFromData(_data);
+            globalSoundscape.loadSoundsForData(_data);
             initDraw();
         });
+
     }
+
+
 
     $(function() {
         init();
@@ -174,33 +260,58 @@
     /*=========================================
     =            Main Draw Routine            =
     =========================================*/
+    var activePeaks = [];
+
+
     function draw(data) {
 
-        /*==========  Animation Loop  ==========*/
-        var activePeaks = [];
 
-        paper.view.onFrame = function() {
+        /*==========  Animation Loop  ==========*/
+        paper.view.onFrame = function(evt) {
+
             // Get current rotation of system 
-            var currentDegrees = currentDegreesFromCurrentRawDegrees(peaksnraysGroup.rotation);
+            var currentDegrees = currentDegreesFromCurrentRawDegrees(peaksnraysGroup.rotation + 0.5);
             peaksnraysGroup.rotation += options.rotationSpeed;
+
+            activePeakMarkersGroup.rotation += options.rotationSpeed;
+
 
             //Find peak under beam
             if (degreesdata[currentDegrees] != undefined) {
                 degreesdata[currentDegrees].forEach(function(aPeak) {
                     var idx = aPeak['name'];
-                    var activePeakMarker = peaksnraysGroup.children['peak' + idx];
-                    activePeakMarker.opacity = 1;
-                    activePeaks.push(activePeakMarker);
+                    var activePeakMarker = activePeakMarkersGroup.children['peak' + idx];
+                    activePeakMarker.opacity = 0.5;
+
+                    setTimeout(function() {
+                        activePeakMarker.opacity = 0.95;
+                    }, 200);
+
+                    setTimeout(function() {
+                        activePeakMarker.opacity = 0.6;
+                    }, 500);
+
+                    setTimeout(function() {
+                        activePeakMarker.opacity = 0.3;
+                    }, 600);
+
+                    setTimeout(function() {
+                        activePeakMarker.opacity = 0.15;
+                    }, 700);
+
+                    setTimeout(function() {
+                        activePeakMarker.opacity = 0.0;
+                    }, 800);
+
                     globalSoundscape.playSound(idx);
+                    addWord(idx);
 
                 });
             };
 
-            //Decay active peak markers
-            activePeaks.forEach(function(anActivePeak) {
-                if (anActivePeak.opacity > 0.01) anActivePeak.opacity = anActivePeak.opacity - 0.008;
-                if (anActivePeak.opacity <= 0.01) activePeaks.splice(activePeaks.indexOf(anActivePeak), 1);
-            });
+
+
+
 
 
             //
@@ -210,8 +321,9 @@
 
         }
 
-        /*======================================*/
 
+        /*======================================*/
+        var rasterImg;
         console.log('(re)drawing.');
 
         paper.project.clear();
@@ -237,14 +349,21 @@
         //Iterate data and draw peaks and rays
         var rays = [];
         var peaks = [];
+        var activePeakMarkers = [];
+        var activePeakMarkersGroup = new paper.Group;
+
         var peaksnrays = [];
         var peaksnraysGroup = new paper.Group;
 
+
         peaksnraysGroup.pivot = paper.view.center;
+        activePeakMarkersGroup.pivot = paper.view.center;
+
+
 
         var destVector = new paper.Point;
-        for (var i = data.length - 1; i >= 0; i--) {
 
+        for (var i = data.length - 1; i >= 0; i--) {
 
             destVector.angle = data[i].degrees;
             innerPaddingVector.angle = data[i].degrees;
@@ -274,21 +393,30 @@
             }
 
             if (options.displayPeaks) {
-                var peakCircle = new paper.Path.Circle(destPoint, options.peakRadius);
+                //Experimental: Peak size proportional to alitude
+                var propPeakRadius = options.peakRadius * data[i].altitude / 1750;
+                //
+                var peakCircle = new paper.Path.Circle(destPoint, propPeakRadius);
                 peakCircle.strokeColor = options.peakStrokeColor;
                 peakCircle.fillColor = options.peakFillColor;
                 peakCircle.strokeWidth = options.peakStrokeWidth;
+                peakCircle.data.dest = destVector;
                 // active peak marker
-                var activePeakMarker = new paper.Path.Circle(destPoint, options.peakRadius);
+                var activePeakMarker = new paper.Path.Circle(destPoint, propPeakRadius);
                 activePeakMarker.strokeColor = options.activePeakMarkerColor;
                 activePeakMarker.fillColor = options.activePeakMarkerColor;
                 activePeakMarker.strokeWidth = options.peakStrokeWidth;
                 activePeakMarker.opacity = 0;
                 activePeakMarker.name = 'peak' + i;
                 //
+
+
+                activePeakMarkers.push(activePeakMarker);
+                activePeakMarkersGroup.addChildren(activePeakMarkers);
+
                 peaks.push(peakCircle);
-                peaks.push(activePeakMarker);
                 peaksnraysGroup.addChildren(peaks);
+                activePeakMarkersGroup.bringToFront();
             }
         };
 
@@ -304,11 +432,11 @@
 
         }
 
+
         //Draw center circle aka Rigi
         var centerCircle = new paper.Path.Circle(centerPoint, options.centerCircleRadius);
         centerCircle.strokeColor = options.centerCircleStrokeColor;
         centerCircle.strokeWidth = options.centerCircleStrokeWidth;
-
         //Draw upward beam
         var beamDest = centerPoint.add(new paper.Point(sizes.maxExtent - options.outerPadding, 0));
         var beam = new paper.Path();
@@ -323,10 +451,11 @@
         paper.project.activeLayer.rotate(-90, paper.view.center);
 
         //Invoke draw
-
         paper.view.draw();
 
-    }
 
 
-}(window.jQuery, window, document));
+    };
+
+
+})(window.jQuery, window, document);

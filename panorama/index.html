@@ -14,12 +14,19 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.9.21/paper-full.min.js"></script>
+        <script src="js/vendor/paper-full.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+
+        <div class="loaderModal loading">
+            <span class="loader loading hor"></span>
+        </div>
+        
+        <div id="w1" class="wordcloud"></div>
+        <div id="w2" class="wordcloud"></div>
 
         <canvas id="myCanvas" resize></canvas>
 
