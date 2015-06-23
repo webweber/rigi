@@ -13,6 +13,7 @@
         displayPeaks: true,
         displayOrbits: true,
         displayAltitudeHierarchy: false,
+        displayMap: true,
         connectTheDots: false,
 
         //general
@@ -20,9 +21,10 @@
         outerPadding: 20,
         backgroundColor: 'rgb(23, 14, 14)',
         //Center Circle
-        centerCircleStrokeColor: '#666666',
-        centerCircleStrokeWidth: 0.3,
-        centerCircleRadius: 25,
+        centerCircleStrokeColor: 'rgba(102, 102, 102, 0.7)',
+        centerCircleFillColor: 'black',
+        centerCircleStrokeWidth: 1,
+        centerCircleRadius: 7,
         //Rays
         rayStrokeColor: 'rgba(102, 102, 102, 0.2)',
         rayStrokeColorTaller: '#ff9999',
@@ -44,6 +46,14 @@
         //Orbits = the concentric circles the dots sit on
         orbitStrokeColor: 'rgba(255, 255, 255, 0.16)',
         orbitStrokeWidth: 0.1,
+        //Map
+        mapStrokeColor: 'rgba(255, 0, 0, 0.5)',
+        mapFillColor: 'rgba(255, 255, 255, 0.0)',
+        mapStrokeWidth: 1,
+        //Constants used to affine project the map 
+        mapSizeConstant : 1.43,
+        mapPositionDriftX : 18.3,
+        mapPositionDriftY : 23.2,
 
         //Animation
         rotationSpeed: 0.1,
@@ -71,7 +81,7 @@
     var resizeHandler = function(evt) {
         console.log('resized, calling draw ...');
         sizes.maxExtent = (paper.view.viewSize._width >= paper.view.viewSize._height) ? paper.view.viewSize._height / 2 : paper.view.viewSize._width / 2;
-        sizes.maxRayLength = sizes.maxExtent - options.centerCircleRadius - options.outerPadding;
+        sizes.maxRayLength = sizes.maxExtent - options.outerPadding;
 
         draw(data);
     }
@@ -240,7 +250,7 @@
     var initPreloader = function(_data) {
         console.log("preloader initialized");
         var progress;
-        var length = _data.length;
+        var length = _data.length * options.speakers.length;
         var soundsLoaded = 0;
         var firstCall = true;
         var paperloaded = false;
@@ -258,14 +268,13 @@
 
             };
 
-            if (progress > 0.95 && paperloaded == true && firstCall == true) {
+            if (progress > 0.99 && paperloaded == true && firstCall == true) {
                 console.log("progress > 90%");
                 firstCall = false;
 
                 paper.view.play();
                 $(".loader").removeClass('loading');
                 setTimeout(function() {
-
                     $(".loaderModal").removeClass('loading');
                 }, 2500)
 
@@ -439,7 +448,7 @@
             destVector.angle = data[i].degrees;
             innerPaddingVector.angle = data[i].degrees;
             destVector.length = data[i].distance_km / sizes.maxDistance * sizes.maxRayLength;
-            var destPoint = centerPoint.add(innerPaddingVector).add(destVector);
+            var destPoint = centerPoint.add(destVector);
 
 
             if (options.displayOrbits) {
@@ -489,10 +498,32 @@
                 peaksnraysGroup.addChildren(peaks);
                 activePeakMarkersGroup.bringToFront();
             }
+
         };
 
-
-
+        if (options.displayMap) {
+            var src = './img/maps/ch.svg';
+            paper.project.activeLayer.importSVG(src, {
+                onImport: onSVGImport
+            });
+            function onSVGImport(node, mapItem){
+                if (node.nodeName !== "svg") { return;};
+                var w = parseFloat(node.getAttribute("width")),
+                    h = parseFloat(node.getAttribute("height")),
+                    q = w/h,
+                    sizeFactor = sizes.maxRayLength*options.mapSizeConstant,
+                    pivotPoint = new paper.Point(mapItem.bounds.center.x + options.mapPositionDriftX,mapItem.bounds.center.y - options.mapPositionDriftY);
+                //Order of the following vommands matters!
+                mapItem.pivot = mapItem.globalToLocal(pivotPoint);
+                mapItem.bounds = new paper.Rectangle(0,0,q*sizeFactor,1*sizeFactor);
+                mapItem.position = paper.view.center;
+                //
+                mapItem.strokeColor = options.mapStrokeColor;
+                mapItem.fillColor = options.mapFillColor;
+                mapItem.strokeWidth = options.mapStrokeWidth;
+                peaksnraysGroup.addChild(mapItem);
+            }
+        };
 
         if (options.connectTheDots) {
             connectTheDotsPath.closed = true;
@@ -507,6 +538,7 @@
         //Draw center circle aka Rigi
         var centerCircle = new paper.Path.Circle(centerPoint, options.centerCircleRadius);
         centerCircle.strokeColor = options.centerCircleStrokeColor;
+        centerCircle.fillColor = options.centerCircleFillColor;
         centerCircle.strokeWidth = options.centerCircleStrokeWidth;
         //Draw upward beam
         var beamDest = centerPoint.add(new paper.Point(sizes.maxExtent - options.outerPadding, 0));

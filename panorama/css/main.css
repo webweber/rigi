@@ -143,6 +143,8 @@ textarea {
     opacity : 1;
 }
 
+
+
 .loader.ver{
     position           : absolute;
     display            : block;
@@ -196,6 +198,18 @@ canvas{
     background-color   : rgb(23, 14, 14);
 
     -webkit-transition : opacity 0.4s ease-out;
+}
+
+.loaderModal.loading .introtext{
+    font-family        : 'Maven Pro', sans-serif;
+    font-size          : 14px;
+    font-weight        : 700;
+    color          : gray;
+    letter-spacing : 2px;
+    line-height    : 14px;
+    text-align     : center;
+    text-transform : uppercase;
+    display: none;
 }
 
 .wordcloud{
