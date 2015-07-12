@@ -1,12 +1,12 @@
-
 @import url(http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Neuton:300,400);
 @media print,
-
 /*
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-.visuallyhidden.focusable                                    : active,
+
+.visuallyhidden.focusable: active,
 /*
  * Clearfix: contain floats
  *
@@ -18,43 +18,41 @@
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-.clearfix                                                    : before,
 
+.clearfix: before,
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
+
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-html,
-button,
-input,
-select,
+
+html, button, input, select,
 /*
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
  */
-audio,
-canvas,
-img,
-(-o-min-device-pixel-ratio                                   : 5/4),
-(-webkit-min-device-pixel-ratio                              : 1.25),
 
-textarea {
-    color : #222;
+audio, canvas, img, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), textarea {
+  color: #222;
 }
-
 html {
-    background-color : rgb(23, 14, 14);
-    font-size        : 1em;
-    line-height      : 1.4;
-    
-    /*webweber*/
-    color: #cccccc;
-    overflow-x: hidden;
+  background-color: rgb(23, 14, 14);
+  font-size: 1em;
+  line-height: 1.4;
+  /*webweber*/
+  color: #cccccc;
+  overflow-x: hidden;
+}
+html, body {
+  height: 100%;
 }
 
 /*
@@ -62,321 +60,311 @@ html {
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
-::-moz-selection {
-    background  : #b3d4fc;
-    text-shadow : none;
-}
 
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
 ::selection {
-    background  : #b3d4fc;
-    text-shadow : none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 /*
  * A better looking default horizontal rule
  */
+
 hr {
-    display    : block;
-
-    height     : 1px;
-    margin     : 1em 0;
-    padding    : 0;
-
-    border     : 0;
-    border-top : 1px solid #ccc;
+  display: block;
+  height: 1px;
+  margin: 1em 0;
+  padding: 0;
+  border: 0;
+  border-top: 1px solid #ccc;
 }
-
 video {
-    vertical-align : middle;
+  vertical-align: middle;
 }
 
 /*
  * Remove default fieldset styles.
  */
-fieldset {
-    margin  : 0;
-    padding : 0;
 
-    border  : 0;
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 /*
  * Allow only vertical resizing of textareas.
  */
+
 textarea {
-    resize : vertical;
+  resize: vertical;
 }
 
 /* ==========================================================================
    Browse Happy prompt
    ========================================================================== */
-.browsehappy {
-    margin     : 0.2em 0;
-    padding    : 0.2em 0;
 
-    background : #ccc;
-    color      : #000;
+.browsehappy {
+  margin: 0.2em 0;
+  padding: 0.2em 0;
+  background: #ccc;
+  color: #000;
 }
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
 /*==============================
 =            Loader            =
 ==============================*/
-.loaderModal{
-    position           : absolute;
-    bottom             : 0px;
-    left               : 0px;
-    z-index            : 200;
 
-    height             : 100%;
-    width              : 100%;
-
-    opacity            : 0;
-    background-color   : rgb(23, 14, 14);
-
-    -webkit-transition : opacity 4s ease-out;
+.loaderModal {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 200;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: rgb(23, 14, 14);
+  -webkit-transition: opacity 4s ease-out;
+  text-align: center;
+}
+.loaderModal.loading {
+  opacity: 1;
+}
+.loader.ver {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: -10px;
+  z-index: 210;
+  height: 0%;
+  width: 2px;
+  margin-top: 0px;
+  margin-left: -1px;
+  opacity: 0.7;
+  background: red;
+  -webkit-transition: height 0.5s linear;
+  transition: height 0.5s linear;
 }
 
-.loaderModal.loading{
-    opacity : 1;
+.loader .altimeter{
+  font-family: 'Maven Pro', sans-serif;
+
+  font-size: 11px;
+  font-weight: 400;
+  font-style: italic;
+
+  display: inline-block;
+
+  text-align: right;
+  position: relative;
+  left: -50px;
 }
 
 
-
-.loader.ver{
-    position           : absolute;
-    display            : block;
-    bottom             : 0;
-    left               : 50%;
-    z-index            : 210;
-
-    height             : 0px;
-    width              : 2px;
-    margin-top         : 0px;
-    margin-left        : -1px;
-
-    opacity            : 0.0;
-    background         : red;
-
-    -webkit-transition : height 0.5s linear;
-    -webkit-transition : opacity 2.1s ease-out;
-}
-
-.loader.hor {
-    position           : absolute;
-    display            : block;
-    bottom             : 50%;
-    left               : 0%;
-    z-index            : 210;
-
-    height             : 4px;
-    width              : 0%;
-    margin-top         : -2px;
-
-    opacity            : 0.0;
-    background         : red;
-
-    -webkit-transition : width 0.5s linear;
-    -webkit-transition : opacity 2.1s ease-out;
-}
-
-.loader.loading{
-    opacity : 0.6;
+.loader.loading {
+  opacity: 1;
 }
 
 /*-----  End of Loader  ------*/
-canvas{
-    position           : absolute;
-    top                : 100px;
-    left               : 0;
 
-    width              : 100%;
-
-    opacity            : 1;
-    background-color   : rgb(23, 14, 14);
-
-    -webkit-transition : opacity 0.4s ease-out;
+canvas {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  opacity: 1;
+  background-color: rgb(23, 14, 14);
 }
-
-.loaderModal.loading .introtext{
-    font-family        : 'Maven Pro', sans-serif;
-    font-size          : 14px;
-    font-weight        : 700;
-    color          : gray;
-    letter-spacing : 2px;
-    line-height    : 14px;
-    text-align     : center;
-    text-transform : uppercase;
-    display: none;
+#intro {
+  font-family: 'Neuton', serif;
+  font-weight: 300;
+  text-align: center;
+  width: 500px;
+  display: inline-block;
+  position: relative;
+  opacity: 0;
+  margin-left: 5px;
+  margin-top: 50%;
+  -webkit-transition: opacity 2.1s ease-out;
+  transition: opacity 2.1s ease-out;
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
 }
-
-.wordcloud{
-    float              : left;
-    box-sizing         : border-box;
-
-    overflow           : hidden;
-    height             : 100px;
-    width              : 50%;
-    margin-top         : 10px;
-    padding            : 0px 50px;
-
-    opacity            : 1;
-    background-color   : rgb(23, 14, 14);
-    font-family        : 'Maven Pro', sans-serif;
-    font-size          : 0px;
-    font-weight        : 700;
-    line-height        : 100px;
-
-    -webkit-transition : opacity 0.4s ease-out;
+#intro.loading {
+  opacity: 1;
 }
-
-#w1{
-    padding-right : 0px;
-
-    direction     : rtl;
-    text-align    : right;
+#intro h2 {
+  font-size: 40px;
+  text-align: left;
+  font-weight: 300;
+  margin-bottom: 10px;
+  margin-top: 0px;
 }
-
-#w2{
-    padding-left : 0px;
+#intro .introtext {
+  font-size: 20px;
+  color: gray;
+  text-align: left;
+  margin: 0px;
+  display: inline-block;
 }
-
-.wordcloud p{
-    display        : inline-block;
-
-    font-size      : 14px;
-    color          : white;
-    color          : gray;
-    letter-spacing : 2px;
-    line-height    : 14px;
-    text-align     : center;
-    text-transform : uppercase;
-    vertical-align: middle;
+.wordcloud {
+  float: left;
+  box-sizing: border-box;
+  overflow: hidden;
+  height: 100px;
+  width: 50%;
+  margin-top: 10px;
+  padding: 0px 50px;
+  opacity: 1;
+  background-color: rgb(23, 14, 14);
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 0px;
+  font-weight: 700;
+  line-height: 100px;
+  -webkit-transition: opacity 0.4s ease-out;
+            transition: opacity 0.4s ease-out;
 }
-
-.wordcloud p>p{
-    display       : block;
-
-
-    -webkit-animation-name      : fadeOut;
-    animation-name              : fadeOut;
-    -webkit-animation-duration  : 4s;
-    animation-duration          : 4s;
-
-    
-    -webkit-animation-fill-mode : both;
-    animation-fill-mode         : both;
-    margin        : 2px;
-    padding-right : 7px;
-
-    opacity       : 1;
-
-    
+#w1 {
+  padding-right: 0px;
+  direction: rtl;
+  text-align: right;
 }
-
-.wordcloud p.altitude{
-    font-size : 11px;
-    font-weight        : 400;
-    font-style: italic;
-    opacity: 0.5;
+#w2 {
+  padding-left: 0px;
 }
-
-.wordcloud p.name{
+.wordcloud p {
+  display: inline-block;
+  font-size: 14px;
+  color: white;
+  color: gray;
+  letter-spacing: 2px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
 }
-
+.wordcloud p>p {
+  display: block;
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  margin: 2px;
+  padding-right: 7px;
+  opacity: 1;
+}
+.wordcloud p.altitude {
+  font-size: 11px;
+  font-weight: 400;
+  font-style: italic;
+  opacity: 0.5;
+}
+.wordcloud p.name {}
 @keyframes fadeOut {
-    0% {opacity: 1; color: red;}
-
-    20%{color: white;}
-
-    100% {opacity: 0;
-        letter-spacing : 3px;
-    }
+  0% {
+    opacity: 1;
+    color: red;
+  }
+  20% {
+    color: white;
+  }
+  100% {
+    opacity: 0;
+    letter-spacing: 3px;
+  }
 }
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+
+
 /*
  * Image replacement
  */
+
 .ir {
-    overflow         : hidden;
-
-    background-color : transparent;
-    border           : 0;
-
-    /* IE 6/7 fallback */
-    *text-indent     : -9999px;
+  overflow: hidden;
+  background-color: transparent;
+  border: 0;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
 }
-
 .ir:before {
-    content : "";
-
-    display : block;
-
-    height  : 150%;
-    width   : 0;
+  content: "";
+  display: block;
+  height: 150%;
+  width: 0;
 }
 
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
+
 .hidden {
-    display    : none !important;
-    visibility : hidden;
+  display: none !important;
+  visibility: hidden;
 }
 
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
+
 .visuallyhidden {
-    position : absolute;
-    clip     : rect(0 0 0 0);
-
-    overflow : hidden;
-    height   : 1px;
-    width    : 1px;
-    margin   : -1px;
-    padding  : 0;
-
-    border   : 0;
+  position: absolute;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
 }
-
 .visuallyhidden.focusable:focus {
-    position : static;
-    clip     : auto;
-
-    overflow : visible;
-    height   : auto;
-    width    : auto;
-    margin   : 0;
+  position: static;
+  clip: auto;
+  overflow: visible;
+  height: auto;
+  width: auto;
+  margin: 0;
 }
 
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
+
 .invisible {
-    visibility : hidden;
+  visibility: hidden;
 }
-
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
 }
-
 .clearfix:after {
-    clear : both;
+  clear: both;
 }
 
 /*
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
+
 .clearfix {
-    *zoom : 1;
+  *zoom: 1;
 }
 
 /* ==========================================================================
@@ -384,82 +372,64 @@ canvas{
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
 
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
 (min-resolution: 120dppx) {
-    /* Style adjustments for high resolution devices */
+  /* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
    Print styles.
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
+
 @media print {
-    /*
+  /*
      * Don't show links for images, or javascript/internal links
      */
-    .ir a                  : after,
-
-    a,
-    a[href^="javascript:"] : after,
-    pre,
-    tr,
-    p,
-    h2,
-    h2,
-
-    * {
-        background  : transparent !important;
-        text-shadow : none !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
-        box-shadow  : none !important;
-    }
-
-    a:visited {
-        text-decoration : underline;
-    }
-
-    a[href]:after {
-        content : " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content : " (" attr(title) ")";
-    }
-
-    a[href^="#"]:after {
-        content : "";
-    }
-
-    blockquote {
-        border            : 1px solid #999;
-        page-break-inside : avoid;
-    }
-
-    thead {
-        display: table-header-group; /* h5bp.com/t */
-    }
-
-    img {
-        page-break-inside : avoid;
-    }
-
-    img {
-        max-width : 100% !important;
-    }
-
-    @page {
-        margin : 0.5cm;
-    }
-
-    h3 {
-        orphans : 3;
-        widows  : 3;
-    }
-
-    h3 {
-        page-break-after : avoid;
-    }
+  .ir a: after, a, a[href^="javascript:"]: after, pre, tr, p, h2, h2, * {
+    background: transparent !important;
+    text-shadow: none !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+  }
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  a[href^="#"]:after {
+    content: "";
+  }
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  @page {
+    margin: 0.5cm;
+  }
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h3 {
+    page-break-after: avoid;
+  }
 }
