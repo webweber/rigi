@@ -44,7 +44,7 @@ audio, canvas, img, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-
   color: #222;
 }
 html {
-  background-color: rgb(23, 14, 14);
+  background-color: rgb(14, 14, 14);/*rgb(23, 14, 14);*/
   font-size: 1em;
   line-height: 1.4;
   /*webweber*/

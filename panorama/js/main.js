@@ -5,7 +5,7 @@
     rotationSpeed: 0.1, // default: 0.1
 
     //misc params
-    speakers: ['swissgerman', 'chinese_female'], // possible values = names of 'assets'-subfolders
+    speakers: ['swissgerman', 'chinese_male'], // possible values = names of 'assets'-subfolders
     initialRotation: -90, // North = -90
 
     //display switches
@@ -19,14 +19,14 @@
     //general
     rigiAltitude: 1798,
     outerPadding: 20,
-    backgroundColor: 'rgb(23, 14, 14)',
+    backgroundColor: 'rgb(14, 14, 14)',//'rgb(23, 14, 14)',
     //Center Circle
     centerCircleStrokeColor: 'rgba(102, 102, 102, 0.7)',
     centerCircleFillColor: 'black',
     centerCircleStrokeWidth: 1,
     centerCircleRadius: 7,
     //Rays
-    rayStrokeColor: 'rgba(102, 102, 102, 0.2)',
+    rayStrokeColor: 'rgba(102, 102, 102, 0.5)',//'rgba(102, 102, 102, 0.2)',
     rayStrokeColorTaller: '#ff9999',
     rayStrokeColorSmaller: '#9999ff',
     rayStrokeWidth: 0.5,
@@ -38,7 +38,7 @@
     activePeakMarkerColor: 'red',
     //Beam ( upwards pointing indicator )
     beamColor: 'red',
-    beamStrokeWidth: 1,
+    beamStrokeWidth: 0.5,//1
     //ConnectTheDots Path
     connectTheDotsColor: '#ffcccc',
     connectTheDotsWidth: 0.3,
@@ -47,8 +47,8 @@
     orbitStrokeColor: 'rgba(255, 255, 255, 0.16)',
     orbitStrokeWidth: 0.1,
     //Map
-    mapStrokeColor: 'rgba(255, 0, 0, 0.5)',
-    mapFillColor: 'rgba(255, 255, 255, 0.0)',
+    mapStrokeColor: 'rgba(255, 255, 255, 0.5)',//'rgba(255, 0, 0, 0.5)',
+    mapFillColor: 'rgba(255, 255, 255, 0.01)',
     mapStrokeWidth: 1,
     //Constants used to affine project the map
     mapSizeConstant: 1.43,
@@ -60,7 +60,7 @@
 
     //Soundscape
     masterVolume: 0.35,
-    enableAudioFilter: true
+    enableAudioFilter: false
 
 
   };
@@ -363,6 +363,8 @@
           var idx = aPeak['name'];
           var activePeakMarker = activePeakMarkersGroup.children['peak' + idx];
           activePeakMarker.opacity = 0.5;
+
+          // replace setTimeout(s) with tween function?
 
           setTimeout(function() {
             activePeakMarker.opacity = 0.95;
